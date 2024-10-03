@@ -1,0 +1,26 @@
+@startuml vp3
+
+participant Component as comp
+participant TipoRoboService as svc
+participant Model as model
+participant MDGD as mdgd
+
+activate comp
+comp -> model : adapta dados introduzidos 
+activate model
+model --> comp
+deactivate model
+comp -> svc : createTipoRobo(tipoRobo)
+activate svc
+svc -> mdgd : pedido HTTP POST de tipo robo
+activate mdgd
+mdgd --> svc
+deactivate mdgd
+svc --> comp
+deactivate svc
+deactivate comp
+
+
+
+
+@enduml

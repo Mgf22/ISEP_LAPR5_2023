@@ -1,0 +1,20 @@
+@startuml getPackagingSD
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant Visualization as ui <<Container(C4)>>
+participant MDGD as mdl <<Container(C4)>>
+ui -> mdl: POST createMapaPiso(piso, mapa)
+alt não existe erros durante a operação
+mdl --> ui: 201 mapa piso criado
+else existe erros durante a operação
+mdl --> ui: 403 não foi possivel criar mapa piso
+end 
+
+end box
+
+@enduml

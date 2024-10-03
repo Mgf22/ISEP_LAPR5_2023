@@ -1,0 +1,43 @@
+@startuml vp3_recusarPedido
+
+participant Route as route
+participant Controller as ctrl
+participant Service as svc
+participant Mapper as mapper
+participant Repo as repoTar
+participant Model as model
+
+
+'participant "A&A" as auth
+'route -> auth : autentica("GestorUtilizadores")
+'activate auth
+'auth --> route
+'deactivate auth
+
+activate route
+route -> ctrl : /recusarPedido
+activate ctrl
+ctrl -> svc : recusarPedido()
+activate svc
+svc -> model : Pedido.recusarPedido()
+activate model
+model --> svc 
+deactivate model
+
+svc -> repoTar : save(pedido)
+activate repoTar
+repoTar --> svc 
+deactivate repoTar
+svc -> mapper : toDTO(pedido)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 200 (OK) / 404
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

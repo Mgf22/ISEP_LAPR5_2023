@@ -1,0 +1,166 @@
+@startuml vp3
+autonumber
+
+participant Passagem as route <<Route>>
+
+participant Passagem as ctrl <<Controller>>
+
+participant Passagem as svc <<Service>>
+
+participant Passagem as repo <<Repository>>
+
+participant Edificio as erepo <<Repository>>
+
+participant Piso as prepo <<Repository>>
+participant Passagem as mapper <<Mapper>>
+
+participant Passagem as schema <<Schema>>
+participant Edificio as emapper <<Mapper>>
+
+participant Edificio as eschema <<Schema>>
+participant Piso as pmapper <<Mapper>>
+
+participant Piso as pschema <<Schema>>
+participant ConfigurationFile as conf
+participant Passagem as model
+
+
+route -> ctrl++ : updatePassagem(req,res,next)
+route++
+ctrl -> conf : injeta o serviço da passagem
+conf++
+conf --> ctrl
+conf--
+ctrl -> svc : updatePassagem(passagemDTO)
+svc++
+svc -> conf : injeta o repositório da passagem
+conf++
+conf --> svc
+conf--
+svc -> conf : injeta o repositório do edificio
+conf++
+conf --> svc
+conf--
+svc -> conf : injeta o repositório do piso
+conf++
+conf --> svc
+conf--
+svc -> repo : findByDesignacao(designacao)
+repo++
+repo -> conf : injeta o schema das passagens
+conf++
+conf --> repo
+conf--
+repo -> schema : findOne(query)
+schema++
+schema --> repo
+schema--
+repo -> mapper : toDomain(passagemRecord)
+mapper++
+mapper --> repo
+mapper--
+
+repo --> svc
+repo--
+svc -> model : create()
+model++
+
+svc -> erepo : findByCodigo(edificioA)
+erepo++
+erepo -> conf : injeta o schema dos edificios
+conf++
+conf --> erepo
+conf--
+erepo -> eschema : findOne(query)
+eschema++
+
+eschema --> erepo
+eschema--
+erepo -> emapper : toDomain(edificioRecord)
+emapper++
+emapper --> erepo
+emapper--
+erepo --> svc
+erepo--
+
+svc -> erepo : findByCodigo(edificioB)
+erepo++
+erepo -> eschema : findOne(query)
+eschema++
+eschema --> erepo
+eschema--
+erepo -> emapper : toDomain(edificioRecord)
+emapper++
+emapper --> erepo
+emapper--
+erepo --> svc
+erepo--
+
+svc -> prepo : findByDesignacao(pisoA)
+prepo++
+prepo -> conf : injeta o schema dos pisos
+conf++
+conf --> prepo
+conf--
+prepo -> pschema : findOne(query)
+pschema++
+pschema --> prepo
+pschema--
+prepo -> pmapper : toDomain(pisoRecord)
+pmapper++
+pmapper --> prepo
+pmapper--
+prepo --> svc
+prepo--
+
+svc -> prepo : findByDesignacao(pisoB)
+prepo++
+prepo -> pschema : findOne(query)
+pschema++
+pschema --> prepo
+pschema--
+prepo -> pmapper : toDomain(pisoRecord)
+pmapper++
+pmapper --> prepo
+pmapper--
+prepo --> svc
+prepo--
+
+model --> svc
+model--
+svc -> repo: save(passagem)
+repo++
+repo -> schema : findOne(query)
+schema++
+schema --> repo
+schema--
+alt cria passagem
+repo -> mapper : toPersistence(passagem)
+mapper++
+mapper --> repo
+mapper--
+repo -> schema : create(rawPassagem)
+
+schema++
+schema --> repo
+schema--
+repo -> mapper : toDomain(passagemCreated)
+mapper++
+mapper --> repo
+mapper--
+else atualiza passagem
+end
+repo --> svc
+repo--
+svc -> mapper : toDTO(passagemResult)
+mapper++
+mapper --> svc
+mapper--
+svc --> ctrl
+svc--
+alt caso de sucesso
+    ctrl --> route : Envia um código 201 (POST)
+else caso de insucesso
+    ctrl --> route : Envia um código 403 (NOT FOUND)
+end
+ctrl--

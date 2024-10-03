@@ -1,0 +1,11 @@
+@startuml vp1
+actor "Gestor de Frota" as actor
+participant SistemaRobDroneGo as srdg <<System(C4)>>
+actor -> srdg++: Adicionar um novo robot à frota indicando o seu tipo, designação, etc.
+alt sucesso
+	srdg --> actor: retorna informação sobre o sucesso da operação
+else insucesso
+	srdg --> actor: retorna informação sobre a falha da operação
+end alt
+srdg --> actor
+@enduml

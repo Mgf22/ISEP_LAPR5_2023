@@ -1,0 +1,15 @@
+@startuml vp1
+actor "GestorUtilizadores" as actor
+participant SistemaRobDroneGO as srdg <<System(C4)>>
+
+activate actor
+actor -> srdg: Aprovar/recusar registo de um utente
+activate srdg
+alt 
+srdg --> actor : ok (200)
+else
+srdg --> actor : erro (404)
+end
+deactivate srdg
+deactivate actor
+@enduml

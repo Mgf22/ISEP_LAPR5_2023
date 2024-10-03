@@ -1,0 +1,27 @@
+@startuml vp3
+
+
+participant Component as componente
+participant Model as model
+participant Service as svc
+
+participant "Master Data Gestão de Dados" as mdgd
+
+activate componente
+componente -> model
+activate model
+model --> componente
+deactivate model
+componente -> svc : 
+activate svc
+svc -> mdgd : POST /criarUser
+activate mdgd
+mdgd --> svc
+deactivate mdgd
+svc --> componente
+deactivate svc
+deactivate componente
+
+
+
+@enduml

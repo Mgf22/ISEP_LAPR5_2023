@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="890px" preserveAspectRatio="none" style="width:296px;height:890px;background:#282828;" version="1.1" viewBox="0 0 296 890" width="296px" zoomAndPan="magnify"><defs/><g><!--MD5=[89a19fd89773ddcffdf6b9c8da92bfe7]
+cluster <<agr Robo>>--><g id="cluster_&lt;&lt;agr Robo&gt;&gt;"><path d="M13.5,12.1191 L201.5,12.1191 A3.75,3.75 0 0 1 204,14.6191 L211,44.8564 L286.5,44.8564 A2.5,2.5 0 0 1 289,47.3564 L289,880.6191 A2.5,2.5 0 0 1 286.5,883.1191 L13.5,883.1191 A2.5,2.5 0 0 1 11,880.6191 L11,14.6191 A2.5,2.5 0 0 1 13.5,12.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="11" x2="211" y1="44.8564" y2="44.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="187" x="15" y="36.2373">&lt;&lt;agr Robo&gt;&gt;</text></g><!--MD5=[a2bb4e035a2e2c8794287ec8733871da]
+class Robo--><g id="elem_Robo"><rect codeLine="10" fill="#282828" height="56.1826" id="Robo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="53" x="27" y="434.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="33.5" y="451.1836">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="28" y="465.7676">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="37" x="35" y="482.3623">Robo</text></g><!--MD5=[d71a1ecc11405233096e6966b1bcb9bd]
+class NicknameRobo--><g id="elem_NicknameRobo"><rect codeLine="11" fill="#282828" height="41.5986" id="NicknameRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="109" x="152" y="825.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="191.5" y="842.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="103" x="155" y="858.7783">NicknameRobo</text></g><!--MD5=[e2ad7d1f37bbbc4af5e69aad15243104]
+class NumeroSerieRobo--><g id="elem_NumeroSerieRobo"><rect codeLine="12" fill="#282828" height="41.5986" id="NumeroSerieRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="133" x="140" y="633.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="191.5" y="650.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="127" x="143" y="666.7783">NumeroSerieRobo</text></g><!--MD5=[f8033e1f7cb7676ef9510ddae34d5fd2]
+class CodigoRobo--><g id="elem_CodigoRobo"><rect codeLine="13" fill="#282828" height="41.5986" id="CodigoRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="92" x="160.5" y="441.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="191.5" y="458.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="163.5" y="474.7783">CodigoRobo</text></g><!--MD5=[482e6332627ee96144a29a4f21ae6224]
+class MarcaRobo--><g id="elem_MarcaRobo"><rect codeLine="14" fill="#282828" height="41.5986" id="MarcaRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="83" x="165" y="249.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="191.5" y="266.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="77" x="168" y="282.7783">MarcaRobo</text></g><!--MD5=[b457e96ad59b9fd3309641643f253fcf]
+class EstadoRobo--><g id="elem_EstadoRobo"><rect codeLine="16" fill="#282828" height="41.5986" id="EstadoRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="92" x="160.5" y="57.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="181" y="74.1836">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="163.5" y="90.7783">EstadoRobo</text></g><!--MD5=[da0b85018bec1a942d652b8fabc8be23]
+link Robo to NicknameRobo--><g id="link_Robo_NicknameRobo"><path codeLine="18" d="M59.8,490.1591 C70.41,542.8991 97.01,659.6691 140,750.1191 C152.16,775.6991 170.68,802.0991 184.93,820.7191 " fill="none" id="Robo-to-NicknameRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="188.08,824.8091,185.7431,815.2415,185.0232,820.8524,179.4123,820.1325,188.08,824.8091" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="173.2139" y="814.2398">1</text></g><!--MD5=[f06e476533ee619749cdc79b6e1551d2]
+link Robo to CodigoRobo--><g id="link_Robo_CodigoRobo"><path codeLine="19" d="M80.12,462.1191 C100.62,462.1191 130,462.1191 155.18,462.1191 " fill="none" id="Robo-to-CodigoRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="160.48,462.1191,151.48,458.1191,155.48,462.1191,151.48,466.1191,160.48,462.1191" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="144.5081" y="476.48">1</text></g><!--MD5=[63b7f2b34999127d4695e8355d835071]
+link Robo to NumeroSerieRobo--><g id="link_Robo_NumeroSerieRobo"><path codeLine="20" d="M76.78,490.4491 C106.19,527.8391 157.5,593.0891 185.64,628.8691 " fill="none" id="Robo-to-NumeroSerieRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="188.96,633.0791,186.525,623.536,185.8627,629.154,180.2448,628.4917,188.96,633.0791" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="174.0941" y="622.2432">1</text></g><!--MD5=[2726a8ac6adc804e8d0ba0bedba469d1]
+link Robo to MarcaRobo--><g id="link_Robo_MarcaRobo"><path codeLine="21" d="M76.78,433.7891 C106.19,396.3991 157.5,331.1491 185.64,295.3691 " fill="none" id="Robo-to-MarcaRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="188.96,291.1591,180.2448,295.7466,185.8627,295.0843,186.525,300.7022,188.96,291.1591" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="175.4404" y="311.6962">1</text></g><!--MD5=[b3d18ad4532593580a45be8c7c2b0a4a]
+link Robo to EstadoRobo--><g id="link_Robo_EstadoRobo"><path codeLine="22" d="M59.8,434.0791 C70.41,381.3391 97.01,264.5691 140,174.1191 C152.16,148.5391 170.68,122.1391 184.93,103.5191 " fill="none" id="Robo-to-EstadoRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="188.08,99.4291,179.4123,104.1058,185.0232,103.3859,185.7431,108.9967,188.08,99.4291" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="174.6151" y="119.6677">1</text></g><!--MD5=[bbc7e9e0d804030fc916502047f30287]
+@startuml ED370
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Robo>>"{
+    class Robo<<root>><<entity>>{}
+    class NicknameRobo<<vo>>{}
+    class NumeroSerieRobo<<vo>>{}
+    class CodigoRobo<<vo>>{}
+    class MarcaRobo<<vo>>{}
+    'Inibido ou nao
+    class EstadoRobo<<enum>>{} 
+
+    Robo - -> "1" NicknameRobo
+    Robo - -> "1" CodigoRobo
+    Robo - -> "1" NumeroSerieRobo
+    Robo - -> "1" MarcaRobo
+    Robo - -> "1" EstadoRobo
+}
+@enduml
+
+@startuml ED370
+hide circle
+hide fields
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Robo>>"{
+    class Robo<<root>><<entity>>{}
+    class NicknameRobo<<vo>>{}
+    class NumeroSerieRobo<<vo>>{}
+    class CodigoRobo<<vo>>{}
+    class MarcaRobo<<vo>>{}
+    class EstadoRobo<<enum>>{} 
+
+    Robo - -> "1" NicknameRobo
+    Robo - -> "1" CodigoRobo
+    Robo - -> "1" NumeroSerieRobo
+    Robo - -> "1" MarcaRobo
+    Robo - -> "1" EstadoRobo
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

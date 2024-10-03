@@ -1,0 +1,53 @@
+@startuml DDD
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+
+
+package "<<agr Edificio>>"{
+    class Edificio<<entity>><<root>>{}
+    class CodigoEdificio<<vo>>{}
+    class NomeOpcionalEdificio<<vo>>{}
+    class DescricaoEdificio<<vo>>{}
+    class DimensaoMaximaPiso<<vo>>{}
+    note right{
+        dimensão máxima de cada piso em termos de células (ex., 10 x 10)
+    }
+
+    Edificio --> "1" CodigoEdificio
+    Edificio --> "1" NomeOpcionalEdificio
+    Edificio --> "1" DescricaoEdificio
+    Edificio --> "1" DimensaoMaximaPiso
+}
+
+package "<<agr Piso>>"{
+    class Piso<<entity>><<root>>{}
+    class DesignacaoPiso<<vo>>{}
+    class DescricaoPiso<<vo>>{}
+
+    Edificio --> "*" Piso : "contém"
+    Piso --> "1" DesignacaoPiso
+    Piso --> "1" DescricaoPiso
+}
+
+package "<<agr Passagem>>"{
+    class Passagem<<entity>><<root>>{}
+    class PassagemDesignacao<<vo>>{}
+
+    Passagem --> "1" PassagemDesignacao
+    Passagem --> "1" Piso
+    Passagem <-- "1" Piso 
+    Passagem --> "1" Edificio
+    Passagem <-- "1" Edificio
+}
+
+
+
+
+@enduml

@@ -1,0 +1,37 @@
+<div class="background-container"></div>
+<mat-toolbar>
+  <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+
+<body>
+  <div class="box">
+    <div>
+      <table>
+        <tr>
+          <mat-form-field>
+            <mat-label>Designacao</mat-label>
+            <mat-select [(ngModel)]="piso.designacao">
+              <mat-option *ngFor="let piso of pisos" [value]="piso">{{piso}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+        <tr>
+          <th><label>Descricao: </label></th>
+          <th><input type="string" [(ngModel)]="piso.descricao" /></th>
+        </tr>
+        <tr>
+          <mat-form-field>
+            <mat-label>Edificio</mat-label>
+            <mat-select [(ngModel)]="piso.edificio" name="Edificio">
+              <mat-option *ngFor="let edificio of edificios" [value]="edificio">{{edificio}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <button (click)="updatePiso()">Update</button>
+      <button (click)="goBack()">Back</button>
+    </div>
+  </div>
+</body>

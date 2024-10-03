@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="311px" preserveAspectRatio="none" style="width:361px;height:311px;background:#FFFFFF;" version="1.1" viewBox="0 0 361 311" width="361px" zoomAndPan="magnify"><defs/><g><rect fill="#DDDDDD" height="299.3828" style="stroke:#181818;stroke-width:0.5;" width="332" x="16" y="6"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="102" x="114" y="19.4951">&lt;&lt;System(C4)&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="132" x="118" y="35.8467">SistemaRobDroneGo</text><rect fill="none" height="94.8906" style="stroke:#000000;stroke-width:1.5;" width="344" x="10" y="140.2734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="80" x2="80" y1="92.9219" y2="252.1641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="284" x2="284" y1="92.9219" y2="252.1641"/><rect fill="#FFFFFF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="120" x="20" y="42.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="106" x="27" y="64.2363">«Container(C4)»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="41" y="81.8457">Visualization</text><rect fill="#FFFFFF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="120" x="20" y="251.1641"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="106" x="27" y="272.6973">«Container(C4)»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="41" y="290.3066">Visualization</text><rect fill="#FFFFFF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="120" x="224" y="42.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="106" x="231" y="64.2363">«Container(C4)»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="263" y="81.8457">MDGD</text><rect fill="#FFFFFF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="120" x="224" y="251.1641"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="106" x="231" y="272.6973">«Container(C4)»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="263" y="290.3066">MDGD</text><polygon fill="#181818" points="272,121.2734,282,125.2734,272,129.2734,276,125.2734" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="80" x2="278" y1="125.2734" y2="125.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="87" y="120.417">GET listPiso()</text><path d="M10,140.2734 L71,140.2734 L71,148.625 L61,158.625 L10,158.625 L10,140.2734 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="94.8906" style="stroke:#000000;stroke-width:1.5;" width="344" x="10" y="140.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="25" y="154.7686">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="208" x="86" y="153.6924">[não existe erros durante a operação]</text><polygon fill="#181818" points="91,176.9766,81,180.9766,91,184.9766,87,180.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="85" x2="283" y1="180.9766" y2="180.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="97" y="176.1201">200 listagem pisos</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="354" y1="189.9766" y2="189.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="185" x="15" y="201.3955">[existe erros durante a operação]</text><polygon fill="#181818" points="91,223.1641,81,227.1641,91,231.1641,87,227.1641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="85" x2="283" y1="227.1641" y2="227.1641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="97" y="222.3076">403 não foi possivel listar pisos</text><!--MD5=[a585cf91a015af0f18052c45b8cb3405]
+@startuml vp2
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant Visualization as ui <<Container(C4)>>
+participant MDGD as mdl <<Container(C4)>>
+ui -> mdl: GET listPiso()
+alt não existe erros durante a operação
+mdl - -> ui: 200 listagem pisos
+else existe erros durante a operação
+mdl - -> ui: 403 não foi possivel listar pisos
+end 
+
+end box
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

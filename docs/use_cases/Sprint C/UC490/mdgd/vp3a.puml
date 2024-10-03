@@ -1,0 +1,31 @@
+@startuml vp3
+
+
+participant Route as route
+participant "A&A" as auth
+participant AprovacaoController as ctrl
+participant AprovacaoService as svc
+participant "Master Data Gestão de Tarefas" as mdgt
+
+activate route
+route -> auth : autentica("Gestor de Tarefas")
+activate auth
+auth --> route
+deactivate auth
+route -> ctrl : /listarPorEstado
+activate ctrl
+ctrl -> svc : listarPorEstado()
+activate svc
+svc -> mdgt : GET /listarPorEstado
+activate mdgt 
+mdgt --> svc
+deactivate mdgt
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (OK) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

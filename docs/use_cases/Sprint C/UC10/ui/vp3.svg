@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="194px" preserveAspectRatio="none" style="width:447px;height:194px;background:#FFFFFF;" version="1.1" viewBox="0 0 447 194" width="447px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="92.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="43.5" y="47.6094"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="123" y="53.6094"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="189.5" y="81.6094"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="333" y="111.9609"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="48" x2="48" y1="37.6094" y2="157.9609"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="128" x2="128" y1="37.6094" y2="157.9609"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="194" x2="194" y1="37.6094" y2="157.9609"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="338" x2="338" y1="37.6094" y2="157.9609"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="12" y="26.5332">Component</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="5" y="156.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="12" y="178.4941">Component</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="102" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="109" y="26.5332">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="102" y="156.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="109" y="178.4941">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="164" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="171" y="26.5332">Service</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="164" y="156.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="171" y="178.4941">Service</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="235" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="242" y="26.5332">Master Data Gestão de Dados</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="235" y="156.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="242" y="178.4941">Master Data Gestão de Dados</text><rect fill="#FFFFFF" height="92.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="43.5" y="47.6094"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="123" y="53.6094"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="189.5" y="81.6094"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="333" y="111.9609"/><polygon fill="#181818" points="111,49.6094,121,53.6094,111,57.6094,115,53.6094" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="53.5" x2="117" y1="53.6094" y2="53.6094"/><polygon fill="#181818" points="64.5,63.6094,54.5,67.6094,64.5,71.6094,60.5,67.6094" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="127" y1="67.6094" y2="67.6094"/><polygon fill="#181818" points="177.5,77.6094,187.5,81.6094,177.5,85.6094,181.5,81.6094" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="53.5" x2="183.5" y1="81.6094" y2="81.6094"/><polygon fill="#181818" points="321,107.9609,331,111.9609,321,115.9609,325,111.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="199.5" x2="327" y1="111.9609" y2="111.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="206.5" y="107.1045">POST /criarUser</text><polygon fill="#181818" points="210.5,121.9609,200.5,125.9609,210.5,129.9609,206.5,125.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="204.5" x2="337" y1="125.9609" y2="125.9609"/><polygon fill="#181818" points="59.5,135.9609,49.5,139.9609,59.5,143.9609,55.5,139.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="53.5" x2="193.5" y1="139.9609" y2="139.9609"/><!--MD5=[c8e243d2aa36ab38dadddcc150c7cffd]
+@startuml vp3
+
+
+participant Component as componente
+participant Model as model
+participant Service as svc
+
+participant "Master Data Gestão de Dados" as mdgd
+
+activate componente
+componente -> model
+activate model
+model - -> componente
+deactivate model
+componente -> svc : 
+activate svc
+svc -> mdgd : POST /criarUser
+activate mdgd
+mdgd - -> svc
+deactivate mdgd
+svc - -> componente
+deactivate svc
+deactivate componente
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

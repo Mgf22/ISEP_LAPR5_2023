@@ -1,0 +1,19 @@
+@startuml vp2
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant MasterDataLogistics as mdl <<Container(C4)>>
+mdl -> mdl: PATCH inibirRobo(Robo)
+alt não existe erros durante a operação
+mdl --> mdl: 201 robô foi inibido
+else existe erros durante a operação
+mdl --> mdl: 404 não foi possivel inibir robô
+end 
+
+end box
+
+@enduml

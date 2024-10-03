@@ -1,0 +1,48 @@
+<div class="background-container"></div>
+
+<body>
+  <div class="box">
+    <div>
+      <table>
+        <tr>
+          <th><label>Nome: </label></th>
+          <th><input type="string" [(ngModel)]="utente.name" /></th>
+        </tr>
+        <tr>
+          <th><label>Email: </label></th>
+          <th><input type="string" [(ngModel)]="utente.email" /></th>
+        </tr>
+        <tr>
+          <th><label>NIF: </label></th>
+          <th><input type="string" [(ngModel)]="utente.nif" /></th>
+        </tr>
+        <tr>
+          <th><label>Numero Telemóvel: </label></th>
+          <th><input type="string" [(ngModel)]="utente.phoneNumber" /></th>
+        </tr>
+        <tr>
+          <th><label>Password: </label></th>
+          <th><input type="password" [(ngModel)]="utente.password" /></th>
+          <!--<th><input [type]="showPassword ? 'text' : 'password'" [(ngModel)]="utente.password" /></th>
+        </tr>
+        <tr>
+          <mat-checkbox [checked]="showPassword" (change)="togglePasswordVisibility()">Show/Hide</mat-checkbox>
+        </tr>-->
+        <tr>
+          <td>
+            <div style="display: flex; align-items: center;">
+              <input type="checkbox" [(ngModel)]="consent" style="margin-right: 5px;" />
+              <label>Li e aceito a <a [routerLink]="['/rgpd']"> política de privacidade</a></label>
+            </div>
+          </td>
+        </tr>
+        
+        
+      </table>
+    </div>
+    <div>
+      <button (click)="criarUtente()">Efetuar pedido</button>
+      <button (click)="goBack()">Retroceder</button>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,26 @@
+@startuml vp3
+
+participant Component as comp
+participant PisoService as svc
+participant Model as model
+participant MDGD as mdgd
+
+activate comp
+comp -> model : adapta dados introduzidos 
+activate model
+model --> comp
+deactivate model
+comp -> svc : listMinMax(min, max)
+activate svc
+svc -> mdgd : pedido HTTP GET de edifícios com min e max de pisos
+activate mdgd
+mdgd --> svc
+deactivate mdgd
+svc --> comp
+deactivate svc
+deactivate comp
+
+
+
+
+@enduml

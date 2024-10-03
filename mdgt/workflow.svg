@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="442px" preserveAspectRatio="none" style="width:225px;height:442px;background:#FFFFFF;" version="1.1" viewBox="0 0 225 442" width="225px" zoomAndPan="magnify"><defs/><g><ellipse cx="111" cy="16" fill="#222222" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="Pendente"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="81" x="70.5" y="86"/><line style="stroke:#181818;stroke-width:0.5;" x1="70.5" x2="151.5" y1="113.6094" y2="113.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="80.5" y="105.5332">Pendente</text></g><g id="Aprovado"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="81" x="23.5" y="196"/><line style="stroke:#181818;stroke-width:0.5;" x1="23.5" x2="104.5" y1="223.6094" y2="223.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="33.5" y="215.5332">Aprovado</text></g><g id="Reprovado"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="128" y="306"/><line style="stroke:#181818;stroke-width:0.5;" x1="128" x2="218" y1="333.6094" y2="333.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="138" y="325.5332">Reprovado</text></g><ellipse cx="111" cy="426" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="111.5" cy="426.5" fill="#222222" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><g id="Executado"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="86" x="7" y="306"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="93" y1="333.6094" y2="333.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="17" y="325.5332">Executado</text></g><!--MD5=[8d0864c1c2c2bc7402d7830d7d19ebf1]
+link *start to Pendente--><g id="link_*start_Pendente"><path d="M111,26.26 C111,38.86 111,61.98 111,80.74 " fill="none" id="*start-to-Pendente" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="111,85.91,115,76.91,111,80.91,107,76.91,111,85.91" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[60532b636f7fec5a72f31fe22d914bca]
+link Pendente to Aprovado--><g id="link_Pendente_Aprovado"><path d="M100.45,136.24 C93.38,152.5 84.02,173.99 76.56,191.13 " fill="none" id="Pendente-to-Aprovado" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="74.51,195.84,81.7744,189.1895,76.5088,191.2569,74.4415,185.9914,74.51,195.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d8657dd99152feda7b120a11fe31d6a1]
+link Pendente to Reprovado--><g id="link_Pendente_Reprovado"><path d="M117.87,136.16 C129.35,176.51 152.37,257.45 164.72,300.88 " fill="none" id="Pendente-to-Reprovado" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="166.1,305.73,167.4736,295.9774,164.7264,300.9224,159.7814,298.1752,166.1,305.73" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ed4f5e2aa48ab7124b785efe42136bec]
+link Reprovado to *end--><g id="link_Reprovado_*end"><path d="M156.71,356.43 C144.59,374.61 128.56,398.65 119.06,412.9 " fill="none" id="Reprovado-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="116.11,417.34,124.4222,412.0572,118.8769,413.1754,117.7587,407.6301,116.11,417.34" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2a271f1c3110e8ce842ee20fb765047b]
+link Aprovado to Executado--><g id="link_Aprovado_Executado"><path d="M60.86,246.24 C58.77,262.36 56.01,283.62 53.8,300.69 " fill="none" id="Aprovado-to-Executado" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="53.13,305.84,58.2542,297.4292,53.773,300.8815,50.3207,296.4003,53.13,305.84" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0a751e84a0a2a47cfe1e39a83aeee4d2]
+link Executado to *end--><g id="link_Executado_*end"><path d="M66.03,356.43 C77.95,374.61 93.72,398.65 103.07,412.9 " fill="none" id="Executado-to-*end" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="105.98,417.34,104.3928,407.6199,103.2395,413.1579,97.7015,412.0046,105.98,417.34" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[658f8fa5e9a5f411265ba05ec038de7f]
+@startuml workflow
+
+[*] - -> Pendente
+
+Pendente - -> Aprovado
+Pendente - -> Reprovado
+
+Reprovado - -> [*]
+
+Aprovado - -> Executado
+Executado - -> [*]
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

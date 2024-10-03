@@ -1,0 +1,36 @@
+<div class="background-container"></div>
+<mat-toolbar>
+    <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+
+<body>
+    <div class="box">
+        <div>
+            <tr>
+                <th><label>Designacao: </label></th>
+                <th><input type="string" [(ngModel)]="tipoRobo.designacao" /></th>
+            </tr>
+            <tr>
+                <th><label>Marca: </label>
+                <th><input type="string" [(ngModel)]="tipoRobo.marca" />
+            </tr>
+            <tr>
+                <th><label>Modelo: </label>
+                <th><input type="string" [(ngModel)]="tipoRobo.modelo" />
+            </tr>
+            <tr>
+            <mat-form-field>
+                <mat-label>Tarefas</mat-label>
+                <mat-select [(ngModel)]="tipoRobo.tarefas" name="selectedTarefas" multiple>
+                    <mat-option *ngFor="let tarefa of tarefas" [value]="tarefa"> {{ tarefa }}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
+            </tr>
+        </div>
+        <div>
+            <button (click)="createTipoRobo()">Add</button>
+            <button class="buttonBack" (click)="goBack()">Back</button>
+        </div>
+    </div>
+</body>

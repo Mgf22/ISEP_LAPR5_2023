@@ -1,0 +1,4 @@
+@startuml
+Actor Actor as ac
+ac -> (Listar pisos de edifício com passagem para outros edifícios)
+@enduml

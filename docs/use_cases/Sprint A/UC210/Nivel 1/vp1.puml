@@ -1,0 +1,6 @@
+@startuml
+actor Actor as actor
+participant SistemaRobDroneGo as srdg <<System(C4)>>
+actor -> srdg: Listar todos os pisos de um edifício
+srdg --> actor
+@enduml

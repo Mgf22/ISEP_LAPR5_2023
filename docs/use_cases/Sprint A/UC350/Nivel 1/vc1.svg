@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="183px" preserveAspectRatio="none" style="width:912px;height:183px;background:#FFFFFF;" version="1.1" viewBox="0 0 912 183" width="912px" zoomAndPan="magnify"><defs/><g><!--MD5=[1c5ba14a582780a0070707c3598231a5]
+entity ac--><g id="elem_ac"><ellipse cx="22.5" cy="61" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M22.5,69 L22.5,96 M9.5,77 L35.5,77 M22.5,96 L9.5,111 M22.5,96 L35.5,111 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="6" y="127.0332">Actor</text></g><g id="elem_Adicionar um novo tipo de robot indicando a sua designação e que tipos de tarefas pode executar da lista prédefinida de tarefas"><ellipse cx="490.351" cy="91.6702" fill="#F1F1F1" rx="416.351" ry="85.6702" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="810" x="85.351" y="95.3987">Adicionar um novo tipo de robot indicando a sua designação e que tipos de tarefas pode executar da lista prédefinida de tarefas</text></g><!--MD5=[42fc972b934015f426df4680537b84db]
+link ac to Adicionar um novo tipo de robot indicando a sua designação e que tipos de tarefas pode executar da lista prédefinida de tarefas--><g id="link_ac_Adicionar um novo tipo de robot indicando a sua designação e que tipos de tarefas pode executar da lista prédefinida de tarefas"><path d="M39.41,91.5 C49.16,91.5 58.92,91.5 68.67,91.5 " fill="none" id="ac-to-Adicionar um novo tipo de robot indicando a sua designação e que tipos de tarefas pode executar da lista prédefinida de tarefas" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="73.77,91.5,64.77,87.5,68.77,91.5,64.77,95.5,73.77,91.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[0eb53b624209efaad5bbc10a7c9c4f4c]
+@startuml
+Actor Actor as ac
+ac -> (Adicionar um novo tipo de robot indicando a sua designação e que tipos de tarefas pode executar da lista prédefinida de tarefas)
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

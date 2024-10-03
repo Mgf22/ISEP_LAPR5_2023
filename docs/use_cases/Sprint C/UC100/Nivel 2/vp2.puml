@@ -1,0 +1,20 @@
+@startuml getPackagingSD
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant Visualization as ui <<Container(C4)>>
+participant AuthorizationAuthentication as mdl <<Container(C4)>>
+ui -> mdl: PUT/PATCH alteraDadosUtente(dados)
+alt não existe erros durante a operação
+mdl --> ui: 200 dados de utente atualizados
+else existe erros durante a operação
+mdl --> ui: 403 falha na atualização de dados
+end 
+
+end box
+
+@enduml

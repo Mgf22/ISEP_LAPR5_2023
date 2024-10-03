@@ -1,0 +1,23 @@
+@startuml DDD
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+' Refere-se a Sala/Gabinete
+package "<<agr Sala>>"{
+    class Sala<<entity>><<root>>{}
+    class DesignacaoSala<<vo>>{}
+    class CategoriaSala<<enum>>{} 
+    class DescricaoSala<<vo>>{}
+
+    Sala --> "1" DesignacaoSala
+    Sala --> "1" CategoriaSala
+    Sala --> "1" DescricaoSala
+}
+
+@enduml

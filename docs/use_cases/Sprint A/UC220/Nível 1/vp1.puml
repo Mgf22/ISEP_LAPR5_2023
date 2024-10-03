@@ -1,0 +1,14 @@
+@startuml Vista de Processos de Nivel 1
+actor "Gestor de Campus" as actor
+participant SistemaRobDroneGo as srdg <<Container>>
+activate actor
+actor -> srdg: Listar pisos de edifício com passagem para outros edifícios
+activate srdg
+alt sucesso
+	srdg --> actor: retorna a lista de edificios com passagem para outros edificios
+else insucesso
+	srdg --> actor: retorna informação sobre a falha da operação
+end alt
+deactivate srdg
+deactivate actor
+@enduml

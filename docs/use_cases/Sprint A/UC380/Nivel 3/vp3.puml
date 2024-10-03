@@ -1,0 +1,78 @@
+@startuml sd
+autonumber
+
+participant RoboRoute as route
+
+participant RoboController as ctrl
+
+participant RoboService as svc
+
+participant RoboRepo as repo
+
+participant RoboMapper as mapper
+
+
+participant RoboSchema as schema
+
+participant ConfigurationFile as conf
+
+
+route -> ctrl++ : listRobos(req,res,next)
+route++
+ctrl -> conf : injeta o serviço do robo
+conf++
+conf --> ctrl
+conf--
+ctrl -> svc : listRobos()
+svc++
+
+svc -> conf : injeta o repositório do robo
+conf++
+conf --> svc
+conf--
+svc -> conf : injeta o repositório do tipoRobo
+conf++
+conf --> svc
+conf--
+
+
+
+svc --> repo : findAll()
+repo++
+
+
+repo -> conf : injeta o schema do robo
+conf++
+conf --> repo
+conf--
+repo -> schema : find(query)
+schema++
+schema --> repo
+schema--
+loop preencher array de robos
+repo -> mapper : toDomain(roboRecord)
+mapper++
+mapper --> repo
+end
+mapper--
+repo --> svc
+repo--
+
+loop preencher array de robos
+svc -> mapper : toDTO(roboResult)
+mapper++
+mapper --> svc
+mapper--
+end
+
+svc --> ctrl
+svc--
+
+
+
+alt caso de sucesso
+    ctrl --> route : Envia um código 200 (GET)
+else caso de insucesso
+    ctrl --> route : Envia um código 404 (NOT FOUND)
+end
+

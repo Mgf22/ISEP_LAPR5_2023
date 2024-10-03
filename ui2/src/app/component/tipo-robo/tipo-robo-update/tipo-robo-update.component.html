@@ -1,0 +1,30 @@
+<h1>Editar Tipo Robo</h1>
+
+<div>
+    <div>
+      <table>
+        <tr>
+          <th><label>Designacao: </label></th>
+          <th><input [(ngModel)]="tipoRobo.designacao" /></th>
+        </tr>
+        <tr>
+          <th><label>Marca: </label></th>
+          <th><input type="string" [(ngModel)]="tipoRobo.marca" /></th>
+        </tr>
+        <tr>
+          <th><label>Modelo: </label>
+          <th><input type="string" [(ngModel)]="tipoRobo.modelo" />
+        </tr>
+      <tr>
+        <th><label>Tarefas: </label>
+          <th><input type="string" [(ngModel)]="tipoRobo.tarefas" />
+      </tr>
+      </table>
+    </div>
+    <div>
+      <button class="buttonBack" (click)="goBack()">Back</button>
+      <button (click)="updateTipoRobo()">Add</button>
+    </div>
+
+
+</div>

@@ -1,0 +1,6 @@
+@startuml
+actor Actor as actor
+participant SistemaRobDroneGo as srdg <<System(C4)>>
+actor -> srdg: 	consultar todos os robots da frota
+srdg --> actor
+@enduml

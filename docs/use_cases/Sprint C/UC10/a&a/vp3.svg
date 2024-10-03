@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="332px" preserveAspectRatio="none" style="width:681px;height:332px;background:#FFFFFF;" version="1.1" viewBox="0 0 681 332" width="681px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="230.1094" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="47.6094"/><rect fill="#FFFFFF" height="207.7578" style="stroke:#181818;stroke-width:1.0;" width="10" x="331" y="69.9609"/><rect fill="#FFFFFF" height="147.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="420" y="100.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="519" y="219.3672"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="584" y="175.0156"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="644" y="130.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="31" x2="31" y1="37.6094" y2="295.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="336" x2="336" y1="37.6094" y2="295.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="424.5" x2="424.5" y1="37.6094" y2="295.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="524" x2="524" y1="37.6094" y2="295.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="589" x2="589" y1="37.6094" y2="295.7188"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="649" x2="649" y1="37.6094" y2="295.7188"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="12" y="26.5332">Route</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="5" y="294.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="12" y="316.252">Route</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="298" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="305" y="26.5332">Controller</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="298" y="294.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="305" y="316.252">Controller</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="394.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="401.5" y="26.5332">Service</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="394.5" y="294.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="401.5" y="316.252">Service</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="493" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="500" y="26.5332">Mapper</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="493" y="294.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="500" y="316.252">Mapper</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="48" x="565" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="572" y="26.5332">Repo</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="48" x="565" y="294.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="572" y="316.252">Repo</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="623" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="630" y="26.5332">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="623" y="294.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="630" y="316.252">Model</text><rect fill="#FFFFFF" height="230.1094" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="47.6094"/><rect fill="#FFFFFF" height="207.7578" style="stroke:#181818;stroke-width:1.0;" width="10" x="331" y="69.9609"/><rect fill="#FFFFFF" height="147.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="420" y="100.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="519" y="219.3672"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="584" y="175.0156"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="644" y="130.6641"/><polygon fill="#181818" points="319,65.9609,329,69.9609,319,73.9609,323,69.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="36" x2="325" y1="69.9609" y2="69.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="43" y="65.1045">/criarUser</text><polygon fill="#181818" points="408,96.3125,418,100.3125,408,104.3125,412,100.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="341" x2="414" y1="100.3125" y2="100.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="348" y="95.4561">criarUser()</text><polygon fill="#181818" points="632,126.6641,642,130.6641,632,134.6641,636,130.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="638" y1="130.6641" y2="130.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="437" y="125.8076">User.create()</text><polygon fill="#181818" points="441,140.6641,431,144.6641,441,148.6641,437,144.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="435" x2="648" y1="144.6641" y2="144.6641"/><polygon fill="#181818" points="572,171.0156,582,175.0156,572,179.0156,576,175.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="578" y1="175.0156" y2="175.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="437" y="170.1592">save(user)</text><polygon fill="#181818" points="441,185.0156,431,189.0156,441,193.0156,437,189.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="435" x2="588" y1="189.0156" y2="189.0156"/><polygon fill="#181818" points="507,215.3672,517,219.3672,507,223.3672,511,219.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="430" x2="513" y1="219.3672" y2="219.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="437" y="214.5107">toDTO(user)</text><polygon fill="#181818" points="441,229.3672,431,233.3672,441,237.3672,437,233.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="435" x2="523" y1="233.3672" y2="233.3672"/><polygon fill="#181818" points="352,243.3672,342,247.3672,352,251.3672,348,247.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="346" x2="424" y1="247.3672" y2="247.3672"/><polygon fill="#181818" points="42,273.7188,32,277.7188,42,281.7188,38,277.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="335" y1="277.7188" y2="277.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271" x="48" y="272.8623">Envia um código 201 (OK) / 403 (FORBIDDEN)</text><!--MD5=[d6e26efacaed6a6d7664fa3ba951e07a]
+@startuml vp3
+
+participant Route as route
+participant Controller as ctrl
+participant Service as svc
+participant Mapper as mapper
+participant Repo as repoTar
+participant Model as model
+
+
+'participant "A&A" as auth
+'route -> auth : autentica("GestorUtilizadores")
+'activate auth
+'auth - -> route
+'deactivate auth
+
+activate route
+route -> ctrl : /criarUser
+activate ctrl
+ctrl -> svc : criarUser()
+activate svc
+svc -> model : User.create()
+activate model
+model - -> svc
+deactivate model
+svc -> repoTar : save(user)
+activate repoTar
+repoTar - -> svc
+deactivate repoTar
+svc -> mapper : toDTO(user)
+activate mapper
+mapper - -> svc
+deactivate mapper
+svc - -> ctrl
+deactivate svc
+ctrl - -> route : Envia um código 201 (OK) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml
+
+@startuml vp3
+
+participant Route as route
+participant Controller as ctrl
+participant Service as svc
+participant Mapper as mapper
+participant Repo as repoTar
+participant Model as model
+
+
+
+activate route
+route -> ctrl : /criarUser
+activate ctrl
+ctrl -> svc : criarUser()
+activate svc
+svc -> model : User.create()
+activate model
+model - -> svc
+deactivate model
+svc -> repoTar : save(user)
+activate repoTar
+repoTar - -> svc
+deactivate repoTar
+svc -> mapper : toDTO(user)
+activate mapper
+mapper - -> svc
+deactivate mapper
+svc - -> ctrl
+deactivate svc
+ctrl - -> route : Envia um código 201 (OK) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

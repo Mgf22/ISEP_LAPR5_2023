@@ -1,0 +1,87 @@
+@startuml sd
+
+
+participant PisoRoute as route
+
+participant PisoController as ctrl
+
+participant PisoService as svc
+
+participant PisoRepo as repo
+participant EdificioRepo as erepo
+participant PisoMapper as mapper
+participant EdificioMapper as emapper
+
+participant PisoSchema as schema
+participant EdificioSchema as eschema
+participant ConfigurationFile as conf
+
+
+route -> ctrl++ : listPisos(req,res,next)
+route++
+ctrl -> conf : injeta o serviço do piso
+conf++
+conf --> ctrl
+conf--
+ctrl -> svc : listPisos(listMinMaxDTO)
+svc++
+svc -> conf : injeta o repositório do piso
+conf++
+conf --> svc
+conf--
+svc -> conf : injeta o repositório do edificio
+conf++
+conf --> svc
+conf--
+
+svc -> erepo : findByCodigo(codigoEdificio)
+erepo++
+erepo -> eschema : findOne(query)
+eschema++
+eschema --> erepo
+eschema--
+erepo -> emapper : toDomain(edificioRecord)
+emapper++
+emapper --> erepo
+emapper--
+erepo --> svc
+erepo--
+
+
+
+
+svc -> repo : findByEdificio(codigo)
+repo++
+
+repo -> conf : injeta o schema do piso
+conf++
+conf --> repo
+conf--
+repo -> schema : find(query)
+schema++
+schema --> repo
+schema--
+loop preencher array de pisos
+repo -> mapper : toDomain(pisoRecord)
+mapper++
+mapper --> repo
+end
+mapper--
+repo --> svc
+repo--
+loop preencher array de pisos
+svc -> mapper : toDTO(pisoResult)
+mapper++
+mapper --> svc
+mapper--
+end
+svc --> ctrl
+svc--
+
+
+alt caso de sucesso
+    ctrl --> route : Envia um código 200 (GET)
+else caso de insucesso
+    ctrl --> route : Envia um código 404 (NOT FOUND)
+end
+ctrl--

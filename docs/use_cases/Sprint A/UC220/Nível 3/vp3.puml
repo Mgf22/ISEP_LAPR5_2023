@@ -1,0 +1,43 @@
+@startuml sd
+
+participant Passagem as route <<Route>>
+participant Passagem as ctrl <<Controller>>
+participant Passagem as svc <<Service>>
+participant Passagem as repo <<Repository>>
+participant PassagemMapper as mapper <<Mapper>>
+participant PassagemSchema as schema  <<Schema>>
+participant ConfigurationFile as conf
+
+
+activate route
+route -> ctrl : listPisos(req, res, next)
+activate ctrl
+ctrl -> conf : injeta o serviço da Passagem
+activate conf
+conf --> ctrl
+deactivate conf
+ctrl -> svc : listPisos(IEdificioDTO)
+activate svc
+svc -> conf : injeta o repositório do edificio
+activate conf
+svc -> conf : injeta o repositório da passagem
+conf --> svc
+deactivate conf
+svc -> repo : listPassagens(edificioId)
+activate repo
+repo -> schema : listPassagens(edificioId)
+activate schema
+schema --> repo
+repo --> svc
+deactivate repo
+alt nao existem passagens ou edifícios são inválidos
+    svc --> ctrl
+    'deactivate svc
+    ctrl --> route : Envia um código 404 (NOT FOUND)
+    'deactivate ctrl
+end
+svc --> ctrl
+ctrl --> route : Envia um código 200 (GET)
+deactivate route
+
+@enduml

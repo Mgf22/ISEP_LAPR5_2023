@@ -1,0 +1,14 @@
+@startuml me
+
+[*] -> S0
+S0 --> S1 : pede geração token
+S1 -> S2 : svc encaminha para A&A?
+S2 --> S0 : não
+S2 -> S3 : pede ctrl
+S3 -> S4 : ctrl pede svc
+S4 -> S5 : pedido para gerar token?
+S5 -> S0 : retorna nulo
+S5 -> S6 : gera token
+S6 --> S0: retorna token
+
+@enduml

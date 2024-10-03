@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="287px" preserveAspectRatio="none" style="width:699px;height:287px;background:#FFFFFF;" version="1.1" viewBox="0 0 699 287" width="699px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="185.7578" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="47.6094"/><rect fill="#FFFFFF" height="163.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="244" y="69.9609"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="537" y="175.0156"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="602" y="130.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="31" x2="31" y1="37.6094" y2="251.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="249" x2="249" y1="37.6094" y2="251.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="427.5" x2="427.5" y1="37.6094" y2="251.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="542" x2="542" y1="37.6094" y2="251.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="607" x2="607" y1="37.6094" y2="251.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="667" x2="667" y1="37.6094" y2="251.3672"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="12" y="26.5332">Route</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="5" y="250.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="12" y="271.9004">Route</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="211" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="218" y="26.5332">Controller</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="211" y="250.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="218" y="271.9004">Controller</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="397.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="404.5" y="26.5332">Service</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="397.5" y="250.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="404.5" y="271.9004">Service</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="511" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="518" y="26.5332">Mapper</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="62" x="511" y="250.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="518" y="271.9004">Mapper</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="48" x="583" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="590" y="26.5332">Repo</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="48" x="583" y="250.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="590" y="271.9004">Repo</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="641" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="648" y="26.5332">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="641" y="250.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="648" y="271.9004">Model</text><rect fill="#FFFFFF" height="185.7578" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="47.6094"/><rect fill="#FFFFFF" height="163.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="244" y="69.9609"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="537" y="175.0156"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="602" y="130.6641"/><polygon fill="#181818" points="232,65.9609,242,69.9609,232,73.9609,236,69.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="36" x2="238" y1="69.9609" y2="69.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="43" y="65.1045">/getAllPedidosPendentes</text><polygon fill="#181818" points="416,96.3125,426,100.3125,416,104.3125,420,100.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="254" x2="422" y1="100.3125" y2="100.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="261" y="95.4561">getAllPedidosPendentes()</text><polygon fill="#181818" points="590,126.6641,600,130.6641,590,134.6641,594,130.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="428" x2="596" y1="130.6641" y2="130.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="148" x="435" y="125.8076">getAllPendentes(pedidos)</text><polygon fill="#181818" points="439,140.6641,429,144.6641,439,148.6641,435,144.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="433" x2="606" y1="144.6641" y2="144.6641"/><polygon fill="#181818" points="525,171.0156,535,175.0156,525,179.0156,529,175.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="428" x2="531" y1="175.0156" y2="175.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="435" y="170.1592">toDTO(pedidos)</text><polygon fill="#181818" points="439,185.0156,429,189.0156,439,193.0156,435,189.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="433" x2="541" y1="189.0156" y2="189.0156"/><polygon fill="#181818" points="265,199.0156,255,203.0156,265,207.0156,261,203.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="259" x2="427" y1="203.0156" y2="203.0156"/><polygon fill="#181818" points="42,229.3672,32,233.3672,42,237.3672,38,233.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="248" y1="233.3672" y2="233.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="48" y="228.5107">Envia um código 200 (OK) / 404</text><!--MD5=[582ba39da9a2e4866ad3352e1ef905e8]
+@startuml vp3_getPedidosPendentes
+
+participant Route as route
+participant Controller as ctrl
+participant Service as svc
+participant Mapper as mapper
+participant Repo as repoTar
+participant Model as model
+
+
+'participant "A&A" as auth
+'route -> auth : autentica("GestorUtilizadores")
+'activate auth
+'auth - -> route
+'deactivate auth
+
+activate route
+route -> ctrl : /getAllPedidosPendentes
+activate ctrl
+ctrl -> svc : getAllPedidosPendentes()
+svc -> repoTar : getAllPendentes(pedidos)
+activate repoTar
+repoTar - -> svc 
+deactivate repoTar
+svc -> mapper : toDTO(pedidos)
+activate mapper
+mapper - -> svc
+deactivate mapper
+svc - -> ctrl
+deactivate svc
+ctrl - -> route : Envia um código 200 (OK) / 404
+deactivate ctrl
+deactivate route
+
+
+
+@enduml
+
+@startuml vp3_getPedidosPendentes
+
+participant Route as route
+participant Controller as ctrl
+participant Service as svc
+participant Mapper as mapper
+participant Repo as repoTar
+participant Model as model
+
+
+
+activate route
+route -> ctrl : /getAllPedidosPendentes
+activate ctrl
+ctrl -> svc : getAllPedidosPendentes()
+svc -> repoTar : getAllPendentes(pedidos)
+activate repoTar
+repoTar - -> svc 
+deactivate repoTar
+svc -> mapper : toDTO(pedidos)
+activate mapper
+mapper - -> svc
+deactivate mapper
+svc - -> ctrl
+deactivate svc
+ctrl - -> route : Envia um código 200 (OK) / 404
+deactivate ctrl
+deactivate route
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,30 @@
+@startuml vp3
+
+participant Route as route
+participant AprovacaoController as ctrl
+participant AprovacaoService as svc
+participant AprovacaoRepo as repo
+participant AprovacaoMapper as mapper
+
+activate route
+route -> ctrl : /pesquisarRequisicaoPorUtente
+activate ctrl
+ctrl -> svc : pesquisarRequisicaoPorUtente(utente)
+activate svc
+svc -> repo : pesquisarRequisicaoPorUtente(utente)
+activate repo
+repo --> svc
+deactivate repo
+svc -> mapper : toDTO(aprovacoes)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um estado 201 (OK) / 404 (NOT FOUND)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

@@ -1,0 +1,63 @@
+<div class="background-container"></div>
+<mat-toolbar>
+  <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+
+<body>
+  <div class = "box">
+    <div>
+      <table>
+        <tr>
+          <mat-form-field>
+            <mat-label>Tipo de Tarefa</mat-label>
+            <mat-select [(ngModel)]="tarefa.tipoTarefa">
+              <mat-option *ngFor="let option of options" [value]="option">{{option}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr> 
+        
+        <tr>
+          <mat-form-field>
+            <mat-label>Ponto Inicial</mat-label>
+            <mat-select [(ngModel)]="tarefa.origem">
+              <mat-option *ngFor="let origem of origens" [value]="origem">{{origem}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+        
+        <tr *ngIf="showPontoTerminoField()">
+          <mat-form-field>
+            <mat-label>Ponto Termino</mat-label>
+            <mat-select [(ngModel)]="tarefa.destino">
+              <mat-option *ngFor="let destino of destinos" [value]="destino">{{destino}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+        
+        <tr *ngIf="showDestinatarioField()">
+          <th><label>Destinatario: </label></th>
+          <th><input type="string" [(ngModel)]="tarefa.destinatario" /></th>
+        </tr>
+        
+        <tr>
+          <th><label>Remetente: </label></th>
+          <th><input type="string" [(ngModel)]="tarefa.remetente" /></th>
+        </tr>
+        
+        <tr>
+          <th><label>Designacao de Tarefa: </label></th>
+          <th><input type="string" [(ngModel)]="requisicao.tarefa" /></th>
+        </tr>
+        
+        <tr>
+          <th><label>Descricao: </label></th>
+          <th><input type="string" [(ngModel)]="tarefa.descricao" /></th>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <button (click)="createTarefa()">Requisitar</button>
+      <button class="buttonBack" (click)="goBack()">Retroceder</button>
+    </div>
+  </div>
+</body>

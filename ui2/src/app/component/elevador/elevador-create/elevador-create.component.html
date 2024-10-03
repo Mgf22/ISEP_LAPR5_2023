@@ -1,0 +1,56 @@
+<div class="background-container"></div>
+<mat-toolbar>
+  <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+
+<body>
+  <div class="box">
+    <div>
+      <table>
+        <tr>
+          <th><label>Numero Identificativo: </label></th>
+          <th><input [(ngModel)]="elevador.numeroIdentificativo" /></th>
+        </tr>
+        <tr>
+          <th><label>Descricao: </label></th>
+          <th><input type="string" [(ngModel)]="elevador.descricao" /></th>
+        </tr>
+        <tr>
+          <th><label>Numero Serie: </label>
+          <th><input type="string" [(ngModel)]="elevador.numeroSerie" />
+        </tr>
+        <tr>
+          <th><label>Modelo: </label>
+          <th><input type="string" [(ngModel)]="elevador.modelo" />
+        </tr>
+        <tr>
+          <th><label>Marca: </label>
+          <th><input type="string" [(ngModel)]="elevador.marca" />
+        </tr>
+        <tr>
+          <mat-form-field>
+            <mat-label>Edificio </mat-label>
+            <mat-select [(ngModel)]="elevador.edificio">
+              <mat-option *ngFor="let edificio of edificios" [value]="edificio">{{edificio}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <button (click)="submitEdificio()">Submit</button>
+        </tr>
+        <tr>
+          <mat-form-field>
+            <mat-label>Pisos</mat-label>
+            <mat-select [(ngModel)]="elevador.pisosServidos" multiple>
+              <mat-option *ngFor="let piso of pisos" [value]="piso"> {{ piso }}
+              </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+
+      </table>
+    </div>
+    <div>
+      <button (click)="createElevador()">Add</button>
+      <button (click)="goBack()">Back</button>
+    </div>
+  </div>
+</body>

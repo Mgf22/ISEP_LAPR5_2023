@@ -1,0 +1,10 @@
+@startuml
+actor Utente as actor
+participant SistemaRobDroneGo as srdg
+actor -> srdg: Cancelar conta
+alt sucesso
+srdg --> actor : Mensagem de Sucesso
+else insucesso
+srdg -->actor : Mensagem de Erro
+end
+@enduml

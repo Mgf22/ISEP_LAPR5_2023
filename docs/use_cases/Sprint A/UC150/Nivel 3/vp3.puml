@@ -1,0 +1,61 @@
+@startuml sd
+
+participant Route as route
+participant EdificioController as ctrl
+participant EdificioService as svc
+participant EdificioRepo as repo
+participant EdificioMapper as mapper
+participant EdificioSchema as schema
+participant ConfigurationFile as conf
+participant Edificio as model
+
+activate route
+route -> ctrl : createEdificio(req, res, next)
+activate ctrl
+ctrl -> conf : injeta o serviço do edificio
+activate conf
+conf --> ctrl
+deactivate conf
+ctrl -> svc : createEdificio(IEdificioDTO)
+activate svc
+svc -> conf : injeta o repositório do edificio
+activate conf
+conf --> svc
+deactivate conf
+svc -> model : edificio = create(edificioDTO)
+activate model
+model --> svc
+deactivate model
+svc -> repo : save(edificio)
+activate repo
+repo -> conf : injeta o schema do edificio
+activate conf
+conf --> repo
+deactivate conf
+repo -> mapper : toPersistence(edificio)
+activate mapper
+mapper --> repo
+deactivate mapper
+repo -> schema : create(edificioCreated)
+activate schema 
+schema --> repo
+deactivate schema
+repo -> mapper : toDomain(edificioCreated)
+activate mapper
+mapper --> repo
+deactivate mapper
+repo --> svc
+svc -> mapper : toDTO(edificio)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+alt caso de sucesso
+    ctrl --> route : Envia um código 201 (POST)
+else caso de insucesso
+    ctrl --> route : Envia um código 404 (NOT FOUND)
+end
+deactivate ctrl 
+deactivate route
+
+@enduml

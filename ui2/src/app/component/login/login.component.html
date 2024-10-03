@@ -1,0 +1,17 @@
+<body>
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <input type="text" [(ngModel)]="login.email" name="email" />
+            <input type="password" [(ngModel)]="login.password" name="password" />
+            <!--<input [type]="showPassword ? 'text' : 'password'" [(ngModel)]="login.password" />
+            <mat-checkbox [checked]="showPassword" (change)="togglePasswordVisibility()">Show/Hide</mat-checkbox>-->
+            <button (click)="submit()">Login</button>
+        </form>
+        <div class="signup-link" (click)="signUp()">
+            Não tem uma conta? <span class="underline-text">Registar-se</span>
+        </div>
+    </div>
+</body>
+
+<div class="background-container"></div>

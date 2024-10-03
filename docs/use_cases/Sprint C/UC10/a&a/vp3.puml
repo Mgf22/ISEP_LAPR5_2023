@@ -1,0 +1,42 @@
+@startuml vp3
+
+participant Route as route
+participant Controller as ctrl
+participant Service as svc
+participant Mapper as mapper
+participant Repo as repoTar
+participant Model as model
+
+
+'participant "A&A" as auth
+'route -> auth : autentica("GestorUtilizadores")
+'activate auth
+'auth --> route
+'deactivate auth
+
+activate route
+route -> ctrl : /criarUser
+activate ctrl
+ctrl -> svc : criarUser()
+activate svc
+svc -> model : User.create()
+activate model
+model --> svc
+deactivate model
+svc -> repoTar : save(user)
+activate repoTar
+repoTar --> svc
+deactivate repoTar
+svc -> mapper : toDTO(user)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (OK) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

@@ -1,0 +1,39 @@
+@startuml vp3
+
+participant Route as route
+participant AprovacaoController as ctrl
+participant AprovacaoService as svc
+participant AprovacaoRepo as repo
+participant Aprovacao as model
+participant Planeamento as plan
+
+activate route
+route -> ctrl : /sequenciaTarefasAprovadas
+activate ctrl
+ctrl -> svc : sequenciaTarefasAprovadas()
+activate svc
+svc -> repo : pesquisaAprovacoesPorEstado(aceite)
+activate repo
+repo --> svc
+deactivate repo
+svc -> plan : /best_task_order
+activate plan
+plan --> svc
+deactivate plan
+svc -> model : transita os estados das tarefas planeadas para 'executado'
+activate model
+model --> svc
+deactivate model
+svc -> repo : persiste as atualizações do estado
+activate repo
+repo --> svc
+deactivate repo
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um estado 201 (OK) / 404 (NOT FOUND)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

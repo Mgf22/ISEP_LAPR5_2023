@@ -1,0 +1,62 @@
+<div class="background-container"></div>
+<mat-toolbar>
+  <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+
+<body>
+  <div class="box">
+    <div>
+      <table>
+        <tr>
+          <mat-form-field>
+            <mat-label>Ponto de acesso origem</mat-label>
+            <mat-select [(ngModel)]="selectedType">
+              <mat-option value="Sala">Sala</mat-option>
+              <mat-option value="Elevador">Elevador</mat-option>
+              <mat-option value="Corredor">Corredor</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+        <tr>
+          <mat-form-field>
+            <mat-label>{{ selectedType === 'Sala' ? 'Sala' : (selectedType === 'Elevador' ? 'Elevador' : 'Corredor') }}
+              Origem</mat-label>
+            <mat-select [(ngModel)]="caminhoEntrePisos.origem">
+              <mat-option *ngFor="let item of getOptions()" [value]="item">{{ item }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+        <tr>
+        <tr>
+          <mat-form-field>
+            <mat-label>Ponto de acesso destino</mat-label>
+            <mat-select [(ngModel)]="selectedType2">
+              <mat-option value="Sala">Sala</mat-option>
+              <mat-option value="Elevador">Elevador</mat-option>
+              <mat-option value="Corredor">Corredor</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+        <tr>
+          <mat-form-field>
+            <mat-label>{{ selectedType2 === 'Sala' ? 'Sala' : (selectedType2 === 'Elevador' ? 'Elevador' : 'Corredor')
+              }}
+              Destino</mat-label>
+            <mat-select [(ngModel)]="caminhoEntrePisos.destino">
+              <mat-option *ngFor="let item of getOptions2()" [value]="item">{{ item }}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <button (click)="calcularCaminho()">Calculate path</button>
+      <button (click)="goBack()">Back</button>
+    </div>
+    <div *ngIf="resultMessage" class="box">
+      <p>Caminho entre pisos: {{ resultMessage[0] }}</p>
+      <p>Caminho por piso: {{ resultMessage[1] }}</p>
+    </div>
+    
+  </div>
+</body>

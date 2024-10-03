@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="227px" preserveAspectRatio="none" style="width:585px;height:227px;background:#FFFFFF;" version="1.1" viewBox="0 0 585 227" width="585px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="125.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="43.5" y="47.6094"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="197.5" y="114.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="277.5" y="69.9609"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="546.5" y="144.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="48" x2="48" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="202.5" x2="202.5" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="282.5" x2="282.5" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="551.5" x2="551.5" y1="37.6094" y2="190.6641"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="12" y="26.5332">Component</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="5" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="12" y="211.1973">Component</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="158.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="165.5" y="26.5332">PisoService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="158.5" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="165.5" y="211.1973">PisoService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="256.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="263.5" y="26.5332">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="256.5" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="263.5" y="211.1973">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="523.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="530.5" y="26.5332">MDGD</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="523.5" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="530.5" y="211.1973">MDGD</text><rect fill="#FFFFFF" height="125.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="43.5" y="47.6094"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="197.5" y="114.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="277.5" y="69.9609"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="546.5" y="144.6641"/><polygon fill="#181818" points="265.5,65.9609,275.5,69.9609,265.5,73.9609,269.5,69.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="53.5" x2="271.5" y1="69.9609" y2="69.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="60.5" y="65.1045">adapta dados introduzidos</text><polygon fill="#181818" points="64.5,79.9609,54.5,83.9609,64.5,87.9609,60.5,83.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="281.5" y1="83.9609" y2="83.9609"/><polygon fill="#181818" points="185.5,110.3125,195.5,114.3125,185.5,118.3125,189.5,114.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="53.5" x2="191.5" y1="114.3125" y2="114.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="60.5" y="109.4561">listMinMax(min, max)</text><polygon fill="#181818" points="534.5,140.6641,544.5,144.6641,534.5,148.6641,538.5,144.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="207.5" x2="540.5" y1="144.6641" y2="144.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="320" x="214.5" y="139.8076">pedido HTTP GET de edifícios com min e max de pisos</text><polygon fill="#181818" points="218.5,154.6641,208.5,158.6641,218.5,162.6641,214.5,158.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="212.5" x2="550.5" y1="158.6641" y2="158.6641"/><polygon fill="#181818" points="59.5,168.6641,49.5,172.6641,59.5,176.6641,55.5,172.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="53.5" x2="201.5" y1="172.6641" y2="172.6641"/><!--MD5=[b9a443bc0ed5bb17eeed43c42b27f81c]
+@startuml vp3
+
+participant Component as comp
+participant PisoService as svc
+participant Model as model
+participant MDGD as mdgd
+
+activate comp
+comp -> model : adapta dados introduzidos 
+activate model
+model - -> comp
+deactivate model
+comp -> svc : listMinMax(min, max)
+activate svc
+svc -> mdgd : pedido HTTP GET de edifícios com min e max de pisos
+activate mdgd
+mdgd - -> svc
+deactivate mdgd
+svc - -> comp
+deactivate svc
+deactivate comp
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

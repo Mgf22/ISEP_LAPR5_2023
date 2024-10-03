@@ -1,0 +1,44 @@
+@startuml sd
+
+participant Route as route
+participant AprovacaoController as ctrl
+participant AprovacaoService as svc
+participant AprovacaoRepo as repoApr
+participant TarefaRepo as repoTar
+participant AprovacaoMapper as mapper
+participant AprovacaoModel as model
+
+activate route
+route -> ctrl : /recusarRequisicao
+activate ctrl
+ctrl -> svc : recusarRequisicao(aprovacaoDTO)
+activate svc
+svc -> repoTar : findByDesignacao(tarefa)
+activate repoTar
+repoTar --> svc
+deactivate repoTar
+svc -> repoApr : findByTarefaName(tarefa)
+activate repoApr
+repoApr --> svc
+deactivate repoApr
+svc -> model : recusa()
+activate model
+model --> svc
+deactivate model
+svc -> repoApr : save(newAprovacao)
+activate repoApr
+repoApr --> svc
+deactivate repoApr
+svc -> mapper : toDTO(newAprovacao)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (OK) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

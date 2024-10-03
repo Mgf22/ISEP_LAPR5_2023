@@ -1,0 +1,42 @@
+<h1>Listar Tipos Robo</h1>
+
+<div>
+    <div class="search-container">
+        <mat-form-field appearance="fill">
+            <label>Search by KeyWord</label> <input matInput placeholder="key word" autocomplete="off"
+                (keyup)="filterData($event)">
+        </mat-form-field>
+    </div>
+
+    <br> <br>
+
+    <table mat-table matSort [dataSource]="dataSource" class="listagem">
+        <ng-container matColumnDef="Designacao">
+            <th mat-header-cell *matHeaderCellDef> Designacao</th>
+            <td mat-cell *matCellDef="let tipoRobo"> {{tipoRobo.designacao}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Marca">
+            <th mat-header-cell *matHeaderCellDef> Marca</th>
+            <td mat-cell *matCellDef="let tipoRobo"> {{tipoRobo.marca}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Modelo">
+            <th mat-header-cell *matHeaderCellDef> Descricao</th>
+            <td mat-cell *matCellDef="let tipoRobo"> {{tipoRobo.modelo}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="Tarefas">
+            <th mat-header-cell *matHeaderCellDef> Tarefas</th>
+            <td mat-cell *matCellDef="let tipoRobo"> {{tipoRobo.tarefas}} </td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Page navigation"></mat-paginator>
+</div>
+
+<button class="buttonBack" (click)="goBack()">Back</button>
+<router-outlet></router-outlet>

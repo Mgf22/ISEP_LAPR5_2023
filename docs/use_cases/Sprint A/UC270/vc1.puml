@@ -1,0 +1,4 @@
+@startuml
+Actor Actor as ac
+ac -> (Criar elevador em edifício)
+@enduml

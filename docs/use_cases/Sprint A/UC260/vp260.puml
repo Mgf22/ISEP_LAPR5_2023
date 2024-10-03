@@ -1,0 +1,50 @@
+@startuml sd
+
+participant Route as route
+participant PassagemController as ctrl
+participant PassagemService as svc
+participant PassagemRepo as repo
+participant PassagemMapper as mapper
+participant PassagemSchema as schema
+participant ConfigurationFile as conf
+
+activate route
+route -> ctrl : /listPassagens
+activate ctrl
+ctrl -> conf : injeta o serviço da Passagem
+activate conf
+conf --> ctrl
+deactivate conf
+ctrl -> svc : listPassagens(edificios)
+activate svc
+svc -> conf : injeta o repositório do sala
+activate conf
+conf --> svc
+deactivate conf
+alt os edificios são iguais
+    svc --> ctrl : Retorna erro com a mensagem: Não existem passagens para o próprio edifício.
+    ctrl --> route : Envia status 404 NOT FOUND
+end
+alt o(s) edificio(s) é/são inválido(s)
+    svc --> ctrl : Retorna erro com a mensagem: O código X é inválido.
+    ctrl --> route : Envia status 404 NOT FOUND
+end
+svc -> repo : passagens = listPassagensBetween(edificioA, edificioB)
+activate repo
+repo -> schema : listPassagensBetween(codigoEdificioA, codigoEdificioB)
+activate schema
+schema --> repo
+deactivate schema
+repo --> svc
+deactivate repo
+alt não existem passagens entre os edificios
+    svc --> ctrl : Retorna erro com a mensagem: Não existem passagens entre o edifício X e o edifício Y.
+    ctrl --> route : Envia status 404 NOT FOUND
+end
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um status 200 OK com o json da lista de pisos
+deactivate ctrl
+deactivate route
+
+@enduml

@@ -1,0 +1,10 @@
+@startuml VP1
+actor Actor as actor
+participant SistemaRobDroneGo as srdg <<System(C4)>>
+actor -> srdg: 	Editar passagem entre edifícios
+alt sucesso
+	srdg --> actor: retorna a edição do edifício
+else insucesso
+	srdg --> actor: retorna informação sobre a falha da operação
+end alt
+@enduml

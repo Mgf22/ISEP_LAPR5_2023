@@ -1,0 +1,117 @@
+<div class="background-container"></div>
+<mat-toolbar>
+  <h1 class="h1">RobDroneGO</h1>
+
+  <!--Gestor Utilizadores Menu-->
+  <button mat-button *ngIf="role === 'GestorUtilizadores'" [matMenuTriggerFor]="gestorUtilizadoresMenu">Gestor Utilizadores</button>
+  <mat-menu #gestorUtilizadoresMenu="matMenu">
+    <button mat-menu-item (click)="criarUser()">Criar User</button>
+    <button mat-menu-item (click)="pedidoUser()">Aceitar ou recusar pedidos de utentes</button>
+  </mat-menu>
+
+  <!--Gestor de Campus Menu-->
+  <button mat-button *ngIf="role === 'GestorCampus'" [matMenuTriggerFor]="gestorCampusMenu">Gestor Campus</button>
+  <mat-menu #gestorCampusMenu="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="edificioMenu">Edificio</button>
+    <button mat-menu-item [matMenuTriggerFor]="pisoMenu">Piso</button>
+    <button mat-menu-item [matMenuTriggerFor]="mapaPisoMenu">Mapa Piso</button>
+    <button mat-menu-item [matMenuTriggerFor]="passagemMenu">Passagem</button>
+    <button mat-menu-item [matMenuTriggerFor]="elevadorMenu">Elevador</button>
+    <button mat-menu-item [matMenuTriggerFor]="salaMenu">Sala</button>
+  </mat-menu>
+
+  <mat-menu #edificioMenu="matMenu">
+    <button mat-menu-item (click)="createEdificio()">Criar Edificio</button>
+    <button mat-menu-item (click)="listEdificios()">Listar Edificios</button>
+    <button mat-menu-item (click)="updateEdificio()">Atualizar Edificio</button>
+  </mat-menu>
+
+  <mat-menu #pisoMenu="matMenu">
+    <button mat-menu-item (click)="createPiso()">Criar Piso</button>
+    <button mat-menu-item (click)="listPisos()">Listar Pisos</button>
+    <button mat-menu-item (click)="updatePiso()">Atualizar Piso</button>
+  </mat-menu>
+
+  <mat-menu #passagemMenu="matMenu">
+    <button mat-menu-item (click)="createPassagem()">Criar Passagem</button>
+    <button mat-menu-item (click)="listPassagens()">Listar Passagens</button>
+    <button mat-menu-item (click)="updatePassagem()">Atualizar Passagem</button>
+  </mat-menu>
+
+  <mat-menu #elevadorMenu="matMenu">
+    <button mat-menu-item (click)="createElevador()">Criar Elevador</button>
+    <button mat-menu-item (click)="listElevadores()">Listar Elevadores</button>
+    <button mat-menu-item (click)="updateElevador()">Atualizar Elevador</button>
+  </mat-menu>
+
+  <mat-menu #mapaPisoMenu="matMenu">
+    <button mat-menu-item (click)="createMapaPiso()">Carregar mapa de piso</button>
+  </mat-menu>
+
+  <mat-menu #salaMenu="matMenu">
+    <button mat-menu-item (click)="createSala()">Criar sala</button>
+  </mat-menu>
+
+  <!--Gestor de Tarefas Menu-->
+  <button mat-button *ngIf="role === 'GestorTarefas'" [matMenuTriggerFor]="gestorTarefasMenu">Gestor Tarefa</button>
+  <mat-menu #gestorTarefasMenu="matMenu">
+    <button mat-menu-item (click)="calcularCaminho()">Obter percurso entre dois edificios</button>
+    <button mat-menu-item [matMenuTriggerFor]="tarefasMenu">Tarefas</button>
+  </mat-menu>
+  
+  <mat-menu #tarefasMenu="matMenu">
+    <button mat-menu-item (click)="gerirRequisicao()">Gerir Requisições</button>
+    <button mat-menu-item (click)="listarTarefasNaoAprovadas()">Listar tarefas não aprovadas</button>
+    <button mat-menu-item (click)="listarTarefas()">Listar Tarefas</button>
+    <button mat-menu-item (click)="sequenciaTarefas()">Sequência de Tarefas Aprovadas </button>
+  </mat-menu>
+
+  <!--Gestor de Frota Menu-->
+  <button mat-button *ngIf="role === 'GestorFrota'" [matMenuTriggerFor]="gestorFrotaMenu">Gestor Frota</button>
+  <mat-menu #gestorFrotaMenu="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="tipoRoboMenu">Tipo Robo</button>
+    <button mat-menu-item [matMenuTriggerFor]="roboMenu">Robo</button>
+  </mat-menu>
+
+  <mat-menu #tipoRoboMenu="matMenu">
+    <button mat-menu-item (click)="createTipoRobo()">Criar Tipo Robo</button>
+  </mat-menu>
+
+  <mat-menu #roboMenu="matMenu">
+    <button mat-menu-item (click)="createRobo()">Criar Robo</button>
+    <button mat-menu-item (click)="listRobos()">Listar Robos</button>
+    <button mat-menu-item (click)="updateRobo()">Atualizar Robo</button>
+    <button mat-menu-item (click)="inibirRobo()">Inibir Robo</button>
+    
+  </mat-menu>
+
+  <!--Utente Menu-->
+  <button mat-button *ngIf="role === 'Utente'" [matMenuTriggerFor]="utenteMenu">Utente</button>
+  <mat-menu #utenteMenu="matMenu">
+    <button mat-menu-item (click)="deleteUser()">Eliminar conta</button>
+    <button mat-menu-item (click)="updateUser()">Atualizar dados</button>
+    <button mat-menu-item (click)="downloadInfo()">Download dos dados pessoais</button>
+    <button mat-menu-item (click)="tarefaCreate()">Requisitar Tarefa</button>
+  </mat-menu>
+
+  <!--Visualização-->
+  <button mat-button *ngIf="role === 'GestorCampus'" (click)="view()">Visualização</button>
+
+  <!--Asist Menu-->
+  <button mat-button [matMenuTriggerFor]="asistMenu">Asist</button>
+  <mat-menu #asistMenu="matMenu">
+    <button mat-menu-item (click)="mbco()">MBCO</button>
+    <button mat-menu-item (click)="backup()">Estratégia de recuperação de dados</button>
+  </mat-menu>
+
+  <!--Info Menu-->
+  <button mat-button [matMenuTriggerFor]="infoMenu">Info</button>
+  <mat-menu #infoMenu="matMenu">
+    <button mat-menu-item (click)="openAboutUs()">About Us</button>
+    <button mat-menu-item (click)="rgpd()">Relatório RGPD</button>
+  </mat-menu>
+
+  <button (click)="logout()" class="spacer">Logout</button>
+
+
+</mat-toolbar>

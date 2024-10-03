@@ -1,0 +1,78 @@
+@startuml sd
+
+participant Route as route
+participant SalaController as ctrl
+participant SalaService as svc
+participant SalaRepo as repoSal
+participant PisoRepo as repoPis
+participant SalaMapper as mapper
+participant SalaSchema as schema
+participant ConfigurationFile as conf
+participant Sala as model
+
+activate route
+route -> ctrl : /createSala
+activate ctrl
+ctrl -> conf : injeta o serviço do sala
+activate conf
+conf --> ctrl
+deactivate conf
+ctrl -> svc : createSala(salaDTO)
+activate svc
+svc -> conf : injeta o repositório do sala
+activate conf
+conf --> svc
+deactivate conf
+svc -> repoSal : sala = findByDesignacao(salaDTO.designacao)
+activate repoSal
+repoSal --> svc
+deactivate repoSal
+alt sala já existe
+    svc --> ctrl : Envia erro com a mensagem: Já existe uma sala com a designação X
+    ctrl --> route : Envia status 403 (FORBIDDEN)
+end
+svc -> repoPis : findByDesignacao(salaDTO.piso)
+activate repoPis
+repoPis --> svc
+deactivate repoPis
+alt piso inválido/inexistente
+    svc --> ctrl : Envia erro com a mensagem: Não existe um piso com a designação X.
+    ctrl --> route : Envia status 403 (FORBIDDEN)
+end
+svc -> model : sala = create(salaDTO)
+activate model
+model --> svc
+deactivate model
+svc -> repoSal : save(sala)
+activate repoSal
+repoSal -> conf : injeta o schema do sala
+activate conf
+conf --> repoSal
+deactivate conf
+repoSal -> mapper : toPersistence(sala)
+activate mapper
+mapper --> repoSal
+deactivate mapper
+repoSal -> schema : create(salaCreated)
+activate schema
+schema --> repoSal
+deactivate schema
+repoSal -> mapper : toDomain(salaCreated)
+activate mapper
+mapper --> repoSal
+deactivate mapper
+repoSal --> svc
+deactivate repoSal
+svc -> mapper : toDTO(sala)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (OK)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

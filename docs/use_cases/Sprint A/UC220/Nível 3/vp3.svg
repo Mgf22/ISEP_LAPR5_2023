@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="518px" preserveAspectRatio="none" style="width:1094px;height:518px;background:#FFFFFF;" version="1.1" viewBox="0 0 1094 518" width="1094px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="381.5156" style="stroke:#181818;stroke-width:1.0;" width="10" x="55" y="65.2188"/><rect fill="#FFFFFF" height="368.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="296" y="87.5703"/><rect fill="#FFFFFF" height="293.4609" style="stroke:#181818;stroke-width:1.0;" width="10" x="454" y="162.2734"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="623" y="267.3281"/><rect fill="#FFFFFF" height="158.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="885.5" y="297.6797"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1022" y="117.9219"/><rect fill="#FFFFFF" height="44.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1022" y="192.625"/><rect fill="none" height="62.7031" style="stroke:#000000;stroke-width:1.5;" width="499" x="10" y="340.6797"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="60" x2="60" y1="55.2188" y2="464.7344"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="301" x2="301" y1="55.2188" y2="464.7344"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="459" x2="459" y1="55.2188" y2="464.7344"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="628" x2="628" y1="55.2188" y2="464.7344"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="751" x2="751" y1="55.2188" y2="464.7344"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="890" x2="890" y1="55.2188" y2="464.7344"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1027" x2="1027" y1="55.2188" y2="464.7344"/><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="80" x="20" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="54" x="33" y="26.5332">«Route»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="27" y="44.1426">Passagem</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="80" x="20" y="463.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="54" x="33" y="485.2676">«Route»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="27" y="502.877">Passagem</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="92" x="255" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="78" x="262" y="26.5332">«Controller»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="268" y="44.1426">Passagem</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="92" x="255" y="463.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="78" x="262" y="485.2676">«Controller»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="268" y="502.877">Passagem</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="80" x="419" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="428" y="26.5332">«Service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="426" y="44.1426">Passagem</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="80" x="419" y="463.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="62" x="428" y="485.2676">«Service»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="426" y="502.877">Passagem</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="579" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="586" y="26.5332">«Repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="595" y="44.1426">Passagem</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="579" y="463.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="84" x="586" y="485.2676">«Repository»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="595" y="502.877">Passagem</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="687" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="65" x="718.5" y="26.5332">«Mapper»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="694" y="44.1426">PassagemMapper</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128" x="687" y="463.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="65" x="718.5" y="485.2676">«Mapper»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="694" y="502.877">PassagemMapper</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="825" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="67" x="857" y="26.5332">«Schema»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="832" y="44.1426">PassagemSchema</text><rect fill="#E2E2F0" height="49.2188" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="825" y="463.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="67" x="857" y="485.2676">«Schema»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="832" y="502.877">PassagemSchema</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="966" y="22.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="973" y="44.1426">ConfigurationFile</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122" x="966" y="463.7344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="973" y="485.2676">ConfigurationFile</text><rect fill="#FFFFFF" height="381.5156" style="stroke:#181818;stroke-width:1.0;" width="10" x="55" y="65.2188"/><rect fill="#FFFFFF" height="368.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="296" y="87.5703"/><rect fill="#FFFFFF" height="293.4609" style="stroke:#181818;stroke-width:1.0;" width="10" x="454" y="162.2734"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="623" y="267.3281"/><rect fill="#FFFFFF" height="158.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="885.5" y="297.6797"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1022" y="117.9219"/><rect fill="#FFFFFF" height="44.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="1022" y="192.625"/><polygon fill="#181818" points="284,83.5703,294,87.5703,284,91.5703,288,87.5703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="65" x2="290" y1="87.5703" y2="87.5703"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="72" y="82.7139">listPisos(req, res, next)</text><polygon fill="#181818" points="1010,113.9219,1020,117.9219,1010,121.9219,1014,117.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="306" x2="1016" y1="117.9219" y2="117.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="313" y="113.0654">injeta o serviço da Passagem</text><polygon fill="#181818" points="317,127.9219,307,131.9219,317,135.9219,313,131.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="311" x2="1026" y1="131.9219" y2="131.9219"/><polygon fill="#181818" points="442,158.2734,452,162.2734,442,166.2734,446,162.2734" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="306" x2="448" y1="162.2734" y2="162.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="313" y="157.417">listPisos(IEdificioDTO)</text><polygon fill="#181818" points="1010,188.625,1020,192.625,1010,196.625,1014,192.625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="464" x2="1016" y1="192.625" y2="192.625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="168" x="471" y="187.7686">injeta o repositório do edificio</text><polygon fill="#181818" points="1010,218.9766,1020,222.9766,1010,226.9766,1014,222.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="464" x2="1016" y1="222.9766" y2="222.9766"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="471" y="218.1201">injeta o repositório da passagem</text><polygon fill="#181818" points="475,232.9766,465,236.9766,475,240.9766,471,236.9766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="469" x2="1026" y1="236.9766" y2="236.9766"/><polygon fill="#181818" points="611,263.3281,621,267.3281,611,271.3281,615,267.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="464" x2="617" y1="267.3281" y2="267.3281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="471" y="262.4717">listPassagens(edificioId)</text><polygon fill="#181818" points="873.5,293.6797,883.5,297.6797,873.5,301.6797,877.5,297.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="633" x2="879.5" y1="297.6797" y2="297.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="640" y="292.8232">listPassagens(edificioId)</text><polygon fill="#181818" points="644,307.6797,634,311.6797,644,315.6797,640,311.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="638" x2="884.5" y1="311.6797" y2="311.6797"/><polygon fill="#181818" points="475,321.6797,465,325.6797,475,329.6797,471,325.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="469" x2="627" y1="325.6797" y2="325.6797"/><path d="M10,340.6797 L71,340.6797 L71,349.0313 L61,359.0313 L10,359.0313 L10,340.6797 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="62.7031" style="stroke:#000000;stroke-width:1.5;" width="499" x="10" y="340.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="25" y="355.1748">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="282" x="86" y="354.0986">[nao existem passagens ou edifícios são inválidos]</text><polygon fill="#181818" points="317,361.0313,307,365.0313,317,369.0313,313,365.0313" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="311" x2="453" y1="365.0313" y2="365.0313"/><polygon fill="#181818" points="76,391.3828,66,395.3828,76,399.3828,72,395.3828" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="70" x2="295" y1="395.3828" y2="395.3828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="82" y="390.5264">Envia um código 404 (NOT FOUND)</text><polygon fill="#181818" points="317,412.3828,307,416.3828,317,420.3828,313,416.3828" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="311" x2="453" y1="416.3828" y2="416.3828"/><polygon fill="#181818" points="71,442.7344,61,446.7344,71,450.7344,67,446.7344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="65" x2="295" y1="446.7344" y2="446.7344"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="77" y="441.8779">Envia um código 200 (GET)</text><!--MD5=[6bb166c8e44a99de45ae4991d1729e16]
+@startuml sd
+
+participant Passagem as route <<Route>>
+participant Passagem as ctrl <<Controller>>
+participant Passagem as svc <<Service>>
+participant Passagem as repo <<Repository>>
+participant PassagemMapper as mapper <<Mapper>>
+participant PassagemSchema as schema  <<Schema>>
+participant ConfigurationFile as conf
+
+
+activate route
+route -> ctrl : listPisos(req, res, next)
+activate ctrl
+ctrl -> conf : injeta o serviço da Passagem
+activate conf
+conf - -> ctrl
+deactivate conf
+ctrl -> svc : listPisos(IEdificioDTO)
+activate svc
+svc -> conf : injeta o repositório do edificio
+activate conf
+svc -> conf : injeta o repositório da passagem
+conf - -> svc
+deactivate conf
+svc -> repo : listPassagens(edificioId)
+activate repo
+repo -> schema : listPassagens(edificioId)
+activate schema
+schema - -> repo
+repo - -> svc
+deactivate repo
+alt nao existem passagens ou edifícios são inválidos
+    svc - -> ctrl
+    'deactivate svc
+    ctrl - -> route : Envia um código 404 (NOT FOUND)
+    'deactivate ctrl
+end
+svc - -> ctrl
+ctrl - -> route : Envia um código 200 (GET)
+deactivate route
+
+@enduml
+
+@startuml sd
+
+participant Passagem as route <<Route>>
+participant Passagem as ctrl <<Controller>>
+participant Passagem as svc <<Service>>
+participant Passagem as repo <<Repository>>
+participant PassagemMapper as mapper <<Mapper>>
+participant PassagemSchema as schema  <<Schema>>
+participant ConfigurationFile as conf
+
+
+activate route
+route -> ctrl : listPisos(req, res, next)
+activate ctrl
+ctrl -> conf : injeta o serviço da Passagem
+activate conf
+conf - -> ctrl
+deactivate conf
+ctrl -> svc : listPisos(IEdificioDTO)
+activate svc
+svc -> conf : injeta o repositório do edificio
+activate conf
+svc -> conf : injeta o repositório da passagem
+conf - -> svc
+deactivate conf
+svc -> repo : listPassagens(edificioId)
+activate repo
+repo -> schema : listPassagens(edificioId)
+activate schema
+schema - -> repo
+repo - -> svc
+deactivate repo
+alt nao existem passagens ou edifícios são inválidos
+    svc - -> ctrl
+    ctrl - -> route : Envia um código 404 (NOT FOUND)
+end
+svc - -> ctrl
+ctrl - -> route : Envia um código 200 (GET)
+deactivate route
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

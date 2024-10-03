@@ -1,0 +1,81 @@
+@startuml sd
+
+participant Route as route
+participant ElevadorController as ctrl
+participant ElevadorService as svc
+participant ElevadorRepo as repoEle
+participant EdificioRepo as repoEdi
+participant PisoRepo as repoPis
+participant ElevadorMapper as mapper
+participant ElevadorPersistence as pers
+participant Elevador as model
+
+activate route
+route -> ctrl : /createElevador
+activate ctrl
+ctrl -> svc : createElevador(IElevadorDTO)
+activate svc
+svc -> repoEle : findByNumeroIdentificativo(elevadorDTO.numeroIdentificativo)
+activate repoEle
+repoEle --> svc
+deactivate repoEle
+alt elevador existe
+    svc --> ctrl : Envia erro com a mensagem: Já existe um elevador com o código X
+    ctrl --> route : Envia status 403 (FORBIDDEN)
+end
+svc -> repoEdi : findByCodigo(elevadorDTO.edificio)
+activate repoEdi
+repoEdi --> svc
+deactivate repoEdi
+alt edificio não existe/é inválido
+    svc --> ctrl : Envia erro com a mensagem: Não existe nenhum edifício com o código X
+    ctrl --> route : Envia status 403 (FORBIDDEN)
+end
+svc -> repoPis : findByEdificio(elevadorDTO.edificio)
+activate repoPis
+repoPis --> svc
+deactivate repoPis
+alt edifício não tem pisos
+    svc --> ctrl : Envia erro com a mensagem: O edificio X não tem pisos.
+    ctrl --> route : Envia status 403 (FORBIDDEN)
+end
+loop todos os pisos de elevadorDTO.pisosServidos
+    svc -> svc : verifica se o piso pertence ao elevadorDTO.edificio.
+end
+alt um qualquer piso não pertence ao edificio
+    svc --> ctrl : Envia erro com a mensagem: O piso X não pertence ao edificio Y.
+    ctrl --> route : Envia status 403 (FORBIDDEN)
+end
+svc -> model : elevador = create(elevadorDTO)
+activate model
+model --> svc
+deactivate model
+svc -> repoEle : save(elevador)
+activate repoEle
+repoEle -> mapper : toPersistence(elevador)
+activate mapper
+mapper --> repoEle
+deactivate mapper
+repoEle -> pers : create(elevadorCreated)
+activate pers
+pers --> repoEle
+deactivate pers
+repoEle -> mapper : toDomain(elevadorCreated)
+activate mapper
+mapper --> repoEle
+deactivate mapper
+repoEle --> svc
+deactivate repoEle
+svc -> mapper : toDTO(elevador)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (OK)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

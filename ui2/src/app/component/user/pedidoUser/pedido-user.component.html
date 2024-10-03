@@ -1,0 +1,64 @@
+<div class="background-container"></div>
+<mat-toolbar>
+  <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+
+<body>
+  <div class="box">
+    <div class="search-container">
+      <mat-form-field appearance="fill">
+        <label>Procurar por palavra chave</label> <input matInput placeholder="key word" autocomplete="off"
+          (keyup)="filterData($event)">
+      </mat-form-field>
+    </div>
+
+    <br> <br>
+
+    <table mat-table matSort [dataSource]="dataSource">
+
+      <ng-container matColumnDef="Name">
+        <th mat-header-cell *matHeaderCellDef> Nome</th>
+        <td mat-cell *matCellDef="let pedido"> {{pedido.name}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Email">
+        <th mat-header-cell *matHeaderCellDef> Email</th>
+        <td mat-cell *matCellDef="let pedido"> {{pedido.email}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Numero de telemovel">
+        <th mat-header-cell *matHeaderCellDef> Numero telemovel</th>
+        <td mat-cell *matCellDef="let pedido"> {{pedido.phoneNumber}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="NIF">
+        <th mat-header-cell *matHeaderCellDef> NIF</th>
+        <td mat-cell *matCellDef="let pedido"> {{pedido.nif}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Estado">
+        <th mat-header-cell *matHeaderCellDef> Estado</th>
+        <td mat-cell *matCellDef="let pedido"> {{pedido.estado}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Data Pedido">
+        <th mat-header-cell *matHeaderCellDef> Data Pedido</th>
+        <td mat-cell *matCellDef="let pedido"> {{pedido.dataPedido}} </td>
+      </ng-container>
+
+      <ng-container matColumnDef="Resposta">
+        <th mat-header-cell *matHeaderCellDef> Resposta</th>
+        <td mat-cell *matCellDef="let pedido" class="button-container">
+          <button mat-button color="primary" (click)="aceitarPedido(pedido)">Aceitar</button>
+          <button mat-button color="warn" (click)="recusarPedido(pedido)">Recusar</button>
+        </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+
+    <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Page navigation"></mat-paginator>
+    <button (click)="goBack()">Retroceder</button>
+  </div>
+</body>

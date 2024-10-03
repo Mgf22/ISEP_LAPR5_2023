@@ -1,0 +1,115 @@
+@startuml sd
+
+
+participant Robo as route <<Route>>
+participant Robo as ctrl <<Controller>>
+participant Robo as svc <<Service>>
+participant Robo as repo <<Repository>>
+
+participant TipoRobo as erepo <<Repository>>
+participant Robo as mapper <<Mapper>>
+
+participant TipoRobo as emapper <<Mapper>>
+
+participant Robo as schema <<Schema>>
+
+participant TipoRobo as eschema <<Schema>>
+participant File as conf <<Configuration>>
+
+
+
+route -> ctrl++ : createRobo(req,res,next)
+route++
+ctrl++
+ctrl -> conf : injeta o serviço do robo
+conf++
+conf --> ctrl
+conf--
+ctrl -> svc : createRobo(roboDTO)
+svc++
+svc -> conf : injeta o repositório do robo
+conf++
+conf --> svc
+conf--
+svc -> conf : injeta o repositório do tipoRobo
+conf++
+conf --> svc
+conf--
+
+
+svc -> repo : findByCodigo(codigo)
+repo++
+repo -> conf : injeta o schema do robo
+conf++
+conf --> repo
+conf--
+repo -> schema : findOne(query)
+schema++
+schema --> repo
+schema--
+repo -> mapper : toDomain(roboRecord)
+mapper++
+mapper --> repo
+mapper--
+repo--> repo
+repo--
+
+
+
+svc -> erepo : findByDesignacao(tipoRoboDTO)
+erepo++
+erepo -> conf : injeta o schema do tipoRobo
+conf++
+conf --> erepo
+conf--
+erepo -> eschema : findOne(query)
+eschema++
+eschema --> erepo
+eschema--
+erepo -> emapper : toDomain(tipoRoboRecord)
+emapper++
+emapper --> erepo
+emapper--
+erepo --> svc
+erepo--
+
+svc -> model : create()
+model++
+model --> svc
+model--
+svc -> repo: save(robo)
+repo++
+repo -> schema : findOne(query)
+schema++
+schema--
+alt cria robo
+repo -> mapper : toPersistence(robo)
+mapper++
+mapper --> repo
+mapper--
+repo -> schema : create(rawRobo)
+schema++
+schema --> repo
+schema--
+repo -> mapper : toDomain(roboCreated)
+mapper++
+mapper --> repo
+mapper--
+else atualiza robo
+end
+
+repo --> svc
+repo--
+svc -> mapper : toDTO(roboResult)
+mapper++
+mapper --> svc
+mapper--
+svc --> ctrl
+svc--
+
+alt caso de sucesso
+    ctrl --> route : Envia um código 201 (POST)
+else caso de insucesso
+    ctrl --> route : Envia um código 403 (FORBIDEN)
+    ctrl--
+end

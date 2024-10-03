@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1082px" preserveAspectRatio="none" style="width:332px;height:1082px;background:#282828;" version="1.1" viewBox="0 0 332 1082" width="332px" zoomAndPan="magnify"><defs/><g><!--MD5=[25875ab330fb87d82ef86a1c93229588]
+cluster <<agr Elevador>>--><g id="cluster_&lt;&lt;agr Elevador&gt;&gt;"><path d="M13.5,12.1191 L247.5,12.1191 A3.75,3.75 0 0 1 250,14.6191 L257,44.8564 L322.5,44.8564 A2.5,2.5 0 0 1 325,47.3564 L325,1072.6191 A2.5,2.5 0 0 1 322.5,1075.1191 L13.5,1075.1191 A2.5,2.5 0 0 1 11,1072.6191 L11,14.6191 A2.5,2.5 0 0 1 13.5,12.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="11" x2="257" y1="44.8564" y2="44.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="233" x="15" y="36.2373">&lt;&lt;agr Elevador&gt;&gt;</text></g><!--MD5=[d5311c1a11b66ed0db701a6800e4e713]
+class Elevador--><g id="elem_Elevador"><rect codeLine="11" fill="#282828" height="56.1826" id="Elevador" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="66" x="27" y="530.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="34.5" y="547.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="40" y="561.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="60" x="30" y="578.3623">Elevador</text></g><!--MD5=[bcebd1b1937c35de5b62cff4c09c344d]
+class NumeroIdentificativo--><g id="elem_NumeroIdentificativo"><rect codeLine="12" fill="#282828" height="41.5986" id="NumeroIdentificativo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="150" x="156" y="1017.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="216" y="1034.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="144" x="159" y="1050.7783">NumeroIdentificativo</text></g><!--MD5=[a19f56b6cb95fcaca169ce84dd5d75d3]
+class PisosServidos--><g id="elem_PisosServidos"><rect codeLine="13" fill="#282828" height="41.5986" id="PisosServidos" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="103" x="179.5" y="825.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="216" y="842.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="97" x="182.5" y="858.7783">PisosServidos</text></g><!--MD5=[8912de0509df99622a9d217bf34f3a0b]
+class MarcaElevador--><g id="elem_MarcaElevador"><rect codeLine="14" fill="#282828" height="41.5986" id="MarcaElevador" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="106" x="178" y="633.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="216" y="650.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="100" x="181" y="666.7783">MarcaElevador</text></g><!--MD5=[392f6e6199b591182cf290d2dcb19906]
+class ModeloElevador--><g id="elem_ModeloElevador"><rect codeLine="15" fill="#282828" height="41.5986" id="ModeloElevador" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="115" x="173.5" y="441.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="216" y="458.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="109" x="176.5" y="474.7783">ModeloElevador</text></g><!--MD5=[bb0820a277b62b5bd8c3ceb2c802d804]
+class NumeroSerieElevador--><g id="elem_NumeroSerieElevador"><rect codeLine="16" fill="#282828" height="41.5986" id="NumeroSerieElevador" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="156" x="153" y="249.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="216" y="266.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="150" x="156" y="282.7783">NumeroSerieElevador</text></g><!--MD5=[93995008360a3ee1211e6ea8e06d1715]
+class DescricaoElevador--><g id="elem_DescricaoElevador"><rect codeLine="17" fill="#282828" height="41.5986" id="DescricaoElevador" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="133" x="164.5" y="57.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="216" y="74.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="127" x="167.5" y="90.7783">DescricaoElevador</text></g><!--MD5=[3004ec4248658a7c3dd77b8be98d74d4]
+link Elevador to NumeroIdentificativo--><g id="link_Elevador_NumeroIdentificativo"><path codeLine="19" d="M63.52,586.5391 C70.23,652.2291 92.37,818.3791 153,942.1191 C166.02,968.6991 187.5,994.6191 204.46,1012.8191 " fill="none" id="Elevador-to-NumeroIdentificativo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="208.23,1016.8091,204.9563,1007.5203,204.796,1013.1749,199.1415,1013.0146,208.23,1016.8091" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="192.0317" y="1006.2398">1</text></g><!--MD5=[6ad6ce65139068e530007144462984e2]
+link Elevador to PisosServidos--><g id="link_Elevador_PisosServidos"><path codeLine="20" d="M72.06,586.1891 C87.7,624.5491 118.27,694.8991 153,750.1191 C169.07,775.6791 190.86,802.2691 207.16,820.9691 " fill="none" id="Elevador-to-PisosServidos" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="210.76,825.0691,207.8261,815.6674,207.4604,821.3125,201.8154,820.9468,210.76,825.0691" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="193.8741" y="814.23">*</text></g><!--MD5=[7294daeecf0922d3d55e97597783dfd0]
+link Elevador to MarcaElevador--><g id="link_Elevador_MarcaElevador"><path codeLine="21" d="M93.19,576.3991 C120.18,591.7391 158.93,613.7491 188.3,630.4291 " fill="none" id="Elevador-to-MarcaElevador" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="192.93,633.0591,187.0751,625.1395,188.5809,630.5923,183.1281,632.0981,192.93,633.0591" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="171.5202" y="622.2168">1</text></g><!--MD5=[5e751eecea51186b3e3e4df9137a0e9f]
+link Elevador to ModeloElevador--><g id="link_Elevador_ModeloElevador"><path codeLine="22" d="M93.19,539.8391 C120.18,524.4991 158.93,502.4891 188.3,485.8091 " fill="none" id="Elevador-to-ModeloElevador" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="192.93,483.1791,183.1281,484.1402,188.5809,485.646,187.0751,491.0988,192.93,483.1791" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="174.1496" y="503.7213">1</text></g><!--MD5=[95fff449ccd8675f6d9b6256a548a079]
+link Elevador to NumeroSerieElevador--><g id="link_Elevador_NumeroSerieElevador"><path codeLine="23" d="M72.06,530.0491 C87.7,491.6891 118.27,421.3391 153,366.1191 C169.07,340.5591 190.86,313.9691 207.16,295.2691 " fill="none" id="Elevador-to-NumeroSerieElevador" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="210.76,291.1691,201.8154,295.2915,207.4604,294.9258,207.8261,300.5708,210.76,291.1691" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="196.5485" y="311.7087">1</text></g><!--MD5=[364a543110da32e08e82b38b2dda48e6]
+link Elevador to DescricaoElevador--><g id="link_Elevador_DescricaoElevador"><path codeLine="24" d="M63.52,529.6991 C70.23,464.0091 92.37,297.8591 153,174.1191 C166.02,147.5391 187.5,121.6191 204.46,103.4191 " fill="none" id="Elevador-to-DescricaoElevador" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="208.23,99.4291,199.1415,103.2237,204.796,103.0634,204.9563,108.718,208.23,99.4291" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="193.7048" y="119.6677">1</text></g><!--MD5=[51ffa7246fb9759545d4607813d37c05]
+@startuml ed
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Elevador>>"{
+    class Elevador<<entity>><<root>>{}
+    class NumeroIdentificativo<<vo>>{}
+    class PisosServidos<<vo>>{}
+    class MarcaElevador<<vo>>{}
+    class ModeloElevador<<vo>>{}
+    class NumeroSerieElevador<<vo>>{}
+    class DescricaoElevador<<vo>>{}
+
+    Elevador - -> "1" NumeroIdentificativo
+    Elevador - -> "*" PisosServidos
+    Elevador - -> "1" MarcaElevador
+    Elevador - -> "1" ModeloElevador
+    Elevador - -> "1" NumeroSerieElevador
+    Elevador - -> "1" DescricaoElevador
+}
+
+@enduml
+
+@startuml ed
+
+hide circle
+hide fields
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Elevador>>"{
+    class Elevador<<entity>><<root>>{}
+    class NumeroIdentificativo<<vo>>{}
+    class PisosServidos<<vo>>{}
+    class MarcaElevador<<vo>>{}
+    class ModeloElevador<<vo>>{}
+    class NumeroSerieElevador<<vo>>{}
+    class DescricaoElevador<<vo>>{}
+
+    Elevador - -> "1" NumeroIdentificativo
+    Elevador - -> "*" PisosServidos
+    Elevador - -> "1" MarcaElevador
+    Elevador - -> "1" ModeloElevador
+    Elevador - -> "1" NumeroSerieElevador
+    Elevador - -> "1" DescricaoElevador
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,25 @@
+@startuml vp2
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant UI as ui <<Container(C4)>>
+participant "Master Data Gestão Dispositivos" as mdgd <<Container(C4)>>
+participant "Master Data Gestão Tarefas" as mdgt <<Container(C4)>>
+
+activate ui
+ui -> mdgd: GET /listarRequisicoesNaoAprovadas()
+activate mdgd
+mdgd -> mdgt: GET /listarRequisicoesNaoAprovadas()
+activate mdgt
+alt sucesso
+mdgt --> mdgd: devolve status 201
+else erro na listagem
+mdgt --> mdgd: devolve status 404
+deactivate mdgt
+end
+mdgd --> ui : devolve estado
+deactivate mdgd
+deactivate ui
+
+end box
+
+@enduml

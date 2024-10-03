@@ -1,0 +1,40 @@
+@startuml DDD
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Piso>>"{
+    class Piso<<entity>><<root>>{}
+    class DesignacaoPiso<<vo>>{}
+    class DescricaoPiso<<vo>>{}
+
+    Sala --> "1" Piso
+
+    Piso --> "1" DesignacaoPiso
+    Piso --> "1" DescricaoPiso
+}
+
+package "<<agr Mapa>>"{
+    class Mapa<<entity>><<root>>{}
+    class MapaPiso<<vo>>{}
+    class MapaLargura<<vo>>{}
+    class MapaProfunidade<<vo>>{}
+    class MapaSaidas<<vo>>{}
+    class MapaElevador<<vo>>{}
+    class MapaSaidaLocalização<<vo>>{}
+
+    Piso "1" <-- Mapa
+    Mapa --> "1" MapaPiso
+    Mapa --> "1" MapaLargura
+    Mapa --> "1" MapaProfunidade
+    Mapa --> "1" MapaSaidas
+    Mapa --> "1" MapaElevador
+    Mapa --> "1" MapaSaidaLocalização
+}
+
+@enduml

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="227px" preserveAspectRatio="none" style="width:474px;height:227px;background:#FFFFFF;" version="1.1" viewBox="0 0 474 227" width="474px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="125.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="43.5" y="47.6094"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="221.5" y="114.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="319" y="69.9609"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="435.5" y="144.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="48" x2="48" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="226" x2="226" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="324" x2="324" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="440.5" x2="440.5" y1="37.6094" y2="190.6641"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="12" y="26.5332">Component</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="5" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="12" y="211.1973">Component</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="165" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="172" y="26.5332">TipoRoboService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="165" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="172" y="211.1973">TipoRoboService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="298" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="305" y="26.5332">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="298" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="305" y="211.1973">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="412.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="419.5" y="26.5332">MDGD</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="412.5" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="419.5" y="211.1973">MDGD</text><rect fill="#FFFFFF" height="125.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="43.5" y="47.6094"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="221.5" y="114.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="319" y="69.9609"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="435.5" y="144.6641"/><polygon fill="#181818" points="307,65.9609,317,69.9609,307,73.9609,311,69.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="53.5" x2="313" y1="69.9609" y2="69.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="60.5" y="65.1045">adapta dados introduzidos</text><polygon fill="#181818" points="64.5,79.9609,54.5,83.9609,64.5,87.9609,60.5,83.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="323" y1="83.9609" y2="83.9609"/><polygon fill="#181818" points="209.5,110.3125,219.5,114.3125,209.5,118.3125,213.5,114.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="53.5" x2="215.5" y1="114.3125" y2="114.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="60.5" y="109.4561">createTipoRobo(tipoRobo)</text><polygon fill="#181818" points="423.5,140.6641,433.5,144.6641,423.5,148.6641,427.5,144.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="231.5" x2="429.5" y1="144.6641" y2="144.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="238.5" y="139.8076">pedido HTTP POST de tipo robo</text><polygon fill="#181818" points="242.5,154.6641,232.5,158.6641,242.5,162.6641,238.5,158.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="236.5" x2="439.5" y1="158.6641" y2="158.6641"/><polygon fill="#181818" points="59.5,168.6641,49.5,172.6641,59.5,176.6641,55.5,172.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="53.5" x2="225.5" y1="172.6641" y2="172.6641"/><!--MD5=[4f521b06492a031361dab16d224446de]
+@startuml vp3
+
+participant Component as comp
+participant TipoRoboService as svc
+participant Model as model
+participant MDGD as mdgd
+
+activate comp
+comp -> model : adapta dados introduzidos 
+activate model
+model - -> comp
+deactivate model
+comp -> svc : createTipoRobo(tipoRobo)
+activate svc
+svc -> mdgd : pedido HTTP POST de tipo robo
+activate mdgd
+mdgd - -> svc
+deactivate mdgd
+svc - -> comp
+deactivate svc
+deactivate comp
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,31 @@
+@startuml sd
+
+participant Route as route
+participant EdificioController as ctrl
+participant EdificioService as svc
+participant EdificioRepo as repoEdi
+participant EdificioMapper as mapper
+
+
+activate route
+route -> ctrl : /listEdificios
+activate ctrl
+ctrl -> svc : listEdificios()
+activate svc
+svc -> repoEdi : findAll()
+activate repoEdi
+repoEdi --> svc
+deactivate repoEdi
+alt edificio não existe
+    svc --> ctrl : Envia erro com a mensagem: Não existe nenhum edificio criado
+    ctrl --> route : Envia status 404 (NOT FOUND)
+end
+loop
+svc -> mapper : edificios[] = toDTO(edificio)
+activate mapper
+mapper --> svc :
+deactivate mapper
+end
+svc --> ctrl :
+ctrl --> route : Envia status 201
+@enduml

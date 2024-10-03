@@ -1,0 +1,4 @@
+@startuml
+Actor Actor as ac
+ac -> (Como gestor de frota pretendo inibir um robot)
+@enduml

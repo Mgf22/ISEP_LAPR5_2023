@@ -1,0 +1,14 @@
+@startuml workflow
+
+[*] --> Pendente
+
+Pendente --> Aprovado
+Pendente --> Reprovado
+
+Reprovado --> [*]
+
+Aprovado --> Executado
+Executado --> [*]
+
+
+@enduml

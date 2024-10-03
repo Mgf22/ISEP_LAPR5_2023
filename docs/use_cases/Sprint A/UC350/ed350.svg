@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="712px" preserveAspectRatio="none" style="width:638px;height:712px;background:#282828;" version="1.1" viewBox="0 0 638 712" width="638px" zoomAndPan="magnify"><defs/><g><!--MD5=[6a928721a7517fb7a0612663c751881d]
+cluster <<agr TipoRobo>>--><g id="cluster_&lt;&lt;agr TipoRobo&gt;&gt;"><path d="M13.5,12.1191 L254.5,12.1191 A3.75,3.75 0 0 1 257,14.6191 L264,44.8564 L485.5,44.8564 A2.5,2.5 0 0 1 488,47.3564 L488,496.6191 A2.5,2.5 0 0 1 485.5,499.1191 L13.5,499.1191 A2.5,2.5 0 0 1 11,496.6191 L11,14.6191 A2.5,2.5 0 0 1 13.5,12.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="11" x2="264" y1="44.8564" y2="44.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="240" x="15" y="36.2373">&lt;&lt;agr TipoRobo&gt;&gt;</text></g><!--MD5=[500db54a0539edad58c8b8d2cb79355b]
+cluster <<agr Tarefa>>--><g id="cluster_&lt;&lt;agr Tarefa&gt;&gt;"><path d="M355.5,588.1191 L561.5,588.1191 A3.75,3.75 0 0 1 564,590.6191 L571,620.8564 L628.5,620.8564 A2.5,2.5 0 0 1 631,623.3564 L631,702.6191 A2.5,2.5 0 0 1 628.5,705.1191 L355.5,705.1191 A2.5,2.5 0 0 1 353,702.6191 L353,590.6191 A2.5,2.5 0 0 1 355.5,588.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="353" x2="571" y1="620.8564" y2="620.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="205" x="357" y="612.2373">&lt;&lt;agr Tarefa&gt;&gt;</text></g><!--MD5=[e5dbf382625234bdd4cf5fa710365a94]
+class TipoRobo--><g id="elem_TipoRobo"><rect codeLine="11" fill="#282828" height="56.1826" id="TipoRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="73" x="131" y="335.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="147.5" y="352.1836">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="142" y="366.7676">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="67" x="134" y="383.3623">TipoRobo</text></g><!--MD5=[28b951c8b6441befebe0f7af1bda6a61]
+class MarcaTipoRobo--><g id="elem_MarcaTipoRobo"><rect codeLine="12" fill="#282828" height="41.5986" id="MarcaTipoRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="113" x="339" y="441.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="380.5" y="458.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="342" y="474.7783">MarcaTipoRobo</text></g><!--MD5=[15fc5748ebc23bd0068f508521f5ec53]
+class ModeloTipoRobo--><g id="elem_ModeloTipoRobo"><rect codeLine="13" fill="#282828" height="41.5986" id="ModeloTipoRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="122" x="334.5" y="249.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="380.5" y="266.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="116" x="337.5" y="282.7783">ModeloTipoRobo</text></g><!--MD5=[edefe68042764018807105d9e23a4aee]
+class DesignacaoTipoRobo--><g id="elem_DesignacaoTipoRobo"><rect codeLine="14" fill="#282828" height="41.5986" id="DesignacaoTipoRobo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="153" x="319" y="57.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="380.5" y="74.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="147" x="322" y="90.7783">DesignacaoTipoRobo</text></g><!--MD5=[a2bb4e035a2e2c8794287ec8733871da]
+class Robo--><g id="elem_Robo"><rect fill="#282828" height="27.0146" id="Robo" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="43" x="27" y="349.6191"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="37" x="30" y="368.6943">Robo</text></g><!--MD5=[27c2d4bbe9f7b9d3b0ea2797cc54308a]
+class Tarefa--><g id="elem_Tarefa"><rect codeLine="24" fill="#282828" height="56.1826" id="Tarefa" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="53" x="369" y="633.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="375.5" y="650.1836">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="370" y="664.7676">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="44" x="373.5" y="681.3623">Tarefa</text></g><!--MD5=[de378d6f336b11597b13f8cc3bee138d]
+class TipoTarefa--><g id="elem_TipoTarefa"><rect codeLine="25" fill="#282828" height="41.5986" id="TipoTarefa" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="80" x="535" y="640.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="549.5" y="657.1836">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="74" x="538" y="673.7783">TipoTarefa</text></g><!--MD5=[9171f177658a60d0bdd95d7394ec9f19]
+link TipoRobo to DesignacaoTipoRobo--><g id="link_TipoRobo_DesignacaoTipoRobo"><path codeLine="16" d="M190.79,335.0091 C234.85,279.4491 332.48,156.3291 374.56,103.2591 " fill="none" id="TipoRobo-to-DesignacaoTipoRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="377.73,99.2591,368.9964,103.8116,374.617,103.1718,375.2567,108.7924,377.73,99.2591" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="364.1514" y="119.8218">1</text></g><!--MD5=[b1efb803c543c2bbaa31af2e1a2222a9]
+link TipoRobo to MarcaTipoRobo--><g id="link_TipoRobo_MarcaTipoRobo"><path codeLine="17" d="M204.06,378.6991 C241.05,394.8991 299.36,420.4391 341.72,438.9991 " fill="none" id="TipoRobo-to-MarcaTipoRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="346.54,441.1091,339.8895,433.8447,341.9569,439.1103,336.6914,441.1777,346.54,441.1091" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="322.983" y="430.9805">1</text></g><!--MD5=[0f5bfa1f5434b46af0af10dfb5ce3add]
+link TipoRobo to ModeloTipoRobo--><g id="link_TipoRobo_ModeloTipoRobo"><path codeLine="18" d="M204.06,348.4891 C240.09,333.6591 296.35,310.5091 338.4,293.2091 " fill="none" id="TipoRobo-to-ModeloTipoRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="343.19,291.2291,333.3449,290.9572,338.5666,293.1329,336.3909,298.3546,343.19,291.2291" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="320.7606" y="311.7841">1</text></g><!--MD5=[4d67ec747b13566bc57d176a828449c3]
+link Robo to TipoRobo--><g id="link_Robo_TipoRobo"><path codeLine="19" d="M70.15,363.1191 C85.5,363.1191 106.94,363.1191 125.71,363.1191 " fill="none" id="Robo-to-TipoRobo" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="130.92,363.1191,121.92,359.1191,125.92,363.1191,121.92,367.1191,130.92,363.1191" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="114.9308" y="377.7262">1</text></g><!--MD5=[2ebfa6d83c02f44a8cbc0cfd32e57300]
+link TipoRobo to Tarefa--><g id="link_TipoRobo_Tarefa"><path codeLine="27" d="M184.36,391.5691 C196.98,413.5691 215.55,444.4891 234,470.1191 C276.37,528.9591 331.96,592.5191 365.36,629.4691 " fill="none" id="TipoRobo-to-Tarefa" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="368.92,633.3991,365.8347,624.046,365.5602,629.6962,359.91,629.4217,368.92,633.3991" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="53" x="235" y="467.189">executa</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="351.9558" y="641.3666">*</text></g><!--MD5=[73b9fa66412d09fcca382da0b1e8af42]
+link Tarefa to TipoTarefa--><g id="link_Tarefa_TipoTarefa"><path codeLine="28" d="M422.31,661.1191 C450.33,661.1191 495.59,661.1191 529.39,661.1191 " fill="none" id="Tarefa-to-TipoTarefa" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="534.72,661.1191,525.72,657.1191,529.72,661.1191,525.72,665.1191,534.72,661.1191" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="519.1094" y="675.5812">1</text></g><!--MD5=[d5607ed3774ad877ff86e2faab18d956]
+@startuml DDD
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr TipoRobo>>"{
+    class TipoRobo<<root>><<entity>>{}
+    class MarcaTipoRobo<<vo>>{}
+    class ModeloTipoRobo<<vo>>{}
+    class DesignacaoTipoRobo<<vo>>{}
+
+    TipoRobo - -> "1" DesignacaoTipoRobo
+    TipoRobo - -> "1" MarcaTipoRobo
+    TipoRobo - -> "1" ModeloTipoRobo
+    Robo - -> "1" TipoRobo
+}
+
+' Tarefas: Vigilância e transporte de objetos
+package "<<agr Tarefa>>"{
+    class Tarefa<<root>><<entity>>{}
+    class TipoTarefa<<enum>>{}
+
+    TipoRobo - -> "*" Tarefa : "executa"
+    Tarefa - -> "1" TipoTarefa
+}
+
+
+
+
+
+
+@enduml
+
+@startuml DDD
+
+hide circle
+hide fields
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr TipoRobo>>"{
+    class TipoRobo<<root>><<entity>>{}
+    class MarcaTipoRobo<<vo>>{}
+    class ModeloTipoRobo<<vo>>{}
+    class DesignacaoTipoRobo<<vo>>{}
+
+    TipoRobo - -> "1" DesignacaoTipoRobo
+    TipoRobo - -> "1" MarcaTipoRobo
+    TipoRobo - -> "1" ModeloTipoRobo
+    Robo - -> "1" TipoRobo
+}
+
+package "<<agr Tarefa>>"{
+    class Tarefa<<root>><<entity>>{}
+    class TipoTarefa<<enum>>{}
+
+    TipoRobo - -> "*" Tarefa : "executa"
+    Tarefa - -> "1" TipoTarefa
+}
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

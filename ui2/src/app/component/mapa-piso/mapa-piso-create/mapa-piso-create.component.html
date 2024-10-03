@@ -1,0 +1,20 @@
+<div class="background-container"></div>
+<mat-toolbar>
+  <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+
+<body>
+  <div class="box">
+    <mat-form-field>
+      <mat-label>Piso</mat-label>
+      <mat-select [(ngModel)]="mapaPiso.piso">
+        <mat-option *ngFor="let piso of pisos" [value]="piso">{{piso}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <input #fileInput type="file" (change)="onFileSelected($event)" accept=".json">
+    <div>
+      <button (click)="createMapaPiso()">Add</button>
+      <button (click)="goBack()">Back</button>
+    </div>
+  </div>
+</body>

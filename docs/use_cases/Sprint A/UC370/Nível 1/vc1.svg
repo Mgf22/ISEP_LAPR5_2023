@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="88px" preserveAspectRatio="none" style="width:400px;height:88px;background:#FFFFFF;" version="1.1" viewBox="0 0 400 88" width="400px" zoomAndPan="magnify"><defs/><g><!--MD5=[1c5ba14a582780a0070707c3598231a5]
+entity ac--><g id="elem_ac"><ellipse cx="22.5" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M22.5,22 L22.5,49 M9.5,30 L35.5,30 M22.5,49 L9.5,64 M22.5,49 L35.5,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="6" y="80.0332">Actor</text></g><g id="elem_Como gestor de frota pretendo inibir um robot"><ellipse cx="234.3066" cy="44.3613" fill="#F1F1F1" rx="159.8066" ry="34.3613" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="289" x="89.8066" y="48.0898">Como gestor de frota pretendo inibir um robot</text></g><!--MD5=[1f6d431d487e4ce561058c3747a6dfe3]
+link ac to Como gestor de frota pretendo inibir um robot--><g id="link_ac_Como gestor de frota pretendo inibir um robot"><path d="M39.06,44.5 C49.03,44.5 59,44.5 68.97,44.5 " fill="none" id="ac-to-Como gestor de frota pretendo inibir um robot" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="74.18,44.5,65.18,40.5,69.18,44.5,65.18,48.5,74.18,44.5" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[8281c58d89147a5fec5de4cd44abde59]
+@startuml
+Actor Actor as ac
+ac -> (Como gestor de frota pretendo inibir um robot)
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

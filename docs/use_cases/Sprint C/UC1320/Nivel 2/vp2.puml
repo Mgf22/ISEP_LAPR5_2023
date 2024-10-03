@@ -1,0 +1,20 @@
+@startuml getPackagingSD
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant Visualizacao as mdgd <<Container(C4)>>
+participant AuthorizationAuthentication as mdl <<Container(C4)>>
+mdgd -> mdl: authorize(role)
+alt não existe erros durante a operação
+mdl --> mdgd: 200 role autorizada
+else existe erros durante a operação
+mdgd --> mdgd: 403 role não autorizada
+end 
+
+end box
+
+@enduml

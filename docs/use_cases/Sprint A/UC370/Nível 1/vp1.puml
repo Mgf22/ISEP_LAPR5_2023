@@ -1,0 +1,6 @@
+@startuml vp1
+actor Actor as actor
+participant SistemaRobDroneGo as srdg
+actor -> srdg: Envia pedido de inibiçao de robô
+srdg --> actor: Sucesso ou insucesso da operação
+@enduml

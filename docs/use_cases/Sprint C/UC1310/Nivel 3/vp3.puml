@@ -1,0 +1,26 @@
+@startuml sd
+participant AuthorizationAuthentication as view
+participant Controller as ctrl
+participant Service as svc
+participant Repository as repoRole <<Role>>
+participant Repository as repo <<User>>
+participant User as model
+
+activate view
+view -> ctrl : criarUser()
+activate ctrl
+activate svc
+ctrl -> svc : CreateUser(CreatingUserDto dto)
+activate repoRole
+svc -> repoRole: GetById(new RoleId(dto.RoleId))
+repoRole -> svc: returns the role
+deactivate repoRole
+activate model
+svc -> model: user = new User(GenerateId(), Name, Email, PhoneNumber, NIF,Password, RoleId)
+deactivate model
+activate repo
+svc -> repo: AddAsync(user)
+repo -> svc: informs the success
+svc -> ctrl: informs the success
+ctrl -> view: informs the success
+@enduml

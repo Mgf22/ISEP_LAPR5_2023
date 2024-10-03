@@ -1,0 +1,17 @@
+@startuml me
+
+[*] -> S0
+S0 --> S1 : um minuto
+S1 --> S2 : alterações?
+S2 --> S0 : não
+S2 -> S3 : sim
+S3 -> S4 : testa atualizações
+S4 --> S0 : não passa
+S4 -> S5 : passa
+S5 -> S6 : compila código?
+S6 --> S0 : não
+S6 -> S7 : sim
+S7 -> S8 : deployment para produção
+S8 --> S0
+
+@enduml

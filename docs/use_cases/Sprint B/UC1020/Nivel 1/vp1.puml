@@ -1,0 +1,12 @@
+@startuml
+actor GestorFrota as actor
+participant SistemaRobDroneGo as srdg
+actor -> srdg: Inibir robo
+srdg --> actor : Requesita dados
+actor -> srdg: Envia dados do robo
+alt sucesso
+srdg --> actor : Mensagem de Sucesso
+else insucesso
+srdg -->actor : Mensagem de Erro
+end
+@enduml

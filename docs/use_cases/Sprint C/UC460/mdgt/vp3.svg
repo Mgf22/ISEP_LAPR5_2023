@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="465px" preserveAspectRatio="none" style="width:1089px;height:465px;background:#FFFFFF;" version="1.1" viewBox="0 0 1089 465" width="1089px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="363.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="47.6094"/><rect fill="#FFFFFF" height="340.8125" style="stroke:#181818;stroke-width:1.0;" width="10" x="331" y="69.9609"/><rect fill="#FFFFFF" height="280.1094" style="stroke:#181818;stroke-width:1.0;" width="10" x="451.5" y="100.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="572.5" y="263.7188"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="685.5" y="130.6641"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="685.5" y="308.0703"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="792.5" y="352.4219"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="901.5" y="175.0156"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1018.5" y="219.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="31" x2="31" y1="37.6094" y2="428.7734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="336" x2="336" y1="37.6094" y2="428.7734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="456" x2="456" y1="37.6094" y2="428.7734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="577.5" x2="577.5" y1="37.6094" y2="428.7734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="690.5" x2="690.5" y1="37.6094" y2="428.7734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="797.5" x2="797.5" y1="37.6094" y2="428.7734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="906.5" x2="906.5" y1="37.6094" y2="428.7734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="1023.5" x2="1023.5" y1="37.6094" y2="428.7734"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="12" y="26.5332">Route</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="5" y="427.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="12" y="449.3066">Route</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="277" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="284" y="26.5332">TarefaController</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="118" x="277" y="427.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="104" x="284" y="449.3066">TarefaController</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="405" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="412" y="26.5332">TarefaService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="103" x="405" y="427.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="412" y="449.3066">TarefaService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="519.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="526.5" y="26.5332">AprovacaoRepo</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="116" x="519.5" y="427.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="526.5" y="449.3066">AprovacaoRepo</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="645.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="652.5" y="26.5332">TarefaRepo</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="645.5" y="427.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="652.5" y="449.3066">TarefaRepo</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="745.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="752.5" y="26.5332">TarefaMapper</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="745.5" y="427.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="752.5" y="449.3066">TarefaMapper</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="859.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="866.5" y="26.5332">TarefaModel</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="859.5" y="427.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="866.5" y="449.3066">TarefaModel</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="963.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="970.5" y="26.5332">AprovacaoModel</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="120" x="963.5" y="427.7734"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="970.5" y="449.3066">AprovacaoModel</text><rect fill="#FFFFFF" height="363.1641" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="47.6094"/><rect fill="#FFFFFF" height="340.8125" style="stroke:#181818;stroke-width:1.0;" width="10" x="331" y="69.9609"/><rect fill="#FFFFFF" height="280.1094" style="stroke:#181818;stroke-width:1.0;" width="10" x="451.5" y="100.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="572.5" y="263.7188"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="685.5" y="130.6641"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="685.5" y="308.0703"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="792.5" y="352.4219"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="901.5" y="175.0156"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="1018.5" y="219.3672"/><polygon fill="#181818" points="319,65.9609,329,69.9609,319,73.9609,323,69.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="36" x2="325" y1="69.9609" y2="69.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="57" x="43" y="65.1045">/requisitar</text><polygon fill="#181818" points="439.5,96.3125,449.5,100.3125,439.5,104.3125,443.5,100.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="341" x2="445.5" y1="100.3125" y2="100.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="348" y="95.4561">requisitar()</text><polygon fill="#181818" points="673.5,126.6641,683.5,130.6641,673.5,134.6641,677.5,130.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.5" x2="679.5" y1="130.6641" y2="130.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="468.5" y="125.8076">findByDesignacao(tarefa)</text><polygon fill="#181818" points="472.5,140.6641,462.5,144.6641,472.5,148.6641,468.5,144.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="466.5" x2="689.5" y1="144.6641" y2="144.6641"/><polygon fill="#181818" points="889.5,171.0156,899.5,175.0156,889.5,179.0156,893.5,175.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.5" x2="895.5" y1="175.0156" y2="175.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="468.5" y="170.1592">Tarefa.create()</text><polygon fill="#181818" points="472.5,185.0156,462.5,189.0156,472.5,193.0156,468.5,189.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="466.5" x2="905.5" y1="189.0156" y2="189.0156"/><polygon fill="#181818" points="1006.5,215.3672,1016.5,219.3672,1006.5,223.3672,1010.5,219.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.5" x2="1012.5" y1="219.3672" y2="219.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="468.5" y="214.5107">Aprovacao.create()</text><polygon fill="#181818" points="472.5,229.3672,462.5,233.3672,472.5,237.3672,468.5,233.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="466.5" x2="1022.5" y1="233.3672" y2="233.3672"/><polygon fill="#181818" points="560.5,259.7188,570.5,263.7188,560.5,267.7188,564.5,263.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.5" x2="566.5" y1="263.7188" y2="263.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="468.5" y="258.8623">save(aprovacao)</text><polygon fill="#181818" points="472.5,273.7188,462.5,277.7188,472.5,281.7188,468.5,277.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="466.5" x2="576.5" y1="277.7188" y2="277.7188"/><polygon fill="#181818" points="673.5,304.0703,683.5,308.0703,673.5,312.0703,677.5,308.0703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.5" x2="679.5" y1="308.0703" y2="308.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="468.5" y="303.2139">save(tarefa)</text><polygon fill="#181818" points="472.5,318.0703,462.5,322.0703,472.5,326.0703,468.5,322.0703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="466.5" x2="689.5" y1="322.0703" y2="322.0703"/><polygon fill="#181818" points="780.5,348.4219,790.5,352.4219,780.5,356.4219,784.5,352.4219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="461.5" x2="786.5" y1="352.4219" y2="352.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="468.5" y="347.5654">toDTO(tarefa)</text><polygon fill="#181818" points="472.5,362.4219,462.5,366.4219,472.5,370.4219,468.5,366.4219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="466.5" x2="796.5" y1="366.4219" y2="366.4219"/><polygon fill="#181818" points="352,376.4219,342,380.4219,352,384.4219,348,380.4219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="346" x2="455.5" y1="380.4219" y2="380.4219"/><polygon fill="#181818" points="42,406.7734,32,410.7734,42,414.7734,38,410.7734" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="335" y1="410.7734" y2="410.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="271" x="48" y="405.917">Envia um código 201 (OK) / 403 (FORBIDDEN)</text><!--MD5=[6d678b4ccb44f6108b2a79a7f3f4ef79]
+@startuml vp3
+
+participant Route as route
+participant TarefaController as ctrl
+participant TarefaService as svc
+participant AprovacaoRepo as repoApr
+participant TarefaRepo as repoTar
+participant TarefaMapper as mapper
+participant TarefaModel as model
+participant AprovacaoModel as model2
+
+'participant "A&A" as auth
+'route -> auth : autentica("Utente")
+'activate auth
+'auth - -> route
+'deactivate auth
+
+activate route
+route -> ctrl : /requisitar
+activate ctrl
+ctrl -> svc : requisitar()
+activate svc
+svc -> repoTar : findByDesignacao(tarefa)
+activate repoTar
+repoTar - -> svc
+deactivate repoTar
+svc -> model : Tarefa.create()
+activate model
+model - -> svc
+deactivate model
+svc -> model2 : Aprovacao.create()
+activate model2
+model2 - -> svc
+deactivate model2
+svc -> repoApr : save(aprovacao)
+activate repoApr
+repoApr - -> svc
+deactivate repoApr
+svc -> repoTar : save(tarefa)
+activate repoTar
+repoTar - -> svc
+deactivate repoTar
+svc -> mapper : toDTO(tarefa)
+activate mapper
+mapper - -> svc
+deactivate mapper
+svc - -> ctrl
+deactivate svc
+ctrl - -> route : Envia um código 201 (OK) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml
+
+@startuml vp3
+
+participant Route as route
+participant TarefaController as ctrl
+participant TarefaService as svc
+participant AprovacaoRepo as repoApr
+participant TarefaRepo as repoTar
+participant TarefaMapper as mapper
+participant TarefaModel as model
+participant AprovacaoModel as model2
+
+
+activate route
+route -> ctrl : /requisitar
+activate ctrl
+ctrl -> svc : requisitar()
+activate svc
+svc -> repoTar : findByDesignacao(tarefa)
+activate repoTar
+repoTar - -> svc
+deactivate repoTar
+svc -> model : Tarefa.create()
+activate model
+model - -> svc
+deactivate model
+svc -> model2 : Aprovacao.create()
+activate model2
+model2 - -> svc
+deactivate model2
+svc -> repoApr : save(aprovacao)
+activate repoApr
+repoApr - -> svc
+deactivate repoApr
+svc -> repoTar : save(tarefa)
+activate repoTar
+repoTar - -> svc
+deactivate repoTar
+svc -> mapper : toDTO(tarefa)
+activate mapper
+mapper - -> svc
+deactivate mapper
+svc - -> ctrl
+deactivate svc
+ctrl - -> route : Envia um código 201 (OK) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

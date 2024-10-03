@@ -1,0 +1,40 @@
+<div class="background-container"></div>
+<mat-toolbar>
+    <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+<div>
+    <div>
+      <table>
+        <tr>
+          <th><label>Nickname: </label></th>
+          <th><input [(ngModel)]="robo.nickname" /></th>
+        </tr>
+        <tr>
+          <th><label>Estado: </label></th>
+          <th><input type="string" [(ngModel)]="robo.estado" /></th>
+        </tr>
+        <tr>
+          <th><label>Codigo: </label>
+          <th><input type="string" [(ngModel)]="robo.codigo" />
+        </tr>
+      <tr>
+        <th><label>Marca: </label>
+          <th><input type="string" [(ngModel)]="robo.marca" />
+      </tr>
+      <tr>
+        <th><label>NumeroSerie: </label>
+          <th><input type="string" [(ngModel)]="robo.numeroSerie" />
+      </tr>
+      <tr>
+        <th><label>TipoRobo: </label>
+          <th><input type="string" [(ngModel)]="robo.tipoRobo" />
+      </tr>
+      </table>
+    </div>
+    <div>
+      <button class="buttonBack" (click)="goBack()">Back</button>
+      <button (click)="updateRobo()">Add</button>
+    </div>
+
+
+</div>

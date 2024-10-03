@@ -1,0 +1,176 @@
+@startuml DDD
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+
+package "<<agr Elevador>>"{
+    class Elevador<<entity>><<root>>{}
+    class NumeroIdentificativo<<vo>>{}
+    class PisosServidos<<vo>>{}
+    class MarcaElevador<<vo>>{}
+    class ModeloElevador<<vo>>{}
+    class NumeroSerieElevador<<vo>>{}
+    class DescricaoElevador<<vo>>{}
+
+    Elevador --> "1" NumeroIdentificativo
+    Elevador --> "*" PisosServidos
+    Elevador --> "1" MarcaElevador
+    Elevador --> "1" ModeloElevador
+    Elevador --> "1" NumeroSerieElevador
+    Elevador --> "1" DescricaoElevador
+}
+
+' Refere-se a Sala/Gabinete
+package "<<agr Sala>>"{
+    class Sala<<entity>><<root>>{}
+    class DesignacaoSala<<vo>>{}
+    class CategoriaSala<<enum>>{} 
+    class DescricaoSala<<vo>>{}
+
+    Sala --> "1" DesignacaoSala
+    Sala --> "1" CategoriaSala
+    Sala --> "1" DescricaoSala
+}
+
+package "<<agr Piso>>"{
+    class Piso<<entity>><<root>>{}
+    class DesignacaoPiso<<vo>>{}
+    class DescricaoPiso<<vo>>{}
+
+    Sala --> "1" Piso
+
+    Piso --> "1" DesignacaoPiso
+    Piso --> "1" DescricaoPiso
+}
+
+'o código do edificio é obrigatório, no máximo 5 caracteres, letras e digitos, podendo conter espaços no meio
+'o nome do edificio é opcional, no máximo 50 caracteres alfanuméricos
+package "<<agr Edificio>>"{
+    class Edificio<<entity>><<root>>{}
+    class CodigoEdificio<<vo>>{}
+    class NomeOpcionalEdificio<<vo>>{}
+    class DescricaoEdificio<<vo>>{}
+    class DimensaoMaximaPiso<<vo>>{}
+    note right{
+        dimensão máxima de cada piso em termos de células (ex., 10 x 10)
+    }
+
+    Elevador --> "1" Edificio
+    Piso --> "1" Edificio : "está contido"
+
+    Edificio --> "1" CodigoEdificio
+    Edificio --> "1" NomeOpcionalEdificio
+    Edificio --> "1" DescricaoEdificio
+    Edificio --> "1" DimensaoMaximaPiso
+}
+
+package "<<agr Mapa>>"{
+    class Mapa<<entity>><<root>>{}
+    class MapaPiso<<vo>>{}
+    class MapaLargura<<vo>>{}
+    class MapaProfunidade<<vo>>{}
+    class MapaSaidas<<vo>>{}
+    class MapaElevador<<vo>>{}
+    class MapaSaidaLocalização<<vo>>{}
+
+    Piso "1" <-- Mapa
+    Mapa --> "1" MapaPiso
+    Mapa --> "1" MapaLargura
+    Mapa --> "1" MapaProfunidade
+    Mapa --> "1" MapaSaidas
+    Mapa --> "1" MapaElevador
+    Mapa --> "1" MapaSaidaLocalização
+}
+
+
+package "<<agr Passagem>>"{
+    class Passagem<<entity>><<root>>{}
+    class PassagemDesignacao<<vo>>{}
+
+    Passagem --> "1" PassagemDesignacao
+    Passagem --> "1" Piso
+    Passagem <-- "1" Piso 
+    Passagem --> "1" Edificio
+    Passagem <-- "1" Edificio
+}
+
+package "<<agr Utilizador>>"{
+    class Utilizador<<entity>><<root>>{}
+    class Nome<<vo>>{}
+    class NomeUtilizador<<vo>>{}
+    class PasswordUtilizador<<vo>>{}
+
+    Utilizador --> "1" Nome
+    Utilizador --> "1" NomeUtilizador
+    Utilizador --> "1" PasswordUtilizador
+}
+
+package "<<agr GestorFrota>>"{
+    class GestorFrota <<entity>><<root>> {}
+    GestorFrota --|> Utilizador
+}
+
+package "<<agr Administrador>>"{
+    class Administrador <<entity>><<root>>{}
+    Administrador --|> Utilizador
+}
+
+package "<<agr GestorCampus>>"{
+    class GestorCampus <<entity>><<root>>{}
+    GestorCampus --|> Utilizador
+}
+
+package "<<agr Utente>>"{
+    class Utente <<entity>><<root>>{}
+    Utente --|> Utilizador
+}
+
+package "<<agr Robo>>"{
+    class Robo<<root>><<entity>>{}
+    class NicknameRobo<<vo>>{}
+    class NumeroSerieRobo<<vo>>{}
+    class CodigoRobo<<vo>>{}
+    class MarcaRobo<<vo>>{}
+    'Inibido ou nao
+    class EstadoRobo<<enum>>{} 
+
+    Robo --> "1" NicknameRobo
+    Robo --> "1" CodigoRobo
+    Robo --> "1" NumeroSerieRobo
+    Robo --> "1" MarcaRobo
+    Robo --> "1" EstadoRobo
+}
+
+package "<<agr TipoRobo>>"{
+    class TipoRobo<<root>><<entity>>{}
+    class MarcaTipoRobo<<vo>>{}
+    class ModeloTipoRobo<<vo>>{}
+    class DesignacaoTipoRobo<<vo>>{}
+
+    TipoRobo --> "1" DesignacaoTipoRobo
+    TipoRobo --> "1" MarcaTipoRobo
+    TipoRobo --> "1" ModeloTipoRobo
+    Robo --> "1" TipoRobo
+}
+
+' Tarefas: Vigilância e transporte de objetos
+package "<<agr Tarefa>>"{
+    class Tarefa<<root>><<entity>>{}
+    class TipoTarefa<<enum>>{}
+
+    TipoRobo --> "*" Tarefa : "executa"
+    Tarefa --> "1" TipoTarefa
+}
+
+
+
+
+
+
+@enduml

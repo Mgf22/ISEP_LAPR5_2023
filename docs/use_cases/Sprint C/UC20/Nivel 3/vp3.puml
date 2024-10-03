@@ -1,0 +1,31 @@
+@startuml sd
+participant View as view
+participant Controller as ctrl
+participant Service as svc
+participant User as model
+participant AuthorizationAuthentication as be
+
+activate view
+view -> ctrl : createUtente()
+activate ctrl
+ctrl -> model : createUtente(dados utilizador)
+activate model
+model --> ctrl : utente
+deactivate model
+ctrl -> svc: save(utente)
+activate svc
+svc -> be: POST utente {json}
+activate be
+be --> svc : Resposta HTTP
+deactivate be
+deactivate svc
+alt sucesso 
+svc --> ctrl : HTTP 201
+ctrl --> view : Envia Mensagem
+else insucesso
+svc --> ctrl : HTTP 4xx / HTTP500
+ctrl --> view : Envia Mensagem
+end
+deactivate view
+deactivate ctrl
+@enduml

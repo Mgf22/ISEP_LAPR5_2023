@@ -1,0 +1,30 @@
+@startuml vp3
+participant View as view
+participant Controller as ctrl
+participant Service as svc
+participant Sala as model
+participant MDGD as be
+
+activate view
+view -> ctrl : criarSala(descricao,categoria,designacao,piso)
+activate ctrl
+ctrl -> model : criarSala(descricao,categoria,designacao,piso)
+activate model
+model --> ctrl : sala
+deactivate model
+ctrl -> svc: save(sala)
+activate svc
+svc -> be: POST sala {json}
+activate be
+be --> svc : Resposta HTTP
+deactivate be
+alt sucesso 
+svc --> ctrl : HTTP 200
+ctrl --> view : Envia Mensagem
+else insucesso
+svc --> ctrl : HTTP 4xx / HTTP500
+ctrl --> view : Envia Mensagem
+end
+deactivate view
+deactivate ctrl
+@enduml

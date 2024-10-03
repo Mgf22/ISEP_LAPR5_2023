@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="259px" preserveAspectRatio="none" style="width:969px;height:259px;background:#FFFFFF;" version="1.1" viewBox="0 0 969 259" width="969px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="157.7578" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="47.6094"/><rect fill="#FFFFFF" height="135.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="332" y="69.9609"/><rect fill="#FFFFFF" height="74.7031" style="stroke:#181818;stroke-width:1.0;" width="10" x="530" y="100.3125"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="861" y="130.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="31" x2="31" y1="37.6094" y2="223.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="337" x2="337" y1="37.6094" y2="223.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="534.5" x2="534.5" y1="37.6094" y2="223.3672"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="866" x2="866" y1="37.6094" y2="223.3672"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="12" y="26.5332">Route</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="5" y="222.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="12" y="243.9004">Route</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="144" x="265" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="272" y="26.5332">AprovacaoController</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="144" x="265" y="222.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="272" y="243.9004">AprovacaoController</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="129" x="470.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="477.5" y="26.5332">AprovacaoService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="129" x="470.5" y="222.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115" x="477.5" y="243.9004">AprovacaoService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="194" x="769" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="776" y="26.5332">Master Data Gestão Tarefas</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="194" x="769" y="222.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="776" y="243.9004">Master Data Gestão Tarefas</text><rect fill="#FFFFFF" height="157.7578" style="stroke:#181818;stroke-width:1.0;" width="10" x="26" y="47.6094"/><rect fill="#FFFFFF" height="135.4063" style="stroke:#181818;stroke-width:1.0;" width="10" x="332" y="69.9609"/><rect fill="#FFFFFF" height="74.7031" style="stroke:#181818;stroke-width:1.0;" width="10" x="530" y="100.3125"/><rect fill="#FFFFFF" height="30.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="861" y="130.6641"/><polygon fill="#181818" points="320,65.9609,330,69.9609,320,73.9609,324,69.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="36" x2="326" y1="69.9609" y2="69.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="43" y="65.1045">/sequenciaTarefasAprovadas</text><polygon fill="#181818" points="518,96.3125,528,100.3125,518,104.3125,522,100.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="342" x2="524" y1="100.3125" y2="100.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="349" y="95.4561">sequenciaTarefasAprovadas()</text><polygon fill="#181818" points="849,126.6641,859,130.6641,849,134.6641,853,130.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="540" x2="855" y1="130.6641" y2="130.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="302" x="547" y="125.8076">PATCH /api/aprovacoes/sequenciaTarefasAprovadas</text><polygon fill="#181818" points="551,157.0156,541,161.0156,551,165.0156,547,161.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="545" x2="865" y1="161.0156" y2="161.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="557" y="156.1592">JSON com sequência gerada</text><polygon fill="#181818" points="353,171.0156,343,175.0156,353,179.0156,349,175.0156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="534" y1="175.0156" y2="175.0156"/><polygon fill="#181818" points="42,201.3672,32,205.3672,42,209.3672,38,205.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="36" x2="336" y1="205.3672" y2="205.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="272" x="48" y="200.5107">Envia um estado 201 (OK) / 404 (NOT FOUND)</text><!--MD5=[cef366d16a8c5ab84f181b83c3ce1494]
+@startuml vp3
+
+participant Route as route
+participant AprovacaoController as ctrl
+participant AprovacaoService as svc
+participant "Master Data Gestão Tarefas" as mdgt
+
+activate route
+route -> ctrl : /sequenciaTarefasAprovadas
+activate ctrl
+ctrl -> svc : sequenciaTarefasAprovadas()
+activate svc
+svc -> mdgt : PATCH /api/aprovacoes/sequenciaTarefasAprovadas
+activate mdgt
+mdgt - -> svc : JSON com sequência gerada
+deactivate mdgt
+svc - -> ctrl
+deactivate svc
+ctrl - -> route : Envia um estado 201 (OK) / 404 (NOT FOUND)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

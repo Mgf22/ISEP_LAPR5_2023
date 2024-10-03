@@ -1,0 +1,55 @@
+@startuml vp3
+
+participant Route as route
+participant TarefaController as ctrl
+participant TarefaService as svc
+participant AprovacaoRepo as repoApr
+participant TarefaRepo as repoTar
+participant TarefaMapper as mapper
+participant TarefaModel as model
+participant AprovacaoModel as model2
+
+'participant "A&A" as auth
+'route -> auth : autentica("Utente")
+'activate auth
+'auth --> route
+'deactivate auth
+
+activate route
+route -> ctrl : /requisitar
+activate ctrl
+ctrl -> svc : requisitar()
+activate svc
+svc -> repoTar : findByDesignacao(tarefa)
+activate repoTar
+repoTar --> svc
+deactivate repoTar
+svc -> model : Tarefa.create()
+activate model
+model --> svc
+deactivate model
+svc -> model2 : Aprovacao.create()
+activate model2
+model2 --> svc
+deactivate model2
+svc -> repoApr : save(aprovacao)
+activate repoApr
+repoApr --> svc
+deactivate repoApr
+svc -> repoTar : save(tarefa)
+activate repoTar
+repoTar --> svc
+deactivate repoTar
+svc -> mapper : toDTO(tarefa)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (OK) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

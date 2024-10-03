@@ -1,0 +1,69 @@
+@startuml sd
+autonumber
+
+participant Route as route
+
+participant TipoRoboController as ctrl
+
+participant TipoRoboService as svc
+
+participant TipoRoboRepo as repo
+participant TipoRoboMapper as mapper
+
+participant TipoRoboSchema as schema
+participant ConfigurationFile as conf
+participant Robo as model
+
+route++
+route -> ctrl : criar tipo de robo
+ctrl++
+ctrl -> conf : injeta o serviço do tipo de robo
+conf++
+conf --> ctrl
+conf--
+ctrl -> svc : createTipoRobo(ITipoRoboDTO)
+svc++
+svc -> conf : injeta o repositório do tipo de robo
+conf++
+conf --> svc
+conf--
+svc -> model : tipoRobo = create(tipoRoboDTO)
+model++
+model --> svc
+model--
+svc -> repo : tipoRobo = save(tipoRobo)
+repo++
+repo -> conf : injeta o schema do tipoRobo
+conf++
+conf --> repo
+conf--
+repo -> mapper : toPersistence(tipoRobo)
+mapper++
+mapper --> repo
+mapper--
+repo -> schema : create(tipoRobo)
+schema++
+schema --> repo
+schema--
+repo -> mapper : toDomain(tipoRobo)
+mapper++
+mapper --> repo
+mapper--
+repo --> svc
+repo--
+svc -> mapper : toDTO(tipoRobo)
+mapper++
+mapper --> svc
+mapper--
+svc --> ctrl
+svc--
+alt caso de sucesso
+    ctrl --> route : Envia um código 201 (POST)
+else caso de insucesso
+    ctrl --> route : Envia um código 404 (NOT FOUND)
+end
+ctrl--
+
+
+
+@enduml

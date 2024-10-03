@@ -1,0 +1,41 @@
+@startuml DDD
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Tarefa>>" {
+    class Tarefa<<entity>><<root>>{}
+    class TipoTarefa<<vo>>{}
+    class PontoInicial<<vo>>{}
+    class PontoTermino<<vo>>{}
+    class DesignacaoTarefa<<vo>>{}
+
+    Tarefa --> "1" TipoTarefa
+    Tarefa --> "1" PontoInicial
+    Tarefa --> "1" PontoTermino
+    Tarefa --> "1" DesignacaoTarefa
+
+}
+
+package "<<agr Aprovacao>>" {
+    class Aprovacao<<entity>><root>>{}
+    class Estado<<vo>>{}
+    class Requisitante<<vo>>{}
+    class TipoDispositivo<<vo>>{}
+
+    Aprovacao --> "1" TipoDispositivo
+    Aprovacao --> "1" Tarefa
+    Aprovacao --> "1" Requisitante
+    Aprovacao --> "1" Estado
+
+
+}
+
+
+
+@enduml

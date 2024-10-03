@@ -1,0 +1,16 @@
+@startuml vp1
+
+actor "Gestor de Frota" as actor
+participant SistemaRobDroneGO as srdg <<System(C4)>>
+
+activate actor
+actor -> srdg: Adiciona novo tipo de robo
+activate srdg
+alt 
+srdg --> actor : ok
+else
+srdg --> actor : erro
+end
+deactivate srdg
+deactivate actor
+@enduml

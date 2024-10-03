@@ -1,0 +1,37 @@
+@startuml DDD
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr TipoRobo>>"{
+    class TipoRobo<<root>><<entity>>{}
+    class MarcaTipoRobo<<vo>>{}
+    class ModeloTipoRobo<<vo>>{}
+    class DesignacaoTipoRobo<<vo>>{}
+
+    TipoRobo --> "1" DesignacaoTipoRobo
+    TipoRobo --> "1" MarcaTipoRobo
+    TipoRobo --> "1" ModeloTipoRobo
+    Robo --> "1" TipoRobo
+}
+
+' Tarefas: Vigilância e transporte de objetos
+package "<<agr Tarefa>>"{
+    class Tarefa<<root>><<entity>>{}
+    class TipoTarefa<<enum>>{}
+
+    TipoRobo --> "*" Tarefa : "executa"
+    Tarefa --> "1" TipoTarefa
+}
+
+
+
+
+
+
+@enduml

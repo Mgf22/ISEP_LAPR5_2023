@@ -1,0 +1,4 @@
+@startuml
+Actor Actor as ac
+ac -> (Adicionar um novo tipo de robot indicando a sua designação e que tipos de tarefas pode executar da lista prédefinida de tarefas)
+@enduml

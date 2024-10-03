@@ -1,0 +1,54 @@
+<div class="background-container"></div>
+<mat-toolbar>
+  <h1 class="h1">RobDroneGO</h1>
+</mat-toolbar>
+
+<body>
+  <div class="box">
+    <div>
+      <tr>
+        <mat-form-field>
+          <mat-label>Designacao</mat-label>
+          <mat-select [(ngModel)]="passagem.designacao" name="Passagem">
+            <mat-option *ngFor="let passagem of passagens" [value]="passagem">{{passagem}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </tr>
+      <tr>
+        <mat-form-field>
+          <mat-label>Edificio A</mat-label>
+          <mat-select [(ngModel)]="passagem.edificioA" name="Edificio A">
+            <mat-option *ngFor="let edificio of edificios" [value]="edificio">{{edificio}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      <tr>
+        <mat-form-field>
+          <mat-label>Edificio B</mat-label>
+          <mat-select [(ngModel)]="passagem.edificioB" name="Edificio B">
+            <mat-option *ngFor="let edificio of edificios" [value]="edificio">{{edificio}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </tr>
+      <tr>
+        <mat-form-field>
+          <mat-label>Piso A</mat-label>
+          <mat-select [(ngModel)]="passagem.pisoA" name="Piso A">
+            <mat-option *ngFor="let piso of pisos" [value]="piso">{{piso}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </tr>
+      <tr>
+        <mat-form-field>
+          <mat-label>Piso B</mat-label>
+          <mat-select [(ngModel)]="passagem.pisoB" name="Piso B">
+            <mat-option *ngFor="let piso of pisos" [value]="piso">{{piso}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </tr>
+    </div>
+    <div>
+      <button (click)="updatePassagem()">Update</button>
+      <button (click)="goBack()">Back</button>
+    </div>
+  </div>
+</body>

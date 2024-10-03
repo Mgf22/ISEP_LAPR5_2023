@@ -1,0 +1,4 @@
+@startuml
+Actor Actor as ac
+ac -> (Listar edifícios com min e max de pisos)
+@enduml

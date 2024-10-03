@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="227px" preserveAspectRatio="none" style="width:550px;height:227px;background:#FFFFFF;" version="1.1" viewBox="0 0 550 227" width="550px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="125.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="43.5" y="47.6094"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="249.5" y="114.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="344" y="69.9609"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="511.5" y="144.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="48" x2="48" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="254" x2="254" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="349" x2="349" y1="37.6094" y2="190.6641"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="516.5" x2="516.5" y1="37.6094" y2="190.6641"/><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="12" y="26.5332">Component</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="87" x="5" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="12" y="211.1973">Component</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="196" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="203" y="26.5332">ElevadorService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="117" x="196" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="103" x="203" y="211.1973">ElevadorService</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="323" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="330" y="26.5332">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="52" x="323" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="330" y="211.1973">Model</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="488.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="495.5" y="26.5332">MDGD</text><rect fill="#E2E2F0" height="31.6094" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="56" x="488.5" y="189.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="495.5" y="211.1973">MDGD</text><rect fill="#FFFFFF" height="125.0547" style="stroke:#181818;stroke-width:1.0;" width="10" x="43.5" y="47.6094"/><rect fill="#FFFFFF" height="58.3516" style="stroke:#181818;stroke-width:1.0;" width="10" x="249.5" y="114.3125"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="344" y="69.9609"/><rect fill="#FFFFFF" height="14" style="stroke:#181818;stroke-width:1.0;" width="10" x="511.5" y="144.6641"/><polygon fill="#181818" points="332,65.9609,342,69.9609,332,73.9609,336,69.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="53.5" x2="338" y1="69.9609" y2="69.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="60.5" y="65.1045">adapta dados introduzidos</text><polygon fill="#181818" points="64.5,79.9609,54.5,83.9609,64.5,87.9609,60.5,83.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="348" y1="83.9609" y2="83.9609"/><polygon fill="#181818" points="237.5,110.3125,247.5,114.3125,237.5,118.3125,241.5,114.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="53.5" x2="243.5" y1="114.3125" y2="114.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="60.5" y="109.4561">listElevadoresEdificio(elevador)</text><polygon fill="#181818" points="499.5,140.6641,509.5,144.6641,499.5,148.6641,503.5,144.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="259.5" x2="505.5" y1="144.6641" y2="144.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="233" x="266.5" y="139.8076">pedido HTTP GET da lista de elevadores</text><polygon fill="#181818" points="270.5,154.6641,260.5,158.6641,270.5,162.6641,266.5,158.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="264.5" x2="515.5" y1="158.6641" y2="158.6641"/><polygon fill="#181818" points="59.5,168.6641,49.5,172.6641,59.5,176.6641,55.5,172.6641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="53.5" x2="253.5" y1="172.6641" y2="172.6641"/><!--MD5=[009820f19daac216f6e5e8c5640b963d]
+@startuml vp3
+
+participant Component as comp
+participant ElevadorService as svc
+participant Model as model
+participant MDGD as mdgd
+
+activate comp
+comp -> model : adapta dados introduzidos 
+activate model
+model - -> comp
+deactivate model
+comp -> svc : listElevadoresEdificio(elevador)
+activate svc
+svc -> mdgd : pedido HTTP GET da lista de elevadores
+activate mdgd
+mdgd - -> svc
+deactivate mdgd
+svc - -> comp
+deactivate svc
+deactivate comp
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

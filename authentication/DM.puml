@@ -1,0 +1,65 @@
+@startuml DM
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Pedidos>>" {
+    class Pedidos <<entity>> <<root>> {}
+
+    class PedidoNome <<vo>> {}
+    class PedidoEmail <<vo>> {}
+    class PedidoNumeroTelemovel <<vo>> {}
+    class PedidoNIF <<vo>> {}
+    enum Estado <<enum>> {
+    }
+    class Pendente <<value>>{}
+    class Aceite<<value>> {}
+    class Recusado <<value>>{}
+    class PedidoPassword <<vo>> {}
+    class DataPedido <<vo>> {}
+    class DataAtualizarEstado <<vo>> {}
+
+    Pedidos --> "1" PedidoNome
+    Pedidos --> "1" PedidoEmail
+    Pedidos --> "1" PedidoNumeroTelemovel
+    Pedidos --> "1" PedidoNIF
+    Pedidos --> "1" DataPedido
+    Pedidos --> "1" DataAtualizarEstado
+    Pedidos --> "1" PedidoPassword
+    Pedidos --> "1" Estado 
+    Estado --> "1" Pendente
+    Estado --> "1" Aceite
+    Estado --> "1" Recusado
+}
+
+package "<<agr Utilizadores>>" {
+    class Utilizadores<<entity>><<root>>{}
+    class Nome<<vo>>{}
+    class Email<<vo>>{}
+    class NumeroTelemovel<<vo>>{}
+    class NIF<<vo>>{}
+    class Password<<vo>>{}
+
+    Utilizadores --> "1" Nome
+    Utilizadores --> "1" Email
+    Utilizadores --> "1" NumeroTelemovel
+    Utilizadores --> "1" NIF
+    Utilizadores --> "1" Password
+}
+
+package "<<agr Roles>>" {
+    class Roles<<entity>><<root>>{}
+    class NomeRole<<vo>>{}
+
+    Roles --> "1" NomeRole
+    Utilizadores "*"--> "1" Roles
+}
+
+
+
+@enduml

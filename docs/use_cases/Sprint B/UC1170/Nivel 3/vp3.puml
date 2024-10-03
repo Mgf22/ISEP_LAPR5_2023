@@ -1,0 +1,30 @@
+@startuml vp3
+participant View as view
+participant Controller as ctrl
+participant Service as svc
+participant Passagem as model
+participant MDGD as be
+
+activate view
+view -> ctrl : createPassagem()
+activate ctrl
+ctrl -> model : createPassagem(designacao, edificioA, edificioB, pisoA, pisoB)
+activate model
+model --> ctrl : passagem
+deactivate model
+ctrl -> svc: save(passagem)
+activate svc
+svc -> be: POST passagem {json}
+activate be
+be --> svc : Resposta HTTP
+deactivate be
+alt sucesso 
+svc --> ctrl : HTTP 200
+ctrl --> view : Envia Mensagem
+else insucesso
+svc --> ctrl : HTTP 4xx / HTTP500
+ctrl --> view : Envia Mensagem
+end
+deactivate view
+deactivate ctrl
+@enduml

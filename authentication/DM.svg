@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="2632px" preserveAspectRatio="none" style="width:509px;height:2632px;background:#282828;" version="1.1" viewBox="0 0 509 2632" width="509px" zoomAndPan="magnify"><defs/><g><!--MD5=[789400f16c9736cffff3fec1a1ceac03]
+cluster <<agr Pedidos>>--><g id="cluster_&lt;&lt;agr Pedidos&gt;&gt;"><path d="M27,1178.1191 L250,1178.1191 A3.75,3.75 0 0 1 252.5,1180.6191 L259.5,1210.8564 L498.5,1210.8564 A2.5,2.5 0 0 1 501,1213.3564 L501,2622.6191 A2.5,2.5 0 0 1 498.5,2625.1191 L27,2625.1191 A2.5,2.5 0 0 1 24.5,2622.6191 L24.5,1180.6191 A2.5,2.5 0 0 1 27,1178.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="24.5" x2="259.5" y1="1210.8564" y2="1210.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="222" x="28.5" y="1202.2373">&lt;&lt;agr Pedidos&gt;&gt;</text></g><!--MD5=[5208e7e0e1691a00f02141ae55b03e3e]
+cluster <<agr Utilizadores>>--><g id="cluster_&lt;&lt;agr Utilizadores&gt;&gt;"><path d="M13.5,12.1191 L288.5,12.1191 A3.75,3.75 0 0 1 291,14.6191 L298,44.8564 L340.5,44.8564 A2.5,2.5 0 0 1 343,47.3564 L343,880.6191 A2.5,2.5 0 0 1 340.5,883.1191 L13.5,883.1191 A2.5,2.5 0 0 1 11,880.6191 L11,14.6191 A2.5,2.5 0 0 1 13.5,12.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="11" x2="298" y1="44.8564" y2="44.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="274" x="15" y="36.2373">&lt;&lt;agr Utilizadores&gt;&gt;</text></g><!--MD5=[a9cdf53752a79b44a357572c9051fd42]
+cluster <<agr Roles>>--><g id="cluster_&lt;&lt;agr Roles&gt;&gt;"><path d="M222,972.1191 L416,972.1191 A3.75,3.75 0 0 1 418.5,974.6191 L425.5,1004.8564 L499.5,1004.8564 A2.5,2.5 0 0 1 502,1007.3564 L502,1086.6191 A2.5,2.5 0 0 1 499.5,1089.1191 L222,1089.1191 A2.5,2.5 0 0 1 219.5,1086.6191 L219.5,974.6191 A2.5,2.5 0 0 1 222,972.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="219.5" x2="425.5" y1="1004.8564" y2="1004.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="193" x="223.5" y="996.2373">&lt;&lt;agr Roles&gt;&gt;</text></g><!--MD5=[06efa4192fc66bd511e43d80de773cc3]
+class Pedidos--><g id="elem_Pedidos"><rect codeLine="11" fill="#282828" height="56.1826" id="Pedidos" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="60" x="40.5" y="1888.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="45" y="1905.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="50.5" y="1919.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="54" x="43.5" y="1936.3623">Pedidos</text></g><!--MD5=[8f3663168c8e5a35941cc7bb32fc4c49]
+class PedidoNome--><g id="elem_PedidoNome"><rect codeLine="13" fill="#282828" height="41.5986" id="PedidoNome" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="92" x="216" y="2567.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="2584.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="219" y="2600.7783">PedidoNome</text></g><!--MD5=[ebb6dd38c297683b3555d171e6b5f50c]
+class PedidoEmail--><g id="elem_PedidoEmail"><rect codeLine="14" fill="#282828" height="41.5986" id="PedidoEmail" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="88" x="218" y="2375.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="2392.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="82" x="221" y="2408.7783">PedidoEmail</text></g><!--MD5=[ba56f31413e6c087663136957d2b72d1]
+class PedidoNumeroTelemovel--><g id="elem_PedidoNumeroTelemovel"><rect codeLine="15" fill="#282828" height="41.5986" id="PedidoNumeroTelemovel" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="176" x="174" y="2183.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="2200.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="170" x="177" y="2216.7783">PedidoNumeroTelemovel</text></g><!--MD5=[4af8827368999299fabb75dc3b59cbbd]
+class PedidoNIF--><g id="elem_PedidoNIF"><rect codeLine="16" fill="#282828" height="41.5986" id="PedidoNIF" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="75" x="224.5" y="1991.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="2008.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="69" x="227.5" y="2024.7783">PedidoNIF</text></g><!--MD5=[d8933eb2ae217ae3c21bf6e2973c277f]
+class Estado--><g id="elem_Estado"><rect codeLine="17" fill="#282828" height="41.5986" id="Estado" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="55" x="234.5" y="1799.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="236.5" y="1816.1836">«enum»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="49" x="237.5" y="1832.7783">Estado</text></g><!--MD5=[54b5a28cb19077f3fe2d6e19594cd8fc]
+class Pendente--><g id="elem_Pendente"><rect codeLine="19" fill="#282828" height="41.5986" id="Pendente" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="71" x="412.5" y="1991.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="424" y="2008.1836">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="65" x="415.5" y="2024.7783">Pendente</text></g><!--MD5=[a7ce6ac9bc1aa600479f1aabd0ec981a]
+class Aceite--><g id="elem_Aceite"><rect codeLine="20" fill="#282828" height="41.5986" id="Aceite" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="50" x="423" y="1799.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="424" y="1816.1836">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="42" x="427" y="1832.7783">Aceite</text></g><!--MD5=[ababb95411103ef8435f72810821763d]
+class Recusado--><g id="elem_Recusado"><rect codeLine="21" fill="#282828" height="41.5986" id="Recusado" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="74" x="411" y="1607.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="424" y="1624.1836">«value»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="68" x="414" y="1640.7783">Recusado</text></g><!--MD5=[b5ff291d65fa4ed5185a80e8389741d6]
+class PedidoPassword--><g id="elem_PedidoPassword"><rect codeLine="22" fill="#282828" height="41.5986" id="PedidoPassword" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="119" x="202.5" y="1607.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="1624.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="113" x="205.5" y="1640.7783">PedidoPassword</text></g><!--MD5=[91711220132bbb1af3643eaa9d126db7]
+class DataPedido--><g id="elem_DataPedido"><rect codeLine="23" fill="#282828" height="41.5986" id="DataPedido" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="85" x="219.5" y="1415.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="1432.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="79" x="222.5" y="1448.7783">DataPedido</text></g><!--MD5=[f1f154282fdc7fae29189203292a1e46]
+class DataAtualizarEstado--><g id="elem_DataAtualizarEstado"><rect codeLine="24" fill="#282828" height="41.5986" id="DataAtualizarEstado" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="149" x="187.5" y="1223.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="1240.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="143" x="190.5" y="1256.7783">DataAtualizarEstado</text></g><!--MD5=[6e561e958559573d438bdabc7e6ec06e]
+class Utilizadores--><g id="elem_Utilizadores"><rect codeLine="40" fill="#282828" height="56.1826" id="Utilizadores" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="87" x="27" y="530.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="45" y="547.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="50.5" y="561.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="81" x="30" y="578.3623">Utilizadores</text></g><!--MD5=[eff6cb0ee8c4fb965f4e5611a0ca3742]
+class Nome--><g id="elem_Nome"><rect codeLine="41" fill="#282828" height="41.5986" id="Nome" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="46" x="239" y="825.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="842.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="40" x="242" y="858.7783">Nome</text></g><!--MD5=[78bec0fde86ad92ec1dc3fb343b83709]
+class Email--><g id="elem_Email"><rect codeLine="42" fill="#282828" height="41.5986" id="Email" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="42" x="241" y="633.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="650.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="36" x="244" y="666.7783">Email</text></g><!--MD5=[d2fefcd7cef12dda62c040704d143a25]
+class NumeroTelemovel--><g id="elem_NumeroTelemovel"><rect codeLine="43" fill="#282828" height="41.5986" id="NumeroTelemovel" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="130" x="197" y="441.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="458.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="124" x="200" y="474.7783">NumeroTelemovel</text></g><!--MD5=[339871d7601d113ba04802e4e0a41179]
+class NIF--><g id="elem_NIF"><rect codeLine="44" fill="#282828" height="41.5986" id="NIF" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="32" x="246" y="249.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="266.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="23" x="250.5" y="282.7783">NIF</text></g><!--MD5=[2f01b1126ff33a0669651ec2488a5ef9]
+class Password--><g id="elem_Password"><rect codeLine="45" fill="#282828" height="41.5986" id="Password" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="73" x="225.5" y="57.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="247" y="74.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="67" x="228.5" y="90.7783">Password</text></g><!--MD5=[d880429f06877f77d04df3530938df96]
+class Roles--><g id="elem_Roles"><rect codeLine="55" fill="#282828" height="56.1826" id="Roles" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="53" x="235.5" y="1017.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="236.5" y="1034.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="242" y="1048.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="38" x="243" y="1065.3623">Roles</text></g><!--MD5=[d9222d55fe4aa74b25809312524d587e]
+class NomeRole--><g id="elem_NomeRole"><rect codeLine="56" fill="#282828" height="41.5986" id="NomeRole" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="76" x="410" y="1024.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="433" y="1041.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="70" x="413" y="1057.7783">NomeRole</text></g><!--MD5=[b4cac5f2ffe5c32b81455c2c695b75eb]
+link Pedidos to PedidoNome--><g id="link_Pedidos_PedidoNome"><path codeLine="26" d="M71.14,1944.1891 C71.1,2030.6491 79.14,2298.8091 174,2492.1191 C187.66,2519.9491 211.82,2545.6391 231.22,2563.4191 " fill="none" id="Pedidos-to-PedidoNome" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="235.04,2566.8691,231.0453,2557.8668,231.3306,2563.5164,225.681,2563.8018,235.04,2566.8691" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="217.5585" y="2556.3181">1</text></g><!--MD5=[f1719ed53eb99836db682b585f28dc37]
+link Pedidos to PedidoEmail--><g id="link_Pedidos_PedidoEmail"><path codeLine="27" d="M74.42,1944.3191 C82.19,2010.2191 107.52,2178.0091 174,2300.1191 C188.92,2327.5291 213.23,2353.4291 232.36,2371.3991 " fill="none" id="Pedidos-to-PedidoEmail" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="236.11,2374.8891,232.2245,2365.8391,232.4415,2371.4918,226.7888,2371.7088,236.11,2374.8891" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="218.9562" y="2364.3443">1</text></g><!--MD5=[ace0874739ed132ad7c289eeddcd49a7]
+link Pedidos to PedidoNumeroTelemovel--><g id="link_Pedidos_PedidoNumeroTelemovel"><path codeLine="28" d="M83.91,1944.3891 C101.44,1982.9791 135.61,2053.5791 174,2108.1191 C192.33,2134.1591 216.99,2160.7491 235.37,2179.3291 " fill="none" id="Pedidos-to-PedidoNumeroTelemovel" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="238.96,2182.9391,235.443,2173.7396,235.4316,2179.3965,229.7748,2179.385,238.96,2182.9391" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="222.679" y="2172.4096">1</text></g><!--MD5=[a3d5c5526d6be0655fbb95bc548d3547]
+link Pedidos to PedidoNIF--><g id="link_Pedidos_PedidoNIF"><path codeLine="29" d="M100.69,1930.9091 C132.49,1947.0191 183.6,1972.9091 219.55,1991.1191 " fill="none" id="Pedidos-to-PedidoNIF" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="224.29,1993.5191,218.0581,1985.8926,219.8265,1991.266,214.4531,1993.0343,224.29,1993.5191" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="208.5997" y="2004.6531">1</text></g><!--MD5=[530c550bac9e3fe6f665fd72fa32aa95]
+link Pedidos to DataPedido--><g id="link_Pedidos_DataPedido"><path codeLine="30" d="M74.42,1887.9191 C82.19,1822.0191 107.52,1654.2291 174,1532.1191 C188.92,1504.7091 213.23,1478.8091 232.36,1460.8391 " fill="none" id="Pedidos-to-DataPedido" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="236.11,1457.3491,226.7888,1460.5295,232.4415,1460.7465,232.2245,1466.3992,236.11,1457.3491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="220.4507" y="1477.9349">1</text></g><!--MD5=[1a62babe6bc5f2c3f451e171c17dc118]
+link Pedidos to DataAtualizarEstado--><g id="link_Pedidos_DataAtualizarEstado"><path codeLine="31" d="M71.14,1888.0491 C71.1,1801.5891 79.14,1533.4291 174,1340.1191 C187.66,1312.2891 211.82,1286.5991 231.22,1268.8191 " fill="none" id="Pedidos-to-DataAtualizarEstado" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="235.04,1265.3691,225.681,1268.4365,231.3306,1268.7218,231.0453,1274.3715,235.04,1265.3691" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="219.1065" y="1285.96">1</text></g><!--MD5=[947a0cf0bbaab7ee0111207311705555]
+link Pedidos to PedidoPassword--><g id="link_Pedidos_PedidoPassword"><path codeLine="32" d="M83.91,1887.8491 C101.44,1849.2591 135.61,1778.6591 174,1724.1191 C192.33,1698.0791 216.99,1671.4891 235.37,1652.9091 " fill="none" id="Pedidos-to-PedidoPassword" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="238.96,1649.2991,229.7748,1652.8532,235.4316,1652.8418,235.443,1658.4987,238.96,1649.2991" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="224.031" y="1669.8721">1</text></g><!--MD5=[685591609060b9ef39e39a26fdc58464]
+link Pedidos to Estado--><g id="link_Pedidos_Estado"><path codeLine="33" d="M100.69,1901.3291 C135.57,1883.6591 193.69,1854.2191 229.54,1836.0591 " fill="none" id="Pedidos-to-Estado" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="234.23,1833.6791,224.395,1834.2017,229.7751,1835.9494,228.0274,1841.3295,234.23,1833.6791" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="218.4861" y="1852.0287">1</text></g><!--MD5=[951a148967eada1bed4c6942ab70b15f]
+link Estado to Pendente--><g id="link_Estado_Pendente"><path codeLine="34" d="M283.39,1841.3991 C317.61,1877.0991 386.41,1948.8891 422.93,1987.0091 " fill="none" id="Estado-to-Pendente" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="426.79,1991.0391,423.4596,1981.7705,423.3339,1987.4259,417.6784,1987.3003,426.79,1991.0391" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="411.0694" y="1980.5402">1</text></g><!--MD5=[fb63e367499606cbfafcf2eb74a24718]
+link Estado to Aceite--><g id="link_Estado_Aceite"><path codeLine="35" d="M289.76,1820.1191 C323.86,1820.1191 382.61,1820.1191 417.83,1820.1191 " fill="none" id="Estado-to-Aceite" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="422.85,1820.1191,413.85,1816.1191,417.85,1820.1191,413.85,1824.1191,422.85,1820.1191" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="407.0159" y="1835.3659">1</text></g><!--MD5=[8e2def60141bae3e07a9bb1c1fc7622e]
+link Estado to Recusado--><g id="link_Estado_Recusado"><path codeLine="36" d="M283.39,1798.8391 C317.61,1763.1391 386.41,1691.3491 422.93,1653.2291 " fill="none" id="Estado-to-Recusado" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="426.79,1649.1991,417.6784,1652.938,423.3339,1652.8123,423.4596,1658.4678,426.79,1649.1991" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="412.3299" y="1669.7464">1</text></g><!--MD5=[7618a8108f1d0a26e8a6aa8ec9117347]
+link Utilizadores to Nome--><g id="link_Utilizadores_Nome"><path codeLine="47" d="M83.91,586.3891 C101.44,624.9791 135.61,695.5791 174,750.1191 C192.33,776.1591 216.99,802.7491 235.37,821.3291 " fill="none" id="Utilizadores-to-Nome" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="238.96,824.9391,235.443,815.7396,235.4316,821.3965,229.7748,821.385,238.96,824.9391" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="223.017" y="834.1668">1</text></g><!--MD5=[b8e3234c852549787e24cfc6e412a5c3]
+link Utilizadores to Email--><g id="link_Utilizadores_Email"><path codeLine="48" d="M114.03,579.6591 C151.52,598.6591 204.89,625.6891 235.93,641.4191 " fill="none" id="Utilizadores-to-Email" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="240.72,643.8491,234.4881,636.2226,236.2565,641.596,230.8831,643.3643,240.72,643.8491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="224.978" y="656.2545">1</text></g><!--MD5=[54c8b60309679c0d55695778e2c043df]
+link Utilizadores to NumeroTelemovel--><g id="link_Utilizadores_NumeroTelemovel"><path codeLine="49" d="M114.03,536.5791 C143.98,521.3991 184.06,501.0991 214.8,485.5191 " fill="none" id="Utilizadores-to-NumeroTelemovel" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="219.27,483.2591,209.4337,483.7567,214.8094,485.5181,213.048,490.8937,219.27,483.2591" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="199.2954" y="503.8218">1</text></g><!--MD5=[947eceac61e914a7dbd95b8557ab6685]
+link Utilizadores to NIF--><g id="link_Utilizadores_NIF"><path codeLine="50" d="M83.91,529.8491 C101.44,491.2591 135.61,420.6591 174,366.1191 C194.75,336.6291 223.63,306.4291 242.32,287.9691 " fill="none" id="Utilizadores-to-NIF" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="245.92,284.4391,236.6994,287.9004,242.3561,287.946,242.3105,293.6027,245.92,284.4391" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="230.0135" y="306.337">1</text></g><!--MD5=[e28fe0d089d020f50734354c0ba4d629]
+link Utilizadores to Password--><g id="link_Utilizadores_Password"><path codeLine="51" d="M74.42,529.9191 C82.19,464.0191 107.52,296.2291 174,174.1191 C188.92,146.7091 213.23,120.8091 232.36,102.8391 " fill="none" id="Utilizadores-to-Password" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="236.11,99.3491,226.7888,102.5295,232.4415,102.7465,232.2245,108.3992,236.11,99.3491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="220.4507" y="119.9349">1</text></g><!--MD5=[287cbad3417200bf6ae78d4db6f987a7]
+link Roles to NomeRole--><g id="link_Roles_NomeRole"><path codeLine="58" d="M288.58,1045.1191 C318.61,1045.1191 368.84,1045.1191 404.69,1045.1191 " fill="none" id="Roles-to-NomeRole" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="409.87,1045.1191,400.87,1041.1191,404.87,1045.1191,400.87,1049.1191,409.87,1045.1191" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="394.1023" y="1059.6825">1</text></g><!--MD5=[00cbae90755e9d390a7fcddd8adb06cd]
+link Utilizadores to Roles--><g id="link_Utilizadores_Roles"><path codeLine="59" d="M76.67,586.2091 C88.56,647.4391 120.99,796.7091 174,912.1191 C190.83,948.7691 216.81,986.9291 236,1012.9291 " fill="none" id="Utilizadores-to-Roles" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="239.02,1016.9891,236.8805,1007.3755,236.0452,1012.9703,230.4504,1012.1351,239.02,1016.9891" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="9" x="68.0562" y="607.5805">*</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="224.4436" y="1006.4493">1</text></g><!--MD5=[6c3981a4b45135c8e03eb17cd80a5c75]
+@startuml DM
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Pedidos>>" {
+    class Pedidos <<entity>> <<root>> {}
+
+    class PedidoNome <<vo>> {}
+    class PedidoEmail <<vo>> {}
+    class PedidoNumeroTelemovel <<vo>> {}
+    class PedidoNIF <<vo>> {}
+    enum Estado <<enum>> {
+    }
+    class Pendente <<value>>{}
+    class Aceite<<value>> {}
+    class Recusado <<value>>{}
+    class PedidoPassword <<vo>> {}
+    class DataPedido <<vo>> {}
+    class DataAtualizarEstado <<vo>> {}
+
+    Pedidos - -> "1" PedidoNome
+    Pedidos - -> "1" PedidoEmail
+    Pedidos - -> "1" PedidoNumeroTelemovel
+    Pedidos - -> "1" PedidoNIF
+    Pedidos - -> "1" DataPedido
+    Pedidos - -> "1" DataAtualizarEstado
+    Pedidos - -> "1" PedidoPassword
+    Pedidos - -> "1" Estado 
+    Estado - -> "1" Pendente
+    Estado - -> "1" Aceite
+    Estado - -> "1" Recusado
+}
+
+package "<<agr Utilizadores>>" {
+    class Utilizadores<<entity>><<root>>{}
+    class Nome<<vo>>{}
+    class Email<<vo>>{}
+    class NumeroTelemovel<<vo>>{}
+    class NIF<<vo>>{}
+    class Password<<vo>>{}
+
+    Utilizadores - -> "1" Nome
+    Utilizadores - -> "1" Email
+    Utilizadores - -> "1" NumeroTelemovel
+    Utilizadores - -> "1" NIF
+    Utilizadores - -> "1" Password
+}
+
+package "<<agr Roles>>" {
+    class Roles<<entity>><<root>>{}
+    class NomeRole<<vo>>{}
+
+    Roles - -> "1" NomeRole
+    Utilizadores "*"- -> "1" Roles
+}
+
+
+
+@enduml
+
+@startuml DM
+
+hide circle
+hide fields
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Pedidos>>" {
+    class Pedidos <<entity>> <<root>> {}
+
+    class PedidoNome <<vo>> {}
+    class PedidoEmail <<vo>> {}
+    class PedidoNumeroTelemovel <<vo>> {}
+    class PedidoNIF <<vo>> {}
+    enum Estado <<enum>> {
+    }
+    class Pendente <<value>>{}
+    class Aceite<<value>> {}
+    class Recusado <<value>>{}
+    class PedidoPassword <<vo>> {}
+    class DataPedido <<vo>> {}
+    class DataAtualizarEstado <<vo>> {}
+
+    Pedidos - -> "1" PedidoNome
+    Pedidos - -> "1" PedidoEmail
+    Pedidos - -> "1" PedidoNumeroTelemovel
+    Pedidos - -> "1" PedidoNIF
+    Pedidos - -> "1" DataPedido
+    Pedidos - -> "1" DataAtualizarEstado
+    Pedidos - -> "1" PedidoPassword
+    Pedidos - -> "1" Estado 
+    Estado - -> "1" Pendente
+    Estado - -> "1" Aceite
+    Estado - -> "1" Recusado
+}
+
+package "<<agr Utilizadores>>" {
+    class Utilizadores<<entity>><<root>>{}
+    class Nome<<vo>>{}
+    class Email<<vo>>{}
+    class NumeroTelemovel<<vo>>{}
+    class NIF<<vo>>{}
+    class Password<<vo>>{}
+
+    Utilizadores - -> "1" Nome
+    Utilizadores - -> "1" Email
+    Utilizadores - -> "1" NumeroTelemovel
+    Utilizadores - -> "1" NIF
+    Utilizadores - -> "1" Password
+}
+
+package "<<agr Roles>>" {
+    class Roles<<entity>><<root>>{}
+    class NomeRole<<vo>>{}
+
+    Roles - -> "1" NomeRole
+    Utilizadores "*"- -> "1" Roles
+}
+
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

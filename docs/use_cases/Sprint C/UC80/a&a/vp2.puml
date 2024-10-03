@@ -1,0 +1,36 @@
+@startuml vp2
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant UI as ui <<Container(C4)>>
+participant "Master Data Gestão Dispositivos" as mdgd <<Container(C4)>>
+participant "Authentication and Authorization" as aa <<Container(C4)>>
+
+ui -> mdgd: GET /getPedidosPendentes
+activate ui
+activate mdgd
+mdgd -> aa: GET /getPedidosPendentes
+activate aa
+alt sucesso devolve pedidos Pendentes
+aa --> mdgd: pedidosPendentes
+aa --> mdgd: devolve status 200
+else erro a devolver os pedidos
+aa --> mdgd: devolve status 404
+end
+mdgd --> ui: pedidosPendentes
+mdgd --> ui : devolve estado
+ui -> mdgd: PATCH aprovar/recusar pedido
+mdgd -> aa: PATCH aprovar/recusar pedido
+alt sucesso criar/recusar pedido
+aa --> mdgd: devolve status 200
+else erro ao aceitar/recusar pedido
+aa --> mdgd: devolve status 404
+deactivate aa
+end
+mdgd --> ui : devolve estado
+
+deactivate mdgd
+deactivate ui
+
+end box
+
+@enduml

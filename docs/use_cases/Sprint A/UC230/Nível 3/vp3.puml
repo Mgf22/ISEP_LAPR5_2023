@@ -1,0 +1,65 @@
+@startuml sd
+
+participant Route as route
+participant MapaPisoController as ctrl
+participant MapaPisoService as svc
+participant MapisoRepo as repoMap
+participant PisoRepo as repoPis
+participant MapaPisoMapper as mapper
+participant MapaPisoPersistence as pers
+participant MapaPiso as model
+
+activate route
+route -> ctrl : /createMapaPiso
+activate ctrl
+ctrl -> svc : createMapaPiso(IMapaPisoDTO)
+activate svc
+svc -> repoMap : findByDomainId(mapaPisoDTO.domainId)
+activate repoMap
+repoMap --> svc
+deactivate repoMap
+alt mapaPiso existe
+    svc --> ctrl : Envia erro com a mensagem: Já existe um mapa de piso com o código X
+    ctrl --> route : Envia status 403 (FORBIDDEN)
+end
+svc -> repoPis : findByDesignacao(mapaPisoDTO.piso)
+activate repoPis
+repoPis --> svc
+deactivate repoPis
+alt piso não existe/é inválido
+    svc --> ctrl : Envia erro com a mensagem: Não existe nenhum piso com a designação X
+    ctrl --> route : Envia status 403 (FORBIDDEN)
+end
+svc -> model : mapaPiso = create(mapaPisoDTO)
+activate model
+model --> svc
+deactivate model
+svc -> repoMap : save(mapaPiso)
+activate repoMap
+repoMap -> mapper : toPersistence(mapaPiso)
+activate mapper
+mapper --> repoMap
+deactivate mapper
+repoMap -> pers : create(mapaPisoCreated)
+activate pers
+pers --> repoMap
+deactivate pers
+repoMap -> mapper : toDomain(mapaPisoCreated)
+activate mapper
+mapper --> repoMap
+deactivate mapper
+repoMap --> svc
+deactivate repoMap
+svc -> mapper : toDTO(mapaPiso)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (OK)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

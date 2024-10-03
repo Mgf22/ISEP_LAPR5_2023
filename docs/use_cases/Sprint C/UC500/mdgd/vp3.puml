@@ -1,0 +1,25 @@
+@startuml vp3
+
+participant Route as route
+participant AprovacaoController as ctrl
+participant AprovacaoService as svc
+participant "Master Data Gestão Tarefas" as mdgt
+
+activate route
+route -> ctrl : /sequenciaTarefasAprovadas
+activate ctrl
+ctrl -> svc : sequenciaTarefasAprovadas()
+activate svc
+svc -> mdgt : PATCH /api/aprovacoes/sequenciaTarefasAprovadas
+activate mdgt
+mdgt --> svc : JSON com sequência gerada
+deactivate mdgt
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um estado 201 (OK) / 404 (NOT FOUND)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

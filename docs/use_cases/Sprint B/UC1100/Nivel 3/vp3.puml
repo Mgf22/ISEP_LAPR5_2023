@@ -1,0 +1,30 @@
+@startuml vp3
+participant View as view
+participant Controller as ctrl
+participant Service as svc
+participant Piso as model
+participant MDGD as be
+
+activate view
+view -> ctrl : listPisos()
+activate ctrl
+ctrl -> model : listPisos()
+activate model
+model --> ctrl : piso
+deactivate model
+ctrl -> svc: get(piso)
+activate svc
+svc -> be: GET piso {json}
+activate be
+be --> svc : Resposta HTTP
+deactivate be
+alt sucesso 
+svc --> ctrl : HTTP 200
+ctrl --> view : Envia Mensagem
+else insucesso
+svc --> ctrl : HTTP 4xx / HTTP500
+ctrl --> view : Envia Mensagem
+end
+deactivate view
+deactivate ctrl
+@enduml

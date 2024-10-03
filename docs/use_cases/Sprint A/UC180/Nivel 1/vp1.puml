@@ -1,0 +1,6 @@
+@startuml
+actor Actor as actor
+participant SistemaRobDroneGO as srdg <<System(C4)>>
+actor -> srdg: Listar edifícios com min e max de pisos
+srdg --> actor
+@enduml

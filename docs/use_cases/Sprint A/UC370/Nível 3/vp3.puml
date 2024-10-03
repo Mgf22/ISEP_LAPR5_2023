@@ -1,0 +1,74 @@
+@startuml vp3
+
+participant Robo as route <<Route>>
+participant Robo as ctrl <<Controller>>
+participant Robo as service  <<Service>>
+participant Robo as domain <<Domain>>
+participant Robo as repo <<Repository>>
+participant Robo as mapper <<Mapper>>
+participant TipoRobo as tiporepo <<Repository>>
+participant Robo as schema <<Schema>>
+participant File as cf <<Configuration>>
+
+activate route
+route -> ctrl++: inhibitRobo(req, res, next)
+ctrl -> cf++: injeta o serviço do robo
+cf --> ctrl: 
+deactivate cf
+ctrl -> service++: inhibitRobo(RoboDTO)
+service -> cf++: injeta o repositório do robô
+cf --> service:
+deactivate cf
+service -> cf++: injeta o repositório do tipo de robô
+cf --> service:
+deactivate cf
+service -> repo++: findByCodigo(codigo) 
+repo -> cf++: injeta o schema do robo
+cf --> repo:
+deactivate cf
+repo -> schema++: findOne(query)
+schema --> repo: 
+deactivate schema
+repo -> mapper++: toDomain(roboRecord)
+mapper --> repo: 
+deactivate mapper
+repo --> service: 
+service -> domain++: robo.inibir()
+domain --> service:
+deactivate domain
+service -> repo: save(robo)
+repo -> schema++: findOne(query)
+schema --> repo: 
+deactivate schema
+repo -> mapper++: toDomain(roboRecord)
+mapper --> repo: 
+deactivate mapper
+alt cria robo
+repo -> mapper : toPersistence(robo)
+mapper++
+mapper --> repo
+mapper--
+repo -> schema++ : create(rawRobo)
+schema --> repo
+deactivate schema
+repo -> mapper : toDomain(roboCreated)
+mapper++
+mapper --> repo
+mapper--
+else atualiza robo
+end
+repo --> service:
+service -> mapper++: toDTO()
+mapper --> service:
+deactivate mapper
+service --> ctrl:
+
+alt caso de sucesso
+    ctrl --> route : Envia um código 201 (PATCH)
+else caso de insucesso
+    ctrl --> route : Envia um código 404 (NOT FOUND)
+    ctrl--
+end
+
+deactivate route 
+@enduml

@@ -1,0 +1,19 @@
+@startuml getPackagingSD
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant MasterDataLogistics as mdl <<Container(C4)>>
+mdl -> mdl: GET listRobos()
+alt não existe erros durante a operação
+mdl --> mdl: 200 devolve dados com robos
+else existe erros durante a operação
+mdl --> mdl: 404 não encontrou dados
+end 
+
+end box
+
+@enduml

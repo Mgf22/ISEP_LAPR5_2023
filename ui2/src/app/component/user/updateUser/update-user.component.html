@@ -1,0 +1,30 @@
+<div class="background-container"></div>
+
+<body>
+  <div class="box">
+    <div>
+      <table>
+        <tr>
+          <th><label>Nome: </label></th>
+          <th><input type="text" [value]="data.Name" [(ngModel)]="utente.name" /></th>
+        </tr>
+        <tr>
+          <th><label>Numero Telemóvel: </label></th>
+          <th><input type="text" [value]="data.PhoneNumber" [(ngModel)]="utente.phoneNumber" /></th>
+        </tr>
+        <tr>
+          <th><label>NIF: </label></th>
+          <th><input type="text" [value]="data.NIF" [(ngModel)]="utente.nif" /></th>
+        </tr>
+        <tr>
+          <th><label>Password: </label></th>
+          <th><input type="password" [(ngModel)]="utente.password" /></th>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <button (click)="updateUser()">Atualizar dados</button>
+      <button (click)="goBack()">Retroceder</button>
+    </div>
+  </div>
+</body>

@@ -1,0 +1,22 @@
+<h1>Criar Mapa Piso</h1>
+
+<div>
+    <div>
+      <table>
+        <tr>
+          <th><label>Piso: </label></th>
+          <th><input [(ngModel)]="mapaPiso.piso" /></th>
+        </tr>
+        <tr>
+          <th><label>Mapa: </label></th>
+          <th><input type="string" [(ngModel)]="mapaPiso.mapa" /></th>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <button class="buttonBack" (click)="goBack()">Back</button>
+      <button (click)="updateMapaPiso()">Add</button>
+    </div>
+
+
+</div>

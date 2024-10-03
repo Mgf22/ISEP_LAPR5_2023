@@ -1,0 +1,19 @@
+@startuml vp2
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant MasterDataLogistics as mdl <<Container(C4)>>
+mdl -> mdl: PUT updatePassagem(descricao,edificioA,edificioB,pisoA,pisoB)
+alt não existe erros durante a operação
+mdl --> mdl: 201 passagem atualizada
+else existe erros durante a operação
+mdl --> mdl: 403 não foi possivel editar a passagem
+end 
+
+end box
+
+@enduml

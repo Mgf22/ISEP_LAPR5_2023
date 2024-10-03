@@ -1,0 +1,33 @@
+@startuml ed380
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+
+package "<<agr Robo>>"{
+    class Robo<<root>><<entity>>{}
+    class NicknameRobo<<vo>>{}
+    class NumeroSerieRobo<<vo>>{}
+    class CodigoRobo<<vo>>{}
+    class MarcaRobo<<vo>>{}
+    'Inibido ou nao
+    class EstadoRobo<<enum>>{} 
+
+    Robo --> "1" NicknameRobo
+    Robo --> "1" CodigoRobo
+    Robo --> "1" NumeroSerieRobo
+    Robo --> "1" MarcaRobo
+    Robo --> "1" EstadoRobo
+}
+
+
+
+
+
+
+@enduml

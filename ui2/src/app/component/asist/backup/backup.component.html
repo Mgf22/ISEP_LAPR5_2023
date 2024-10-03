@@ -1,0 +1,67 @@
+<h1>RobDroneGO</h1>
+
+
+<body>
+
+  <h2>Objetivo</h2>
+
+  <div>Criar e implementar uma política de backups para o projeto e respetiva base de dados.</div>
+
+  <h2> Problema</h2>
+
+  <div>Para prevenir a perda de dados cruciais, seja funcionalidades do programa, ou dados que ele consome, é crucial
+    efetuar
+    uma política de Backups, que permita numa situação de emergência, a recuperação total ou parcial dos dados que foram
+    perdidos, apagados ou alterados de forma inesperada.
+
+    Para escolher a melhor Política de Backups, foi analisado o documento onde é feito o estudo do WRT (Work Recovery
+    Time) e do RPO (Recovery Point Objective), onde se chegou à conclusão que a frequência de backups deveria de ser de
+    3
+    em 3 dias para garantir o RPO estudado e escolhido.
+
+    Tendo esta informação em conta, foram então analisadas as possibilidades de backups que poderiam ser feitas : total,
+    incremental ou diferencial e concluiu-se que no dado momento (SPRINT B) a informação que é armazenada e a quantidade
+    de alterações feitas diariamente não justificavam a necessidade de ser feito um backup incremental ou diferencial. O
+    projeto tem na sua grande maioria, dados estáticos e não tem qualquer automatização que implique que certos dados
+    estejam disponíveis para ser executada, ou seja, qualquer ação feita no programa, será feita após um input de um
+    utilizador e não triggered automaticamente.
+
+    Caso se justifique no SPRINT C, podem ser sempre acrescentadas novas políticas de backup que se adequem às novas
+    funcionalidades ou dados armazenados. Isto significa um novo estudo, porque a implementação de backups diferenciais
+    ou
+    incrementais, implicavam um maior cuidado com a cronologia de backups, uma vez que ambos dependem do backup total
+    para
+    guardarem a informação correta.</div>
+
+  <h4>Backup incremental</h4>
+  <div>Um backup incremental é um tipo de cópia de segurança que registra apenas as alterações efetuadas nos dados desde
+    o
+    último backup realizado. Por exemplo, se um backup completo foi feito no domingo, o backup incremental feito na
+    segunda-feira incluiria apenas as mudanças feitas desde esse backup de domingo. Na terça-feira, o backup incremental
+    conteria apenas as modificações ocorridas desde o backup realizado na segunda-feira. Esse método de backup economiza
+    espaço de armazenamento ao capturar apenas as alterações mais recentes nos dados, em vez de duplicar todo o conjunto
+    de informações a cada backup.
+  </div>
+
+  <h4>Backup diferencial</h4>
+  <div>Uma estratégia de backup diferencial registra apenas os dados novos e alterados desde o último backup completo.
+    Se o
+    último backup completo foi feito no domingo, um backup diferencial realizado na segunda-feira conteria todas as
+    modificações desde o domingo. Da mesma forma, um backup feito na terça-feira também incluiria todas as alterações
+    desde o último backup completo, realizado no domingo. Conforme novos backups diferenciais são feitos, o tamanho do
+    arquivo de backup aumenta progressivamente até que seja realizado um novo backup completo.
+  </div>
+
+  <h2>Resolução do Problema</h2>
+
+  <div>Para resolver este problema, foi necessário utilizar o scp para fazer uma cópia do projeto da máquina local e
+    envia-la
+    para uma máquina remota. Utilizou-se também o mongodump, mas para fazer o backup da base de dados, na maquina
+    remota.
+    Depois foram feitos 2 scripts, um para cada um destes comandos, que os executavam, dando-lhes os dados necessários
+    para fazer a comunicação entre máquinas e adicionado ao crontab uma regra para executar o script de 3 em 3 dias, às
+    2
+    da manhã.
+  </div>
+
+</body>

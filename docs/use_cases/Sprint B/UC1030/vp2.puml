@@ -1,0 +1,24 @@
+@startuml vp2
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant UI as ui <<Container(C4)>>
+participant MDGD as mdl <<Container(C4)>>
+activate ui
+ui -> mdl: GET /listRobo(corpo)
+activate mdl
+alt sucesso
+mdl --> ui: devolve status 200
+else erro
+mdl --> ui: devolve status 404
+deactivate mdl
+end 
+deactivate ui
+
+end box
+
+@enduml

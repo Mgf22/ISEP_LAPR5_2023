@@ -1,0 +1,19 @@
+@startuml getPackagingSD
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant MasterDataLogistics as mdl <<Container(C4)>>
+mdl -> mdl: POST createEdificio(codigoEdificio,descricaoEdificio,dimensaoMaximaPiso,nomeOpcionalEdificio,mapaEdificio)
+alt não existe erros durante a operação
+mdl --> mdl: 201 edificio criado
+else existe erros durante a operação
+mdl --> mdl: 403 não foi possivel criar edificio
+end 
+
+end box
+
+@enduml

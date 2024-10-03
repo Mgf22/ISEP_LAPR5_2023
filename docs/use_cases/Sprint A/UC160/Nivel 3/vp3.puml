@@ -1,0 +1,56 @@
+@startuml sd
+
+participant Route as route
+participant EdificioController as ctrl
+participant EdificioService as svc
+participant EdificioRepo as repoEdi
+participant EdificioMapper as mapper
+participant EdificioPersistence as pers
+participant Edificio as model
+
+activate route
+route -> ctrl : /updateEdificio
+activate ctrl
+ctrl -> svc : updateEdificio(IEdificioDTO)
+activate svc
+svc -> repoEdi : findByCodigo(edificioDTO.codigo)
+activate repoEdi
+repoEdi --> svc
+deactivate repoEdi
+alt edificio não existe
+    svc --> ctrl : Envia erro com a mensagem: Não existe edificio
+    ctrl --> route : Envia status 404 (NOT FOUND)
+end
+svc -> model : edificio = update(edificioDTO)
+activate model
+model --> svc :
+deactivate model
+svc -> repoEdi : save(edificio)
+activate repoEdi
+repoEdi -> mapper : toPersistence(edificio)
+activate mapper
+mapper --> repoEdi
+deactivate mapper
+repoEdi -> pers : update(edificioUpdated)
+activate pers
+pers --> repoEdi
+deactivate pers
+repoEdi -> mapper : toDomain(edificioUpdated)
+activate mapper
+mapper --> repoEdi
+deactivate mapper
+repoEdi --> svc
+deactivate repoEdi
+svc -> mapper : toDTO(edificio)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (OK)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

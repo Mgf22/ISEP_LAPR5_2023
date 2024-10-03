@@ -1,0 +1,58 @@
+@startuml vp3_aprovarPedido
+
+participant Route as route
+participant Controller as ctrl
+participant Service as svc
+participant Mapper as mapper
+participant Repo as repoTar
+participant Model as model
+
+
+'participant "A&A" as auth
+'route -> auth : autentica("GestorUtilizadores")
+'activate auth
+'auth --> route
+'deactivate auth
+
+activate route
+route -> ctrl : /aprovarPedido
+activate ctrl
+ctrl -> svc : aprovarPedido()
+activate svc
+svc -> model : Pedido.aprovarPedido()
+activate model
+model --> svc 
+deactivate model
+
+svc -> repoTar : save(pedido)
+activate repoTar
+repoTar --> svc 
+deactivate repoTar
+svc -> mapper : toDTO(pedido)
+activate mapper
+mapper --> svc
+deactivate mapper
+
+svc --> ctrl
+ctrl -> svc : addUtente()
+svc -> model : User.create()
+activate model
+model --> svc
+deactivate model
+svc -> repoTar : save(utente)
+activate repoTar
+repoTar --> svc
+deactivate repoTar
+svc -> mapper : toDTO(utente)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 200 (OK) / 404
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

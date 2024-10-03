@@ -1,0 +1,31 @@
+@startuml vp3_aprovarPedido
+
+
+participant Route as route
+participant "A&A" as auth
+participant Controller as ctrl
+participant Service as svc
+participant "Authentication and Authorization" as mdgt
+
+activate route
+route -> auth : autentica("GestorUtilizadores")
+activate auth
+auth --> route
+deactivate auth
+route -> ctrl : /aprovarPedido
+activate ctrl
+ctrl -> svc : aprovarPedido()
+activate svc
+svc -> mdgt : PATCH /aprovarPedido
+activate mdgt 
+mdgt --> svc
+deactivate mdgt
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 200 (OK) / 404 (NOT FOUND)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

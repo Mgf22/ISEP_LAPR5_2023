@@ -1,0 +1,19 @@
+@startuml getPackagingSD
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant MasterDataLogistics as mdl <<Container(C4)>>
+mdl -> mdl: POST createRobo(estado,marca,codigo,numeroSerie,nickname,tipoRobo)
+alt não existe erros durante a operação
+mdl --> mdl: 201 robo criado
+else existe erros durante a operação
+mdl --> mdl: 403 não foi possivel criar robo
+end 
+
+end box
+
+@enduml

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1194px" preserveAspectRatio="none" style="width:1348px;height:1194px;background:#282828;" version="1.1" viewBox="0 0 1348 1194" width="1348px" zoomAndPan="magnify"><defs/><g><!--MD5=[38d08438ac5b792be236a2cb010153ef]
+cluster <<agr Piso>>--><g id="cluster_&lt;&lt;agr Piso&gt;&gt;"><path d="M34,892.1191 L212,892.1191 A3.75,3.75 0 0 1 214.5,894.6191 L221.5,924.8564 L594.5,924.8564 A2.5,2.5 0 0 1 597,927.3564 L597,1184.6191 A2.5,2.5 0 0 1 594.5,1187.1191 L34,1187.1191 A2.5,2.5 0 0 1 31.5,1184.6191 L31.5,894.6191 A2.5,2.5 0 0 1 34,892.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="31.5" x2="221.5" y1="924.8564" y2="924.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="177" x="35.5" y="916.2373">&lt;&lt;agr Piso&gt;&gt;</text></g><!--MD5=[43de27d0f86aa11436bab3e51b08ba0b]
+cluster <<agr Edificio>>--><g id="cluster_&lt;&lt;agr Edificio&gt;&gt;"><path d="M195.5,12.1191 L412.5,12.1191 A3.75,3.75 0 0 1 415,14.6191 L422,44.8564 L1338.5,44.8564 A2.5,2.5 0 0 1 1341,47.3564 L1341,688.6191 A2.5,2.5 0 0 1 1338.5,691.1191 L195.5,691.1191 A2.5,2.5 0 0 1 193,688.6191 L193,14.6191 A2.5,2.5 0 0 1 195.5,12.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="193" x2="422" y1="44.8564" y2="44.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="216" x="197" y="36.2373">&lt;&lt;agr Edificio&gt;&gt;</text></g><!--MD5=[ebd710fe3a5161be2977f7171c5b8a09]
+cluster <<agr Passagem>>--><g id="cluster_&lt;&lt;agr Passagem&gt;&gt;"><path d="M13.5,715.1191 L264.5,715.1191 A3.75,3.75 0 0 1 267,717.6191 L274,747.8564 L333.5,747.8564 A2.5,2.5 0 0 1 336,750.3564 L336,829.6191 A2.5,2.5 0 0 1 333.5,832.1191 L13.5,832.1191 A2.5,2.5 0 0 1 11,829.6191 L11,717.6191 A2.5,2.5 0 0 1 13.5,715.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><line style="stroke:#33FF33;stroke-width:1.0;" x1="11" x2="274" y1="747.8564" y2="747.8564"/><text fill="#33FF33" font-family="Verdana" font-size="22" font-weight="bold" lengthAdjust="spacing" textLength="250" x="15" y="739.2373">&lt;&lt;agr Passagem&gt;&gt;</text></g><!--MD5=[6055729c367856862d098d6e6df064e3]
+class Piso--><g id="elem_Piso"><rect codeLine="11" fill="#282828" height="56.1826" id="Piso" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="53" x="215.5" y="955.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="216.5" y="972.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="222" y="986.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="28" x="228" y="1003.3623">Piso</text></g><!--MD5=[783b2324b0838ec36812997c26d9f89a]
+class DesignacaoPiso--><g id="elem_DesignacaoPiso"><rect codeLine="12" fill="#282828" height="41.5986" id="DesignacaoPiso" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="114" x="467" y="1129.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="509" y="1146.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="108" x="470" y="1162.7783">DesignacaoPiso</text></g><!--MD5=[9e650303ae97eb019da105a258349af8]
+class DescricaoPiso--><g id="elem_DescricaoPiso"><rect codeLine="13" fill="#282828" height="41.5986" id="DescricaoPiso" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="101" x="473.5" y="937.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="509" y="954.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="95" x="476.5" y="970.7783">DescricaoPiso</text></g><!--MD5=[b515eaabc328b8c9d21b896fc97cb597]
+class Sala--><g id="elem_Sala"><rect fill="#282828" height="27.0146" id="Sala" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="35" x="47.5" y="1126.6191"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="29" x="50.5" y="1145.6943">Sala</text></g><!--MD5=[cf725c5d9872d8a70fa38ee46212c6bd]
+class Edificio--><g id="elem_Edificio"><rect codeLine="24" fill="#282828" height="56.1826" id="Edificio" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="54" x="497" y="434.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="498.5" y="451.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="504" y="465.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="48" x="500" y="482.3623">Edificio</text></g><!--MD5=[38a73e7c3bb41c17178650521334b809]
+class CodigoEdificio--><g id="elem_CodigoEdificio"><rect codeLine="25" fill="#282828" height="41.5986" id="CodigoEdificio" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="103" x="670" y="633.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="706.5" y="650.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="97" x="673" y="666.7783">CodigoEdificio</text></g><!--MD5=[0a6aad6f1c6807b9faeb33e5138e57e8]
+class NomeOpcionalEdificio--><g id="elem_NomeOpcionalEdificio"><rect codeLine="26" fill="#282828" height="41.5986" id="NomeOpcionalEdificio" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="153" x="645" y="441.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="706.5" y="458.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="147" x="648" y="474.7783">NomeOpcionalEdificio</text></g><!--MD5=[cbd20a07ed63d8417251f7b0f355a1c8]
+class DescricaoEdificio--><g id="elem_DescricaoEdificio"><rect codeLine="27" fill="#282828" height="41.5986" id="DescricaoEdificio" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="121" x="661" y="249.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="706.5" y="266.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="115" x="664" y="282.7783">DescricaoEdificio</text></g><!--MD5=[3aa9ab3824d744eaadc678be9ac2e9ba]
+class DimensaoMaximaPiso--><g id="elem_DimensaoMaximaPiso"><rect codeLine="28" fill="#282828" height="41.5986" id="DimensaoMaximaPiso" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="155" x="644" y="57.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="706.5" y="74.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="149" x="647" y="90.7783">DimensaoMaximaPiso</text></g><g id="elem_GMN16"><path d="M860,65.1191 L860,74.1191 L799.41,78.1191 L860,82.1191 L860,90.9185 A0,0 0 0 0 860,90.9185 L1325,90.9185 A0,0 0 0 0 1325,90.9185 L1325,75.1191 L1315,65.1191 L860,65.1191 A0,0 0 0 0 860,65.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><path d="M1315,65.1191 L1315,75.1191 L1325,75.1191 L1315,65.1191 " fill="#282828" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="444" x="866" y="83.189">dimensão máxima de cada piso em termos de células (ex., 10 x 10)</text></g><!--MD5=[d5311c1a11b66ed0db701a6800e4e713]
+class Elevador--><g id="elem_Elevador"><rect fill="#282828" height="27.0146" id="Elevador" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="66" x="209" y="133.6191"/><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="60" x="212" y="152.6943">Elevador</text></g><!--MD5=[91faf9d3204ce6216ccbcfd0df7c33c7]
+class Passagem--><g id="elem_Passagem"><rect codeLine="43" fill="#282828" height="56.1826" id="Passagem" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="76" x="27" y="760.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="51" x="39.5" y="777.1836">«entity»</text><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="45" y="791.7676">«root»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="70" x="30" y="808.3623">Passagem</text></g><!--MD5=[3e56999b78b97250b704bb0bb280dc2c]
+class PassagemDesignacao--><g id="elem_PassagemDesignacao"><rect codeLine="44" fill="#282828" height="41.5986" id="PassagemDesignacao" rx="2.5" ry="2.5" style="stroke:#33FF33;stroke-width:1.0;" width="156" x="164" y="763.1191"/><text fill="#33FF33" font-family="Verdana" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="30" x="227" y="780.1836">«vo»</text><text fill="#33FF33" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="150" x="167" y="796.7783">PassagemDesignacao</text></g><!--MD5=[d1c4719b238496a2dd254fce86622ad5]
+link Sala to Piso--><g id="link_Sala_Piso"><path codeLine="15" d="M82.51,1142.6791 C97.03,1144.0891 118.24,1144.0491 134,1135.1191 C180.76,1108.6291 211.96,1052.2891 228.06,1016.1391 " fill="none" id="Sala-to-Piso" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="230.14,1011.3991,222.8506,1018.0222,228.1239,1015.9747,230.1715,1021.2479,230.14,1011.3991" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="218.6706" y="1032.3633">1</text></g><!--MD5=[e66aa16970696e55d66513af1f736c85]
+link Piso to DesignacaoPiso--><g id="link_Piso_DesignacaoPiso"><path codeLine="17" d="M268.84,998.5291 C317.92,1027.8091 424.94,1091.6291 483.23,1126.3991 " fill="none" id="Piso-to-DesignacaoPiso" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="487.68,1129.0491,481.989,1121.0109,483.3825,1126.4935,477.9,1127.887,487.68,1129.0491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="467.332" y="1118.5533">1</text></g><!--MD5=[dc780e2be817fd58f7de40933695a787]
+link Piso to DescricaoPiso--><g id="link_Piso_DescricaoPiso"><path codeLine="18" d="M268.84,980.8091 C314.01,976.7791 408.22,968.3691 468.39,962.9991 " fill="none" id="Piso-to-DescricaoPiso" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="473.39,962.5491,464.0714,959.3611,468.4096,962.9915,464.7792,967.3297,473.39,962.5491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="457.3692" y="977.4594">1</text></g><!--MD5=[f9ca15fa601a25567d1fc49a2699810c]
+link Elevador to Edificio--><g id="link_Elevador_Edificio"><path codeLine="33" d="M274.11,160.6691 C316.01,180.2891 390.68,220.2391 437,274.1191 C476.86,320.4791 501.75,388.3891 513.95,428.6391 " fill="none" id="Elevador-to-Edificio" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="515.51,433.8891,516.7686,424.121,514.0798,429.098,509.1028,426.4093,515.51,433.8891" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="504.4656" y="423.3249">1</text></g><!--MD5=[421f4a1b68b8615b9ea5e67d0646b117]
+link Piso to Edificio--><g id="link_Piso_Edificio"><path codeLine="34" d="M268.74,956.0291 C290.5,932.2491 321.62,896.0891 344,861.1191 C424.93,734.6591 487.64,565.4791 511.99,495.0491 " fill="none" id="Piso-to-Edificio" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="513.67,490.1491,506.9768,497.3742,512.0546,494.881,514.5478,499.9588,513.67,490.1491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="83" x="353" y="689.189">está contido</text><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="502.3562" y="511.5066">1</text></g><!--MD5=[307fda271904c452149fb4fba87da4ac]
+link Edificio to CodigoEdificio--><g id="link_Edificio_CodigoEdificio"><path codeLine="36" d="M551.37,488.0091 C589.08,525.0491 657.95,592.6891 695.11,629.1891 " fill="none" id="Edificio-to-CodigoEdificio" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="699.05,633.0491,695.4405,623.8856,695.4861,629.5422,689.8294,629.5879,699.05,633.0491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="682.9497" y="622.5533">1</text></g><!--MD5=[cb3b23e4996d1907bf1f5ff0e2ed9127]
+link Edificio to NomeOpcionalEdificio--><g id="link_Edificio_NomeOpcionalEdificio"><path codeLine="37" d="M551.37,462.1191 C574.12,462.1191 608.22,462.1191 639.86,462.1191 " fill="none" id="Edificio-to-NomeOpcionalEdificio" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="644.91,462.1191,635.91,458.1191,639.91,462.1191,635.91,466.1191,644.91,462.1191" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="628.9769" y="475.9863">1</text></g><!--MD5=[accbd8f6e49d461dc0d3fdcd35076b72]
+link Edificio to DescricaoEdificio--><g id="link_Edificio_DescricaoEdificio"><path codeLine="38" d="M551.37,436.2291 C589.08,399.1891 657.95,331.5491 695.11,295.0491 " fill="none" id="Edificio-to-DescricaoEdificio" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="699.05,291.1891,689.8294,294.6504,695.4861,294.696,695.4405,300.3527,699.05,291.1891" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="684.2722" y="311.7339">1</text></g><!--MD5=[615bc108bcd8a7c6e3066bf9c5ead8e8]
+link Edificio to DimensaoMaximaPiso--><g id="link_Edificio_DimensaoMaximaPiso"><path codeLine="39" d="M533.71,433.8991 C550.7,380.8691 591.28,263.6191 644,174.1191 C659.18,148.3391 680.72,121.9691 697.07,103.3991 " fill="none" id="Edificio-to-DimensaoMaximaPiso" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="700.69,99.3291,691.7288,103.4154,697.3753,103.0725,697.7182,108.7189,700.69,99.3291" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="686.3324" y="119.9097">1</text></g><!--MD5=[a1c839a641ff20accab704663a90a612]
+link Passagem to PassagemDesignacao--><g id="link_Passagem_PassagemDesignacao"><path codeLine="46" d="M103.11,787.2691 C119.35,786.8991 139.09,786.4491 158.5,786.0091 " fill="none" id="Passagem-to-PassagemDesignacao" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="163.96,785.8791,154.8707,782.0864,158.9613,785.9937,155.054,790.0843,163.96,785.8791" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="147.8842" y="799.9196">1</text></g><!--MD5=[b4fc5f7295816dc3790a507c7e8c005a]
+link Passagem to Piso--><g id="link_Passagem_Piso"><path codeLine="47" d="M71.72,816.2391 C92.92,876.6791 167.96,967.6391 210.67,993.1291 " fill="none" id="Passagem-to-Piso" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="215.2,995.6491,209.2752,987.7817,210.8292,993.2209,205.39,994.775,215.2,995.6491" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="199.6925" y="1013.6764">1</text></g><!--MD5=[3dfbde9f6ad9c6563ff5e9ae7f6a3a6d]
+reverse link Passagem to Piso--><g id="link_Passagem_Piso"><path codeLine="48" d="M107.26,785.4991 C150.8,818.0691 215.77,899.4091 235.27,954.9691 " fill="none" id="Passagem-backto-Piso" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="103.11,782.5091,108.0663,791.02,107.1641,785.4356,112.7486,784.5334,103.11,782.5091" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="224.6546" y="944.4244">1</text></g><!--MD5=[18324e39e8f047343b4b826bf4b9bea6]
+link Passagem to Edificio--><g id="link_Passagem_Edificio"><path codeLine="49" d="M70.51,816.2991 C83.77,841.9291 124.26,795.1691 164,763.1191 C290.5,661.0991 465.64,567.0491 511.59,494.9891 " fill="none" id="Passagem-to-Edificio" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="514.43,490.2791,506.3557,495.9189,511.847,494.5603,513.2056,500.0516,514.43,490.2791" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="513.2116" y="511.217">1</text></g><!--MD5=[5881a47a4c5e58624b317ecbe869f0ef]
+reverse link Passagem to Edificio--><g id="link_Passagem_Edificio"><path codeLine="50" d="M69.29,754.7691 C81.11,695.0191 122.96,646.2191 164,613.1191 C279.52,519.9591 435.6,433.4391 496.82,437.3891 " fill="none" id="Passagem-backto-Edificio" style="stroke:#33FF33;stroke-width:1.0;"/><polygon fill="#33FF33" points="68.36,759.8291,73.9159,751.697,69.2607,754.9109,66.0467,750.2558,68.36,759.8291" style="stroke:#33FF33;stroke-width:1.0;"/><text fill="#33FF33" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="8" x="480.8301" y="446.1228">1</text></g><!--MD5=[de4b73246e431289e6d5eaab1f2f0b1d]
+@startuml DDD
+
+hide circle
+hide fields
+
+!theme crt-green
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Piso>>"{
+    class Piso<<entity>><<root>>{}
+    class DesignacaoPiso<<vo>>{}
+    class DescricaoPiso<<vo>>{}
+
+    Sala - -> "1" Piso
+
+    Piso - -> "1" DesignacaoPiso
+    Piso - -> "1" DescricaoPiso
+}
+
+'o código do edificio é obrigatório, no máximo 5 caracteres, letras e digitos, podendo conter espaços no meio
+'o nome do edificio é opcional, no máximo 50 caracteres alfanuméricos
+package "<<agr Edificio>>"{
+    class Edificio<<entity>><<root>>{}
+    class CodigoEdificio<<vo>>{}
+    class NomeOpcionalEdificio<<vo>>{}
+    class DescricaoEdificio<<vo>>{}
+    class DimensaoMaximaPiso<<vo>>{}
+    note right{
+        dimensão máxima de cada piso em termos de células (ex., 10 x 10)
+    }
+
+    Elevador - -> "1" Edificio
+    Piso - -> "1" Edificio : "está contido"
+
+    Edificio - -> "1" CodigoEdificio
+    Edificio - -> "1" NomeOpcionalEdificio
+    Edificio - -> "1" DescricaoEdificio
+    Edificio - -> "1" DimensaoMaximaPiso
+}
+
+package "<<agr Passagem>>"{
+    class Passagem<<entity>><<root>>{}
+    class PassagemDesignacao<<vo>>{}
+
+    Passagem - -> "1" PassagemDesignacao
+    Passagem - -> "1" Piso
+    Passagem <- - "1" Piso 
+    Passagem - -> "1" Edificio
+    Passagem <- - "1" Edificio
+}
+
+@enduml
+
+@startuml DDD
+
+hide circle
+hide fields
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor #282828
+    FontColor #33FF33
+    FontName Verdana
+    HyperLinkColor #33FF33
+    LineColor #33FF33
+    LineThickness 1
+    Margin 5
+  }
+  box {
+    LineStyle 12-18
+    LineThickness 3
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  groupHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  referenceHeader {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  separator {
+    BackgroundColor #33FF33
+    FontColor #282828
+    FontStyle bold
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor #33FF33
+skinparam BackgroundColor #282828
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy solid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor #33FF33
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor #282828
+  BarColor #33FF33
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor #33FF33
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor #282828
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor #282828
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Header {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color #33FF33
+}
+skinparam IconPackage {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPrivate {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconProtected {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam IconPublic {
+  Color #33FF33
+  BackgroundColor #282828
+}
+skinparam Note {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor #33FF33
+}
+skinparam Package {
+  BorderColor #33FF33
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor #282828
+  BorderColor #33FF33
+}
+skinparam StereotypeA {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeC {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeE {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeI {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam StereotypeN {
+  BackgroundColor #33FF33
+  BorderColor #33FF33
+}
+skinparam UseCaseStereoType {
+  FontColor #33FF33
+  FontName Verdana
+}
+skinparam nodesep 150
+hide empty members
+left to right direction
+
+package "<<agr Piso>>"{
+    class Piso<<entity>><<root>>{}
+    class DesignacaoPiso<<vo>>{}
+    class DescricaoPiso<<vo>>{}
+
+    Sala - -> "1" Piso
+
+    Piso - -> "1" DesignacaoPiso
+    Piso - -> "1" DescricaoPiso
+}
+
+package "<<agr Edificio>>"{
+    class Edificio<<entity>><<root>>{}
+    class CodigoEdificio<<vo>>{}
+    class NomeOpcionalEdificio<<vo>>{}
+    class DescricaoEdificio<<vo>>{}
+    class DimensaoMaximaPiso<<vo>>{}
+    note right{
+        dimensão máxima de cada piso em termos de células (ex., 10 x 10)
+    }
+
+    Elevador - -> "1" Edificio
+    Piso - -> "1" Edificio : "está contido"
+
+    Edificio - -> "1" CodigoEdificio
+    Edificio - -> "1" NomeOpcionalEdificio
+    Edificio - -> "1" DescricaoEdificio
+    Edificio - -> "1" DimensaoMaximaPiso
+}
+
+package "<<agr Passagem>>"{
+    class Passagem<<entity>><<root>>{}
+    class PassagemDesignacao<<vo>>{}
+
+    Passagem - -> "1" PassagemDesignacao
+    Passagem - -> "1" Piso
+    Passagem <- - "1" Piso 
+    Passagem - -> "1" Edificio
+    Passagem <- - "1" Edificio
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 WEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

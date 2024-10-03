@@ -1,0 +1,37 @@
+@startuml vp3_getPedidosPendentes
+
+participant Route as route
+participant Controller as ctrl
+participant Service as svc
+participant Mapper as mapper
+participant Repo as repoTar
+participant Model as model
+
+
+'participant "A&A" as auth
+'route -> auth : autentica("GestorUtilizadores")
+'activate auth
+'auth --> route
+'deactivate auth
+
+activate route
+route -> ctrl : /getAllPedidosPendentes
+activate ctrl
+ctrl -> svc : getAllPedidosPendentes()
+svc -> repoTar : getAllPendentes(pedidos)
+activate repoTar
+repoTar --> svc 
+deactivate repoTar
+svc -> mapper : toDTO(pedidos)
+activate mapper
+mapper --> svc
+deactivate mapper
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 200 (OK) / 404
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+Actor Actor as ac
+ac -> (Consultar todos os robots da frota)
+@enduml

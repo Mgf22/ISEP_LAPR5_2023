@@ -1,0 +1,30 @@
+@startuml vp3
+participant View as view
+participant Controller as ctrl
+participant Service as svc
+participant Robo as model
+participant MDGD as be
+
+activate view
+view -> ctrl : createRobot()
+activate ctrl
+ctrl -> model : createRobot(marca,codigo,numeroSerie,nickname,tipoRobo)
+activate model
+model --> ctrl : robot
+deactivate model
+ctrl -> svc: save(robo)
+activate svc
+svc -> be: POST robot {json}
+activate be
+be --> svc : Resposta HTTP
+deactivate be
+alt sucesso 
+svc --> ctrl : HTTP 200
+ctrl --> view : Envia Mensagem
+else insucesso
+svc --> ctrl : HTTP 4xx / HTTP500
+ctrl --> view : Envia Mensagem
+end
+deactivate view
+deactivate ctrl
+@enduml

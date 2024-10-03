@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="350px" preserveAspectRatio="none" style="width:486px;height:350px;background:#FFFFFF;" version="1.1" viewBox="0 0 486 350" width="486px" zoomAndPan="magnify"><defs/><g><rect fill="#DDDDDD" height="338.3828" style="stroke:#181818;stroke-width:0.5;" width="150" x="16" y="6"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="102" x="23" y="19.4951">&lt;&lt;System(C4)&gt;&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="132" x="27" y="35.8467">SistemaRobDroneGo</text><rect fill="none" height="120.8906" style="stroke:#000000;stroke-width:1.5;" width="306" x="10" y="153.2734"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="91" x2="91" y1="92.9219" y2="291.1641"/><rect fill="#FFFFFF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="142" x="20" y="42.7031"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="106" x="38" y="64.2363">«Container(C4)»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="27" y="81.8457">MasterDataLogistics</text><rect fill="#FFFFFF" height="49.2188" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:0.5;" width="142" x="20" y="290.1641"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="106" x="38" y="311.6973">«Container(C4)»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="27" y="329.3066">MasterDataLogistics</text><line style="stroke:#181818;stroke-width:1.0;" x1="91" x2="133" y1="125.2734" y2="125.2734"/><line style="stroke:#181818;stroke-width:1.0;" x1="133" x2="133" y1="125.2734" y2="138.2734"/><line style="stroke:#181818;stroke-width:1.0;" x1="92" x2="133" y1="138.2734" y2="138.2734"/><polygon fill="#181818" points="102,134.2734,92,138.2734,102,142.2734,98,138.2734" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="381" x="98" y="120.417">POST createPassagem(descricao,edificioA,edificioB,pisoA,pisoB)</text><path d="M10,153.2734 L71,153.2734 L71,161.625 L61,171.625 L10,171.625 L10,153.2734 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.5;"/><rect fill="none" height="120.8906" style="stroke:#000000;stroke-width:1.5;" width="306" x="10" y="153.2734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="25" y="167.7686">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="208" x="86" y="166.6924">[não existe erros durante a operação]</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="91" x2="133" y1="193.9766" y2="193.9766"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="133" x2="133" y1="193.9766" y2="206.9766"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="92" x2="133" y1="206.9766" y2="206.9766"/><polygon fill="#181818" points="102,202.9766,92,206.9766,102,210.9766,98,206.9766" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="98" y="189.1201">201 passagem criada</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="10" x2="316" y1="215.9766" y2="215.9766"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="185" x="15" y="227.3955">[existe erros durante a operação]</text><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="91" x2="133" y1="253.1641" y2="253.1641"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="133" x2="133" y1="253.1641" y2="266.1641"/><line style="stroke:#181818;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="92" x2="133" y1="266.1641" y2="266.1641"/><polygon fill="#181818" points="102,262.1641,92,266.1641,102,270.1641,98,266.1641" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="206" x="98" y="248.3076">403 não foi possivel criar passagem</text><!--MD5=[a9a1029542ba2059357db07caa320363]
+@startuml getPackagingSD
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant MasterDataLogistics as mdl <<Container(C4)>>
+mdl -> mdl: POST createPassagem(descricao,edificioA,edificioB,pisoA,pisoB)
+alt não existe erros durante a operação
+mdl - -> mdl: 201 passagem criada
+else existe erros durante a operação
+mdl - -> mdl: 403 não foi possivel criar passagem
+end 
+
+end box
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 18:01:30 BST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

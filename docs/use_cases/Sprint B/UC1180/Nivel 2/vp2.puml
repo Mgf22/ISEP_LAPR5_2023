@@ -1,0 +1,20 @@
+@startuml vp2
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant Visualization as ui <<Container(C4)>>
+participant MDGD as mdl <<Container(C4)>>
+ui -> mdl: POST editarPassagem(designacao, edificioA, edificioB, pisoA, pisoB)
+alt não existe erros durante a operação
+mdl --> ui: 200 passagem atualizada
+else existe erros durante a operação
+mdl --> ui: 403 não foi possivel atualizar passagem
+end 
+
+end box
+
+@enduml

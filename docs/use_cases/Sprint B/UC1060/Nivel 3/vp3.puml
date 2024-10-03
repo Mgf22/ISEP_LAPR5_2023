@@ -1,0 +1,31 @@
+@startuml sd
+participant View as view
+participant Controller as ctrl
+participant Service as svc
+participant Edificio as model
+participant MDGD as be
+
+activate view
+view -> ctrl : listarEdificios()
+activate ctrl
+ctrl -> model : listarEdificio()
+activate model
+model --> ctrl : EdificiosList
+deactivate model
+ctrl -> svc: get(edificiosList)
+activate svc
+svc -> be: GET edificio {json}
+activate be
+be --> svc : Resposta HTTP
+deactivate be
+deactivate svc
+alt sucesso 
+svc --> ctrl : HTTP 200
+ctrl --> view : Envia Mensagem
+else insucesso
+svc --> ctrl : HTTP 4xx / HTTP500
+ctrl --> view : Envia Mensagem
+end
+deactivate view
+deactivate ctrl
+@enduml

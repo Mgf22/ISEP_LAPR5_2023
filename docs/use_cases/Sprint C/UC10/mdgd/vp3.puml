@@ -1,0 +1,31 @@
+@startuml vp3
+
+
+participant Route as route
+participant "A&A" as auth
+participant Controller as ctrl
+participant Service as svc
+participant "Authentication and Authorization" as mdgt
+
+activate route
+route -> auth : autentica("GestorUtilizadores")
+activate auth
+auth --> route
+deactivate auth
+route -> ctrl : /criarUser
+activate ctrl
+ctrl -> svc : criarUser()
+activate svc
+svc -> mdgt : POST /criarUser
+activate mdgt 
+mdgt --> svc
+deactivate mdgt
+svc --> ctrl
+deactivate svc
+ctrl --> route : Envia um código 201 (Created) / 403 (FORBIDDEN)
+deactivate ctrl
+deactivate route
+
+
+
+@enduml

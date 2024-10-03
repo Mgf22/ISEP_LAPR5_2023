@@ -1,0 +1,30 @@
+@startuml vp2
+
+skinparam sequence {
+ParticipantBorderColor black
+ParticipantBackgroundColor white
+}
+
+box "<<System(C4)>>\n SistemaRobDroneGo"
+participant UI as ui <<Container(C4)>>
+participant "Master Data Gestão Dispositivos" as mdgd <<Container(C4)>>
+participant "Master Data Gestão Tarefas" as mdgt <<Container(C4)>>
+
+activate ui
+ui -> mdgd: PATCH /sequenciaTarefasAprovadas()
+activate mdgd
+mdgd -> mdgt: PATCH /sequenciaTarefasAprovadas()
+activate mdgt
+alt sucesso
+mdgt --> mdgd: devolve status 201
+else erro na listagem
+mdgt --> mdgd: devolve status 404
+deactivate mdgt
+end
+mdgd --> ui : devolve estado
+deactivate mdgd
+deactivate ui
+
+end box
+
+@enduml
